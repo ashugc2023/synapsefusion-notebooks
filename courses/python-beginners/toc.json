@@ -1,0 +1,1594 @@
+{
+  "course_id": "python-beginners",
+  "title": "Python for Beginners",
+  "overview": {
+    "description": "A deeply structured, hands-on introduction to Python programming designed for absolute beginners. This course teaches Python from the ground up, progressing through fine-grained modules and lessons that drill down to specific skills, such as working with variables, data types, string manipulation, if/elif/else conditions, loops (for/while), lists, dictionaries, functions, and beginner project-building. Each lesson includes concepts, micro-exercises, hands-on labs, and knowledge checks to ensure practical understanding.",
+    "target_audience": "Complete beginners with no prior programming experience who want a structured, step-by-step path to mastering Python fundamentals.",
+    "prerequisites": [
+      "Basic computer literacy (creating folders, opening applications)",
+      "Ability to install software such as Python and JupyterLab"
+    ],
+    "estimated_hours": 0
+  },
+  "modules": [
+    {
+      "id": "module-1",
+      "title": "Getting Started with Python",
+      "description": "Introduction to Python programming environment and basic syntax.",
+      "module_outcomes": [
+        "Set up Python and JupyterLab",
+        "Understand basic syntax and indentation",
+        "Write your first Python program"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-1-lesson-1",
+          "title": "Setting Up Python and JupyterLab",
+          "summary": "Learn how to install Python and JupyterLab, and understand the interface.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "1.1 Installing Python",
+            "1.1.1 Downloading Python",
+            "1.1.2 Installation process",
+            "1.2 Installing JupyterLab",
+            "1.2.1 Using pip for installation"
+          ],
+          "concepts": [
+            "Python installation",
+            "JupyterLab interface",
+            "Code execution"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Setting Up Your Environment",
+              "goal": "Successfully install Python and JupyterLab and run a simple Python script."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Verify Python Installation",
+              "task": "Open a terminal and type 'python --version' to check if Python is installed correctly.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise: Create Your First Notebook",
+              "task": "Create a new Jupyter notebook and add a markdown cell with your name.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What command do you use to check the Python version?",
+              "answer": "'python --version'"
+            },
+            {
+              "question": "What is JupyterLab used for?",
+              "answer": "JupyterLab is used for creating and sharing documents that contain live code, equations, visualizations, and narrative text."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Install Python",
+            "Install JupyterLab",
+            "Navigate JupyterLab interface"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Setting up a development environment for data analysis"
+          ],
+          "common_mistakes": [
+            "Skipping installation steps",
+            "Not checking Python version"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-1-lesson-2",
+          "title": "Understanding Python Syntax and Indentation",
+          "summary": "Explore the basic syntax rules of Python and the importance of indentation.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "1.1 Python Syntax",
+            "1.1.1 Statements and expressions",
+            "1.1.2 Comments in Python",
+            "1.2 Indentation",
+            "1.2.1 Importance of indentation in blocks"
+          ],
+          "concepts": [
+            "Python syntax rules",
+            "Indentation",
+            "Comments"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Writing Your First Python Code",
+              "goal": "Write a simple Python program that prints 'Hello, World!' and uses comments."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Write a Comment",
+              "task": "Add a comment to your code explaining what it does.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise: Indentation Challenge",
+              "task": "Write a simple if statement and ensure proper indentation.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "Why is indentation important in Python?",
+              "answer": "Indentation is used to define the structure and flow of the code, indicating blocks of code."
+            },
+            {
+              "question": "What symbol is used for comments in Python?",
+              "answer": "The '#' symbol is used for comments."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Identify Python syntax rules",
+            "Understand indentation significance",
+            "Write simple Python statements"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Writing clean and readable code"
+          ],
+          "common_mistakes": [
+            "Incorrect indentation",
+            "Missing colons"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-1-lesson-3",
+          "title": "Variables and Data Types",
+          "summary": "Learn how to create variables and understand different data types in Python.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "1.1 Variables",
+            "1.1.1 Declaring variables",
+            "1.1.2 Variable naming conventions",
+            "1.2 Data Types",
+            "1.2.1 Primitive data types"
+          ],
+          "concepts": [
+            "Variable declaration",
+            "Data types",
+            "Type conversion"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Working with Variables",
+              "goal": "Create variables of different data types and perform operations on them."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Create Variables",
+              "task": "Create variables for your name, age, and favorite color.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise: Type Check",
+              "task": "Use the type() function to check the data types of your variables.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a variable?",
+              "answer": "A variable is a named location in memory used to store data."
+            },
+            {
+              "question": "What are the basic data types in Python?",
+              "answer": "The basic data types include integers, floats, strings, and booleans."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Define variables",
+            "Identify data types",
+            "Use variables in expressions"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Storing user input",
+            "Calculating values"
+          ],
+          "common_mistakes": [
+            "Using undefined variables",
+            "Incorrect data type usage"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "module-2",
+      "title": "Control Flow in Python",
+      "description": "Learn how to control the flow of your programs using conditional statements and loops.",
+      "module_outcomes": [
+        "Use if/elif/else statements",
+        "Implement for and while loops",
+        "Control program execution flow"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-2-lesson-1",
+          "title": "Conditional Statements: if/elif/else",
+          "summary": "Understand how to use conditional statements to control program flow.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "2.1 if Statements",
+            "2.1.1 Syntax of if statements",
+            "2.1.2 Nested if statements",
+            "2.2 elif and else",
+            "2.2.1 Using multiple conditions"
+          ],
+          "concepts": [
+            "if statements",
+            "elif statements",
+            "else statements"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Decision Making in Python",
+              "goal": "Create a program that asks for user input and makes decisions based on that input."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Simple if Statement",
+              "task": "Write a program that checks if a number is positive or negative.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise: Using elif",
+              "task": "Extend your program to check if the number is zero.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the purpose of an if statement?",
+              "answer": "An if statement is used to execute a block of code based on a condition."
+            },
+            {
+              "question": "How do you write an elif statement?",
+              "answer": "An elif statement is written after an if statement to check another condition."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Write if statements",
+            "Use elif and else",
+            "Combine conditions"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Making decisions in programs based on user input"
+          ],
+          "common_mistakes": [
+            "Incorrect condition syntax",
+            "Forgetting colons"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-2-lesson-2",
+          "title": "Loops: for and while",
+          "summary": "Learn how to use loops to repeat actions in your programs.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "2.1 for Loops",
+            "2.1.1 Syntax of for loops",
+            "2.1.2 Iterating over lists",
+            "2.2 while Loops",
+            "2.2.1 Syntax of while loops"
+          ],
+          "concepts": [
+            "for loops",
+            "while loops",
+            "loop control statements"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Looping Through Data",
+              "goal": "Create a program that uses loops to process a list of numbers."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Simple for Loop",
+              "task": "Write a for loop that prints numbers from 1 to 10.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise: Using while Loop",
+              "task": "Write a while loop that continues until a number is less than 5.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the purpose of a for loop?",
+              "answer": "A for loop is used to iterate over a sequence (like a list) and execute a block of code for each item."
+            },
+            {
+              "question": "What is a common mistake when using while loops?",
+              "answer": "A common mistake is creating an infinite loop by not updating the loop condition."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Write for loops",
+            "Use while loops",
+            "Control loop execution"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Iterating over lists and performing actions repeatedly"
+          ],
+          "common_mistakes": [
+            "Infinite loops",
+            "Incorrect loop conditions"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-2-lesson-3",
+          "title": "Loop Control Statements: break and continue",
+          "summary": "Learn how to control the flow of loops using break and continue statements.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "2.1 break Statement",
+            "2.1.1 Syntax of break",
+            "2.1.2 When to use break",
+            "2.2 continue Statement",
+            "2.2.1 Syntax of continue"
+          ],
+          "concepts": [
+            "break statement",
+            "continue statement",
+            "loop control"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Controlling Loop Execution",
+              "goal": "Create a program that uses break and continue to manage loop behavior."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Using break",
+              "task": "Write a loop that breaks when a specific condition is met.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise: Using continue",
+              "task": "Write a loop that skips even numbers.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What does the break statement do?",
+              "answer": "The break statement exits the loop immediately."
+            },
+            {
+              "question": "What does the continue statement do?",
+              "answer": "The continue statement skips the current iteration and continues with the next one."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Use break to exit loops",
+            "Use continue to skip iterations",
+            "Combine control statements"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Optimizing loop execution based on conditions"
+          ],
+          "common_mistakes": [
+            "Using break incorrectly",
+            "Not understanding continue"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 2
+    },
+    {
+      "id": "module-3",
+      "title": "Data Structures in Python",
+      "description": "Explore Python's built-in data structures: lists, tuples, and dictionaries.",
+      "module_outcomes": [
+        "Manipulate lists and tuples",
+        "Use dictionaries for data storage",
+        "Understand data structure operations"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-3-lesson-1",
+          "title": "Working with Lists",
+          "summary": "Learn how to create and manipulate lists in Python.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "3.1 List Creation",
+            "3.1.1 Syntax for creating lists",
+            "3.1.2 List comprehension",
+            "3.2 Accessing Elements",
+            "3.2.1 Indexing lists"
+          ],
+          "concepts": [
+            "List creation",
+            "List indexing",
+            "List methods"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Creating and Modifying Lists",
+              "goal": "Create a list of your favorite movies and perform various operations on it."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Create a Movie List",
+              "task": "Create a list of at least 5 movies you enjoy.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise: Accessing List Elements",
+              "task": "Print the first and last movie from your list.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "How do you create a list in Python?",
+              "answer": "You create a list by enclosing elements in square brackets, e.g., my_list = [1, 2, 3]."
+            },
+            {
+              "question": "What method would you use to add an item to a list?",
+              "answer": "You can use the append() method to add an item to the end of a list."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Create lists",
+            "Access list elements",
+            "Modify lists"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Storing collections of items like shopping lists"
+          ],
+          "common_mistakes": [
+            "Indexing errors",
+            "Modifying lists incorrectly"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-3-lesson-2",
+          "title": "Tuples: Immutable Sequences",
+          "summary": "Understand tuples and their characteristics in Python.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "3.1 Tuple Creation",
+            "3.1.1 Syntax for creating tuples",
+            "3.1.2 Single-element tuples",
+            "3.2 Accessing Elements",
+            "3.2.1 Indexing tuples"
+          ],
+          "concepts": [
+            "Tuple creation",
+            "Tuple indexing",
+            "Immutability"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Working with Tuples",
+              "goal": "Create tuples and demonstrate their immutability."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Create a Tuple",
+              "task": "Create a tuple with at least 3 elements.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise: Accessing Tuple Elements",
+              "task": "Print the first element of your tuple.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a tuple?",
+              "answer": "A tuple is an immutable sequence type in Python."
+            },
+            {
+              "question": "How do you create a single-element tuple?",
+              "answer": "You create a single-element tuple by adding a comma after the element, e.g., my_tuple = (1,)."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Create tuples",
+            "Access tuple elements",
+            "Understand immutability"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Storing fixed collections of items like coordinates"
+          ],
+          "common_mistakes": [
+            "Trying to modify tuples",
+            "Incorrect tuple syntax"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-3-lesson-3",
+          "title": "Dictionaries: Key-Value Pairs",
+          "summary": "Learn how to use dictionaries to store data in key-value pairs.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "3.1 Dictionary Creation",
+            "3.1.1 Syntax for creating dictionaries",
+            "3.1.2 Nested dictionaries",
+            "3.2 Accessing Values",
+            "3.2.1 Using keys to access values"
+          ],
+          "concepts": [
+            "Dictionary creation",
+            "Key-value pairs",
+            "Dictionary methods"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Building a Simple Contact Book",
+              "goal": "Create a dictionary to store contact information."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Create a Contact Dictionary",
+              "task": "Create a dictionary with at least 3 contacts.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise: Accessing Dictionary Values",
+              "task": "Print the phone number of one of your contacts.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a dictionary in Python?",
+              "answer": "A dictionary is a collection of key-value pairs."
+            },
+            {
+              "question": "How do you access a value in a dictionary?",
+              "answer": "You access a value by using its key, e.g., my_dict['key']."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Create dictionaries",
+            "Access dictionary values",
+            "Modify dictionaries"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Storing user profiles with attributes"
+          ],
+          "common_mistakes": [
+            "Using non-hashable types as keys",
+            "Incorrect syntax"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 3
+    },
+    {
+      "id": "module-4",
+      "title": "Functions and Modules",
+      "description": "Learn how to define and use functions to organize your code.",
+      "module_outcomes": [
+        "Define functions",
+        "Use built-in functions",
+        "Create and import modules"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-4-lesson-1",
+          "title": "Defining Functions",
+          "summary": "Understand how to create and call functions in Python.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "4.1 Function Definition",
+            "4.1.1 Syntax for defining functions",
+            "4.1.2 Function parameters",
+            "4.2 Calling Functions",
+            "4.2.1 Return values"
+          ],
+          "concepts": [
+            "Function definition",
+            "Parameters",
+            "Return values"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Creating Your Own Functions",
+              "goal": "Define and call functions to perform basic calculations."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Define a Simple Function",
+              "task": "Create a function that adds two numbers and returns the result.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise: Calling Functions",
+              "task": "Call your function with different arguments and print the results.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a function?",
+              "answer": "A function is a block of reusable code that performs a specific task."
+            },
+            {
+              "question": "How do you return a value from a function?",
+              "answer": "You use the return statement followed by the value you want to return."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Define a function",
+            "Call a function",
+            "Use parameters and return values"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Organizing code into reusable blocks"
+          ],
+          "common_mistakes": [
+            "Forgetting to return a value",
+            "Incorrect parameter usage"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-4-lesson-2",
+          "title": "Built-in Functions",
+          "summary": "Explore Python's built-in functions and how to use them effectively.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "4.1 Common Built-in Functions",
+            "4.1.1 Using len()",
+            "4.1.2 Using range()",
+            "4.2 Function Documentation",
+            "4.2.1 Accessing help()"
+          ],
+          "concepts": [
+            "Built-in functions",
+            "Function documentation",
+            "Commonly used functions"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Using Built-in Functions",
+              "goal": "Use various built-in functions to manipulate data."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Using len()",
+              "task": "Use the len() function to find the length of a list.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise: Using range()",
+              "task": "Use the range() function to generate a list of numbers.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What does the len() function do?",
+              "answer": "The len() function returns the number of items in an object."
+            },
+            {
+              "question": "How do you access documentation for a function?",
+              "answer": "You can use the help() function to access documentation."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Identify built-in functions",
+            "Use functions like len(), range(), and type()",
+            "Understand function documentation"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Utilizing Python's capabilities without reinventing the wheel"
+          ],
+          "common_mistakes": [
+            "Misunderstanding function arguments",
+            "Forgetting parentheses"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-4-lesson-3",
+          "title": "Creating and Importing Modules",
+          "summary": "Learn how to create your own modules and import them into your programs.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "4.1 Creating a Module",
+            "4.1.1 Syntax for creating modules",
+            "4.1.2 Saving and organizing modules",
+            "4.2 Importing Modules",
+            "4.2.1 Importing with import statement"
+          ],
+          "concepts": [
+            "Module creation",
+            "Importing modules",
+            "Using module functions"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Building Your Own Module",
+              "goal": "Create a module with functions and import it into another script."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Create a Simple Module",
+              "task": "Create a module with a function that multiplies two numbers.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise: Importing Your Module",
+              "task": "Import your module in a new script and use its function.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a module?",
+              "answer": "A module is a file containing Python code that can define functions, classes, and variables."
+            },
+            {
+              "question": "How do you import a module?",
+              "answer": "You use the import statement followed by the module name."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Create a module",
+            "Import a module",
+            "Use functions from modules"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Organizing code into separate files for better structure"
+          ],
+          "common_mistakes": [
+            "Incorrect import statements",
+            "Not understanding module scope"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 4
+    },
+    {
+      "id": "module-5",
+      "title": "Error Handling and Debugging",
+      "description": "Learn how to handle errors and debug your Python programs.",
+      "module_outcomes": [
+        "Identify common errors",
+        "Use try/except for error handling",
+        "Debug Python code effectively"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-5-lesson-1",
+          "title": "Common Errors in Python",
+          "summary": "Understand the types of errors that can occur in Python.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "5.1 Syntax Errors",
+            "5.1.1 Common syntax mistakes",
+            "5.1.2 Fixing syntax errors",
+            "5.2 Runtime Errors",
+            "5.2.1 Common runtime mistakes"
+          ],
+          "concepts": [
+            "Syntax errors",
+            "Runtime errors",
+            "Exceptions"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Identifying Errors",
+              "goal": "Write code that contains errors and practice identifying them."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Syntax Error Challenge",
+              "task": "Write a piece of code with a syntax error and fix it.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise: Runtime Error Challenge",
+              "task": "Write code that causes a runtime error and debug it.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a syntax error?",
+              "answer": "A syntax error occurs when the code does not conform to the rules of the Python language."
+            },
+            {
+              "question": "What is a runtime error?",
+              "answer": "A runtime error occurs while the program is running, often due to invalid operations."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Identify syntax errors",
+            "Recognize runtime errors",
+            "Differentiate between exceptions"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Debugging code to ensure it runs correctly"
+          ],
+          "common_mistakes": [
+            "Ignoring error messages",
+            "Not understanding stack traces"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-5-lesson-2",
+          "title": "Using try/except for Error Handling",
+          "summary": "Learn how to handle exceptions using try and except blocks.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "5.1 try/except Blocks",
+            "5.1.1 Syntax for try/except",
+            "5.1.2 Catching specific exceptions",
+            "5.2 finally Clause",
+            "5.2.1 Using finally for cleanup"
+          ],
+          "concepts": [
+            "try/except syntax",
+            "Exception handling",
+            "finally clause"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Implementing Error Handling",
+              "goal": "Create a program that uses try/except to handle potential errors."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Basic try/except",
+              "task": "Write a program that uses try/except to handle division by zero.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise: Specific Exception Handling",
+              "task": "Modify your program to handle specific exceptions.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the purpose of a try block?",
+              "answer": "A try block is used to wrap code that may cause an exception."
+            },
+            {
+              "question": "What happens if an exception is raised in a try block?",
+              "answer": "The code in the except block will execute if an exception occurs."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Use try/except blocks",
+            "Handle specific exceptions",
+            "Implement finally clause"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Preventing crashes in user-facing applications"
+          ],
+          "common_mistakes": [
+            "Catching too broad exceptions",
+            "Not using finally correctly"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-5-lesson-3",
+          "title": "Debugging Techniques",
+          "summary": "Explore techniques for debugging Python code effectively.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "5.1 Print Statements",
+            "5.1.1 Using print for debugging",
+            "5.1.2 Best practices for print debugging",
+            "5.2 Debugging Tools",
+            "5.2.1 Using IDE debugging features"
+          ],
+          "concepts": [
+            "Debugging techniques",
+            "Print statements",
+            "Stack traces"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Debugging Your Code",
+              "goal": "Practice debugging techniques on provided code snippets."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Debugging with Print",
+              "task": "Use print statements to debug a simple program.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise: Analyzing Stack Traces",
+              "task": "Read and interpret a stack trace from an error.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a stack trace?",
+              "answer": "A stack trace is a report of the active stack frames at a certain point in time during the execution of a program."
+            },
+            {
+              "question": "How can print statements help in debugging?",
+              "answer": "Print statements can help track the flow of execution and the values of variables."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Use print statements for debugging",
+            "Utilize debugging tools",
+            "Understand stack traces"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Identifying and fixing bugs in code"
+          ],
+          "common_mistakes": [
+            "Not using debugging tools",
+            "Ignoring stack traces"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 5
+    },
+    {
+      "id": "module-6",
+      "title": "File Handling and Data Persistence",
+      "description": "Learn how to read from and write to files in Python.",
+      "module_outcomes": [
+        "Read and write text files",
+        "Handle file exceptions",
+        "Work with CSV files"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-6-lesson-1",
+          "title": "Reading and Writing Text Files",
+          "summary": "Understand how to read from and write to text files in Python.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "6.1 Opening Files",
+            "6.1.1 Syntax for opening files",
+            "6.1.2 Modes for opening files",
+            "6.2 Reading Files",
+            "6.2.1 Reading entire files"
+          ],
+          "concepts": [
+            "File operations",
+            "Reading files",
+            "Writing files"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: File I/O Operations",
+              "goal": "Read from and write to a text file."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Writing to a File",
+              "task": "Write a program that creates a text file and writes your name to it.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise: Reading from a File",
+              "task": "Read the contents of the file you just created and print it.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "How do you open a file in Python?",
+              "answer": "You use the open() function with the file name and mode."
+            },
+            {
+              "question": "What is the purpose of the 'with' statement when opening files?",
+              "answer": "The 'with' statement ensures that the file is properly closed after its suite finishes."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Open files",
+            "Read file contents",
+            "Write to files"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Storing user data in files"
+          ],
+          "common_mistakes": [
+            "Forgetting to close files",
+            "Incorrect file paths"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-6-lesson-2",
+          "title": "Handling File Exceptions",
+          "summary": "Learn how to handle exceptions that may occur during file operations.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "6.1 Handling Exceptions",
+            "6.1.1 Using try/except for file operations",
+            "6.1.2 Common file exceptions",
+            "6.2 Ensuring File Closure",
+            "6.2.1 Using finally to close files"
+          ],
+          "concepts": [
+            "File exceptions",
+            "try/except for files",
+            "Closing files"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Exception Handling in File Operations",
+              "goal": "Create a program that handles file exceptions gracefully."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Handling File Not Found",
+              "task": "Write a program that attempts to read a non-existent file and handles the exception.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise: Ensuring File Closure",
+              "task": "Modify your file reading code to ensure the file is closed properly.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What happens if you try to open a file that doesn't exist?",
+              "answer": "A FileNotFoundError exception is raised."
+            },
+            {
+              "question": "How can you ensure a file is closed after operations?",
+              "answer": "You can use the 'with' statement or the finally clause in a try/except block."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Use try/except for file operations",
+            "Handle specific file exceptions",
+            "Ensure files are closed"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Preventing crashes when files are missing"
+          ],
+          "common_mistakes": [
+            "Not handling exceptions",
+            "Forgetting to close files"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-6-lesson-3",
+          "title": "Working with CSV Files",
+          "summary": "Learn how to read from and write to CSV files in Python.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "6.1 Reading CSV Files",
+            "6.1.1 Using the csv.reader",
+            "6.1.2 Accessing CSV data",
+            "6.2 Writing CSV Files",
+            "6.2.1 Using the csv.writer"
+          ],
+          "concepts": [
+            "CSV file operations",
+            "csv module",
+            "Reading and writing CSV"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: CSV File Operations",
+              "goal": "Read from and write to a CSV file."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Reading a CSV File",
+              "task": "Write a program that reads a CSV file and prints its contents.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise: Writing to a CSV File",
+              "task": "Write a program that creates a CSV file with sample data.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What module is commonly used for CSV operations?",
+              "answer": "The csv module is commonly used for reading and writing CSV files."
+            },
+            {
+              "question": "How do you read a CSV file in Python?",
+              "answer": "You can use the csv.reader function to read a CSV file."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Read CSV files",
+            "Write to CSV files",
+            "Use the csv module"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Handling tabular data in applications"
+          ],
+          "common_mistakes": [
+            "Incorrect CSV formatting",
+            "Not using the csv module"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 6
+    },
+    {
+      "id": "module-7",
+      "title": "Capstone Project",
+      "description": "A comprehensive project that integrates all the concepts learned throughout the course.",
+      "module_outcomes": [
+        "Apply all learned concepts",
+        "Build a complete Python application",
+        "Demonstrate programming skills"
+      ],
+      "estimated_minutes": 240,
+      "lessons": [
+        {
+          "id": "module-7-lesson-1",
+          "title": "Capstone Project Overview",
+          "summary": "Introduction to the capstone project and its requirements.",
+          "difficulty": "beginner",
+          "estimated_minutes": 60,
+          "drilldown_outline": [
+            "7.1 Project Requirements",
+            "7.1.1 Understanding the scope",
+            "7.1.2 Defining deliverables",
+            "7.2 Planning the Project",
+            "7.2.1 Structuring the project"
+          ],
+          "concepts": [
+            "Project planning",
+            "Resource identification",
+            "Project structure"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Project Planning",
+              "goal": "Create a project plan outlining the steps to complete your capstone project."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Define Your Project",
+              "task": "Write a brief description of your capstone project.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise: Identify Resources",
+              "task": "List the resources you will need for your project.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the first step in planning a project?",
+              "answer": "The first step is to understand the project requirements and scope."
+            },
+            {
+              "question": "Why is it important to identify resources?",
+              "answer": "Identifying resources helps ensure you have everything needed to complete the project."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Understand project requirements",
+            "Plan project structure",
+            "Identify necessary resources"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Building a real-world application"
+          ],
+          "common_mistakes": [
+            "Not planning adequately",
+            "Overcomplicating the project"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-7-lesson-2",
+          "title": "Building Your Capstone Project",
+          "summary": "Work on developing your capstone project using the skills learned.",
+          "difficulty": "beginner",
+          "estimated_minutes": 120,
+          "drilldown_outline": [
+            "7.1 Implementing Features",
+            "7.1.1 Writing code for features",
+            "7.1.2 Integrating components",
+            "7.2 Testing the Application",
+            "7.2.1 Writing test cases"
+          ],
+          "concepts": [
+            "Feature implementation",
+            "Testing",
+            "Debugging"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Developing Your Application",
+              "goal": "Build and test your capstone project."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Implement a Feature",
+              "task": "Choose a feature to implement and write the code for it.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise: Test Your Code",
+              "task": "Write test cases for your implemented features.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a key aspect of testing an application?",
+              "answer": "A key aspect is to ensure all features work as intended."
+            },
+            {
+              "question": "Why is debugging important?",
+              "answer": "Debugging is important to identify and fix issues in your code."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Implement project features",
+            "Test your application",
+            "Debug issues"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Creating a functional application"
+          ],
+          "common_mistakes": [
+            "Not testing thoroughly",
+            "Ignoring debugging"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-7-lesson-3",
+          "title": "Presenting Your Capstone Project",
+          "summary": "Prepare to present your capstone project and reflect on your learning.",
+          "difficulty": "beginner",
+          "estimated_minutes": 60,
+          "drilldown_outline": [
+            "7.1 Preparing the Presentation",
+            "7.1.1 Structuring the presentation",
+            "7.1.2 Practicing delivery",
+            "7.2 Gathering Feedback",
+            "7.2.1 Using feedback for improvement"
+          ],
+          "concepts": [
+            "Project presentation",
+            "Feedback gathering",
+            "Reflection"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Presenting Your Project",
+              "goal": "Create and deliver a presentation about your capstone project."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Create a Presentation Outline",
+              "task": "Outline the key points you want to cover in your presentation.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise: Gather Feedback",
+              "task": "Present your project to a peer and gather their feedback.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What should you include in your presentation?",
+              "answer": "You should include an overview of your project, key features, and your learning outcomes."
+            },
+            {
+              "question": "Why is gathering feedback important?",
+              "answer": "Gathering feedback helps you improve and refine your project."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Prepare a presentation",
+            "Reflect on learning outcomes",
+            "Gather feedback"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Sharing your work with others"
+          ],
+          "common_mistakes": [
+            "Not preparing adequately",
+            "Ignoring feedback"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 7
+    }
+  ],
+  "capstone": {
+    "id": "capstone-1",
+    "title": "Capstone Project Title",
+    "description": "Project description",
+    "deliverables": [
+      "Deliverable 1",
+      "Deliverable 2"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,1431 @@
+{
+  "course_id": "jupyterlab-local-beginners",
+  "title": "JupyterLab for Beginners - Local Development",
+  "overview": {
+    "description": "A comprehensive guide to setting up and using JupyterLab for local Python development. Learn how to install JupyterLab, create notebooks, manage extensions, work with kernels, and organize your data science projects. Each lesson includes hands-on exercises and best practices for local development workflows.",
+    "target_audience": "Beginners who want to learn JupyterLab for local Python development and data science projects.",
+    "prerequisites": [
+      "Basic Python knowledge",
+      "Ability to install software on your computer"
+    ],
+    "estimated_hours": 0
+  },
+  "modules": [
+    {
+      "id": "module-1",
+      "title": "Getting Started with JupyterLab",
+      "description": "Introduction to JupyterLab and its installation.",
+      "module_outcomes": [
+        "Install JupyterLab",
+        "Understand JupyterLab interface",
+        "Create your first notebook"
+      ],
+      "estimated_minutes": 120,
+      "lessons": [
+        {
+          "id": "module-1-lesson-1",
+          "title": "Installing JupyterLab",
+          "summary": "Learn how to install JupyterLab on your local machine.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "1.1 Installation prerequisites",
+            "1.1.1 Python installation",
+            "1.1.2 Pip installation",
+            "1.2 Installing JupyterLab",
+            "1.2.1 Using pip",
+            "1.2.2 Using conda"
+          ],
+          "concepts": [
+            "Installation process",
+            "Command line basics"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Install JupyterLab",
+              "goal": "Successfully install JupyterLab and launch it."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise 1: Verify Installation",
+              "task": "Open a terminal and run 'jupyter lab' to verify the installation.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise 2: Create a Virtual Environment",
+              "task": "Create a virtual environment and install JupyterLab within it.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What command is used to launch JupyterLab?",
+              "answer": "'jupyter lab'"
+            },
+            {
+              "question": "Why is it important to use a virtual environment?",
+              "answer": "To manage dependencies and avoid conflicts."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Install JupyterLab",
+            "Verify installation",
+            "Launch JupyterLab"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Setting up a local development environment"
+          ],
+          "common_mistakes": [
+            "Forgetting to activate the virtual environment",
+            "Not installing dependencies"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-1-lesson-2",
+          "title": "Navigating the JupyterLab Interface",
+          "summary": "Explore the JupyterLab interface and its features.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "2.1 JupyterLab layout",
+            "2.1.1 Menu bar",
+            "2.1.2 Toolbar",
+            "2.2 File browser",
+            "2.2.1 Opening files",
+            "2.2.2 Managing files"
+          ],
+          "concepts": [
+            "File browser",
+            "Notebook interface",
+            "Command palette"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Explore the Interface",
+              "goal": "Familiarize yourself with the JupyterLab interface."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise 1: Open a Notebook",
+              "task": "Open a new notebook and rename it.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise 2: Use the Command Palette",
+              "task": "Access the command palette and find a command to change the notebook type.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the purpose of the command palette?",
+              "answer": "To access commands quickly without navigating menus."
+            },
+            {
+              "question": "How can you save a notebook?",
+              "answer": "By clicking the save icon or using the shortcut Ctrl+S."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Understand the layout",
+            "Use the file browser",
+            "Open and manage notebooks"
+          ],
+          "prereqs": [
+            "module-1-lesson-1"
+          ],
+          "real_world_use_cases": [
+            "Organizing data science projects"
+          ],
+          "common_mistakes": [
+            "Not saving notebooks",
+            "Confusing file paths"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-1-lesson-3",
+          "title": "Creating and Managing Notebooks",
+          "summary": "Learn how to create, edit, and manage Jupyter notebooks.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "3.1 Creating notebooks",
+            "3.1.1 New notebook creation",
+            "3.1.2 Notebook types",
+            "3.2 Editing notebooks",
+            "3.2.1 Cell types",
+            "3.2.2 Running cells"
+          ],
+          "concepts": [
+            "Notebook cells",
+            "Markdown vs Code cells",
+            "Exporting notebooks"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Create Your First Notebook",
+              "goal": "Create and edit a Jupyter notebook with both code and markdown cells."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise 1: Add Markdown",
+              "task": "Create a markdown cell and write a brief introduction.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise 2: Run a Code Cell",
+              "task": "Write a simple Python code in a code cell and run it.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What are the two main types of cells in a Jupyter notebook?",
+              "answer": "Code cells and Markdown cells."
+            },
+            {
+              "question": "How do you run a cell?",
+              "answer": "By selecting the cell and clicking the run button or pressing Shift+Enter."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Create a new notebook",
+            "Edit cells",
+            "Save and export notebooks"
+          ],
+          "prereqs": [
+            "module-1-lesson-1",
+            "module-1-lesson-2"
+          ],
+          "real_world_use_cases": [
+            "Documenting data analysis workflows"
+          ],
+          "common_mistakes": [
+            "Not switching cell types",
+            "Forgetting to save changes"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "module-2",
+      "title": "Working with JupyterLab Extensions",
+      "description": "Learn how to enhance JupyterLab functionality with extensions.",
+      "module_outcomes": [
+        "Install extensions",
+        "Manage extensions",
+        "Use popular extensions"
+      ],
+      "estimated_minutes": 120,
+      "lessons": [
+        {
+          "id": "module-2-lesson-1",
+          "title": "Installing JupyterLab Extensions",
+          "summary": "Understand how to install and manage JupyterLab extensions.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "1.1 Extension manager overview",
+            "1.1.1 Accessing the manager",
+            "1.1.2 Searching for extensions",
+            "1.2 Installing extensions",
+            "1.2.1 Using the command line",
+            "1.2.2 Using the UI"
+          ],
+          "concepts": [
+            "Extension manager",
+            "Installation commands"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Install an Extension",
+              "goal": "Install a popular extension and verify its functionality."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise 1: Enable an Extension",
+              "task": "Enable an installed extension and check its features.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise 2: Disable an Extension",
+              "task": "Disable an extension and observe the changes.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What command is used to install a JupyterLab extension?",
+              "answer": "'jupyter labextension install <extension-name>'"
+            },
+            {
+              "question": "How can you check installed extensions?",
+              "answer": "By accessing the extension manager in JupyterLab."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Install an extension",
+            "Enable and disable extensions",
+            "Update extensions"
+          ],
+          "prereqs": [
+            "module-1-lesson-1"
+          ],
+          "real_world_use_cases": [
+            "Adding functionality to JupyterLab"
+          ],
+          "common_mistakes": [
+            "Not restarting JupyterLab after installation",
+            "Ignoring compatibility issues"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-2-lesson-2",
+          "title": "Popular JupyterLab Extensions",
+          "summary": "Explore some popular extensions that enhance JupyterLab.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "2.1 Overview of popular extensions",
+            "2.1.1 Table of contents",
+            "2.1.2 Git integration",
+            "2.2 Installing extensions",
+            "2.2.1 Using the extension manager",
+            "2.2.2 Manual installation"
+          ],
+          "concepts": [
+            "Table of contents extension",
+            "Git extension",
+            "Markdown preview extension"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Explore Popular Extensions",
+              "goal": "Install and test a popular extension."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise 1: Install Table of Contents",
+              "task": "Install the Table of Contents extension and use it in a notebook.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise 2: Use Git Extension",
+              "task": "Install the Git extension and explore its features.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What does the Table of Contents extension do?",
+              "answer": "It provides a navigable table of contents for notebooks."
+            },
+            {
+              "question": "Why is the Git extension useful?",
+              "answer": "It allows version control directly within JupyterLab."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Identify useful extensions",
+            "Understand their functionalities",
+            "Install selected extensions"
+          ],
+          "prereqs": [
+            "module-2-lesson-1"
+          ],
+          "real_world_use_cases": [
+            "Improving productivity in JupyterLab"
+          ],
+          "common_mistakes": [
+            "Installing incompatible extensions",
+            "Not reading extension documentation"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-2-lesson-3",
+          "title": "Managing Extensions in JupyterLab",
+          "summary": "Learn how to manage and troubleshoot JupyterLab extensions.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "3.1 Updating extensions",
+            "3.1.1 Using the command line",
+            "3.1.2 Using the UI",
+            "3.2 Removing extensions",
+            "3.2.1 Command line removal",
+            "3.2.2 UI removal"
+          ],
+          "concepts": [
+            "Updating extensions",
+            "Removing extensions",
+            "Common troubleshooting steps"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Manage Your Extensions",
+              "goal": "Update and remove extensions as needed."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise 1: Update an Extension",
+              "task": "Update an installed extension using the command line.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise 2: Remove an Extension",
+              "task": "Remove an extension that is no longer needed.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What command is used to update an extension?",
+              "answer": "'jupyter labextension update <extension-name>'"
+            },
+            {
+              "question": "How can you troubleshoot an extension issue?",
+              "answer": "Check the console for error messages and consult the extension documentation."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Update extensions",
+            "Remove extensions",
+            "Troubleshoot common issues"
+          ],
+          "prereqs": [
+            "module-2-lesson-1",
+            "module-2-lesson-2"
+          ],
+          "real_world_use_cases": [
+            "Maintaining a clean JupyterLab environment"
+          ],
+          "common_mistakes": [
+            "Not updating extensions regularly",
+            "Ignoring error messages"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 2
+    },
+    {
+      "id": "module-3",
+      "title": "Working with Python Kernels",
+      "description": "Learn how to manage and use different Python kernels in JupyterLab.",
+      "module_outcomes": [
+        "Understand kernels",
+        "Switch between kernels",
+        "Install additional kernels"
+      ],
+      "estimated_minutes": 120,
+      "lessons": [
+        {
+          "id": "module-3-lesson-1",
+          "title": "Understanding Jupyter Kernels",
+          "summary": "Learn what kernels are and how they work in JupyterLab.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "1.1 What is a kernel?",
+            "1.1.1 Kernel architecture",
+            "1.1.2 Kernel specifications",
+            "1.2 Installed kernels",
+            "1.2.1 Listing installed kernels",
+            "1.2.2 Kernel management"
+          ],
+          "concepts": [
+            "Kernel definition",
+            "Kernel specifications",
+            "Installed kernels"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Explore Kernels",
+              "goal": "Identify and explore the available kernels in JupyterLab."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise 1: List Installed Kernels",
+              "task": "Run a command to list all installed kernels.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise 2: Check Kernel Specifications",
+              "task": "Check the specifications of a specific kernel.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the role of a kernel in JupyterLab?",
+              "answer": "A kernel executes the code contained in a notebook."
+            },
+            {
+              "question": "How can you list the installed kernels?",
+              "answer": "By using the command 'jupyter kernelspec list'."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Define a kernel",
+            "Understand kernel specifications",
+            "Identify installed kernels"
+          ],
+          "prereqs": [
+            "module-1-lesson-1"
+          ],
+          "real_world_use_cases": [
+            "Using different programming languages in JupyterLab"
+          ],
+          "common_mistakes": [
+            "Confusing kernels with environments",
+            "Not selecting the correct kernel"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-3-lesson-2",
+          "title": "Switching Between Kernels",
+          "summary": "Learn how to switch between different kernels in JupyterLab.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "2.1 Switching kernels",
+            "2.1.1 Using the UI",
+            "2.1.2 Using the command palette",
+            "2.2 Kernel compatibility",
+            "2.2.1 Supported languages",
+            "2.2.2 Managing kernel settings"
+          ],
+          "concepts": [
+            "Kernel switching",
+            "Kernel compatibility",
+            "Kernel settings"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Switch Kernels",
+              "goal": "Practice switching between different kernels in a notebook."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise 1: Switch to a Different Kernel",
+              "task": "Change the kernel of a notebook to a different installed kernel.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise 2: Check Kernel Compatibility",
+              "task": "Verify if a specific kernel is compatible with your notebook.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "How do you switch kernels in a notebook?",
+              "answer": "By selecting the kernel from the kernel menu or using the command palette."
+            },
+            {
+              "question": "What should you check before switching kernels?",
+              "answer": "Kernel compatibility with the notebook's code."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Switch kernels in a notebook",
+            "Understand kernel compatibility",
+            "Manage kernel settings"
+          ],
+          "prereqs": [
+            "module-3-lesson-1"
+          ],
+          "real_world_use_cases": [
+            "Running code in different programming languages"
+          ],
+          "common_mistakes": [
+            "Not checking kernel compatibility",
+            "Forgetting to switch kernels"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-3-lesson-3",
+          "title": "Installing Additional Kernels",
+          "summary": "Learn how to install and configure additional kernels for JupyterLab.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "3.1 Installing new kernels",
+            "3.1.1 Using pip",
+            "3.1.2 Using conda",
+            "3.2 Configuring kernel settings",
+            "3.2.1 Setting up kernel specifications",
+            "3.3 Testing the new kernel",
+            "3.3.1 Running a sample code"
+          ],
+          "concepts": [
+            "Kernel installation",
+            "Kernel configuration",
+            "Testing kernels"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Install a New Kernel",
+              "goal": "Install and test a new programming language kernel."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise 1: Install R Kernel",
+              "task": "Install the R kernel and configure it for JupyterLab.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise 2: Test the New Kernel",
+              "task": "Run a simple R script in the newly installed kernel.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What command is used to install a new kernel?",
+              "answer": "'pip install <kernel-package>' or 'conda install <kernel-package>'"
+            },
+            {
+              "question": "How can you test if a new kernel is working?",
+              "answer": "By running a sample script in the kernel."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Install a new kernel",
+            "Configure kernel settings",
+            "Test the new kernel"
+          ],
+          "prereqs": [
+            "module-3-lesson-1",
+            "module-3-lesson-2"
+          ],
+          "real_world_use_cases": [
+            "Using R or Julia in JupyterLab"
+          ],
+          "common_mistakes": [
+            "Not following installation instructions",
+            "Ignoring kernel dependencies"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 3
+    },
+    {
+      "id": "module-4",
+      "title": "Organizing Projects in JupyterLab",
+      "description": "Learn how to effectively organize your data science projects in JupyterLab.",
+      "module_outcomes": [
+        "Create project folders",
+        "Manage files and notebooks",
+        "Use version control"
+      ],
+      "estimated_minutes": 120,
+      "lessons": [
+        {
+          "id": "module-4-lesson-1",
+          "title": "Creating Project Folders",
+          "summary": "Learn how to create and manage project folders in JupyterLab.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "1.1 Creating folders",
+            "1.1.1 Using the file browser",
+            "1.1.2 Using command line",
+            "1.2 Organizing files",
+            "1.2.1 Moving files",
+            "1.2.2 Deleting files"
+          ],
+          "concepts": [
+            "Folder creation",
+            "File organization",
+            "Folder management"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Organize Your Project",
+              "goal": "Create a structured folder system for a data science project."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise 1: Create a New Folder",
+              "task": "Create a new folder for your project in JupyterLab.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise 2: Move a File",
+              "task": "Move an existing notebook into the new folder.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "How do you create a new folder in JupyterLab?",
+              "answer": "By right-clicking in the file browser and selecting 'New Folder'."
+            },
+            {
+              "question": "What is a best practice for naming folders?",
+              "answer": "Use descriptive names that reflect the contents."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Create a new folder",
+            "Organize files into folders",
+            "Delete unnecessary folders"
+          ],
+          "prereqs": [
+            "module-1-lesson-1"
+          ],
+          "real_world_use_cases": [
+            "Organizing data science projects"
+          ],
+          "common_mistakes": [
+            "Not naming folders clearly",
+            "Creating too many nested folders"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-4-lesson-2",
+          "title": "Managing Files and Notebooks",
+          "summary": "Learn how to manage files and notebooks effectively in JupyterLab.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "2.1 Opening files",
+            "2.1.1 Using the file browser",
+            "2.1.2 Using command line",
+            "2.2 Renaming files",
+            "2.2.1 Using the file browser",
+            "2.2.2 Using command line"
+          ],
+          "concepts": [
+            "File management",
+            "File operations",
+            "Notebook management"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Manage Your Files",
+              "goal": "Practice opening, renaming, and deleting files."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise 1: Rename a Notebook",
+              "task": "Rename an existing notebook to reflect its content.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise 2: Delete a File",
+              "task": "Delete a file that is no longer needed.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "How can you rename a file in JupyterLab?",
+              "answer": "By right-clicking the file and selecting 'Rename'."
+            },
+            {
+              "question": "What should you do before deleting a file?",
+              "answer": "Ensure that the file is no longer needed."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Open and close files",
+            "Rename files",
+            "Delete files"
+          ],
+          "prereqs": [
+            "module-4-lesson-1"
+          ],
+          "real_world_use_cases": [
+            "Keeping your workspace organized"
+          ],
+          "common_mistakes": [
+            "Not saving changes",
+            "Deleting important files"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-4-lesson-3",
+          "title": "Using Version Control with Git",
+          "summary": "Learn how to use Git for version control in JupyterLab.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "3.1 Initializing a Git repository",
+            "3.1.1 Using command line",
+            "3.1.2 Using Git GUI",
+            "3.2 Committing changes",
+            "3.2.1 Writing commit messages",
+            "3.3 Pushing changes",
+            "3.3.1 Using command line",
+            "3.3.2 Using Git GUI"
+          ],
+          "concepts": [
+            "Git basics",
+            "Version control",
+            "Remote repositories"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Version Control with Git",
+              "goal": "Initialize a Git repository and track changes."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise 1: Initialize a Repository",
+              "task": "Create a new Git repository in your project folder.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise 2: Commit Changes",
+              "task": "Make a change to a notebook and commit it.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What command initializes a Git repository?",
+              "answer": "'git init'"
+            },
+            {
+              "question": "Why is it important to write good commit messages?",
+              "answer": "To provide context for changes made in the repository."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Initialize a Git repository",
+            "Commit changes",
+            "Push changes to a remote repository"
+          ],
+          "prereqs": [
+            "module-4-lesson-1",
+            "module-4-lesson-2"
+          ],
+          "real_world_use_cases": [
+            "Tracking changes in data science projects"
+          ],
+          "common_mistakes": [
+            "Not committing changes regularly",
+            "Ignoring .gitignore files"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 4
+    },
+    {
+      "id": "module-5",
+      "title": "Data Analysis and Visualization in JupyterLab",
+      "description": "Learn how to perform data analysis and create visualizations using JupyterLab.",
+      "module_outcomes": [
+        "Analyze data using Pandas",
+        "Create visualizations with Matplotlib",
+        "Present findings in notebooks"
+      ],
+      "estimated_minutes": 120,
+      "lessons": [
+        {
+          "id": "module-5-lesson-1",
+          "title": "Data Analysis with Pandas",
+          "summary": "Learn how to use Pandas for data analysis in JupyterLab.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "1.1 Loading data",
+            "1.1.1 Using read_csv",
+            "1.1.2 Using read_excel",
+            "1.2 Data manipulation",
+            "1.2.1 Filtering data",
+            "1.2.2 Grouping data"
+          ],
+          "concepts": [
+            "DataFrames",
+            "Data manipulation",
+            "Data analysis"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Analyze a Dataset",
+              "goal": "Load and analyze a dataset using Pandas."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise 1: Load a CSV File",
+              "task": "Load a CSV file into a Pandas DataFrame.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise 2: Filter Data",
+              "task": "Filter the DataFrame based on a condition.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What function is used to load a CSV file in Pandas?",
+              "answer": "'pd.read_csv()'"
+            },
+            {
+              "question": "How can you check for missing values in a DataFrame?",
+              "answer": "By using the 'isnull()' function."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Load data into Pandas",
+            "Perform basic data manipulation",
+            "Analyze data with Pandas"
+          ],
+          "prereqs": [
+            "module-1-lesson-1"
+          ],
+          "real_world_use_cases": [
+            "Analyzing datasets for insights"
+          ],
+          "common_mistakes": [
+            "Not checking data types",
+            "Ignoring missing values"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-5-lesson-2",
+          "title": "Data Visualization with Matplotlib",
+          "summary": "Learn how to create visualizations using Matplotlib in JupyterLab.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "2.1 Creating plots",
+            "2.1.1 Line plots",
+            "2.1.2 Bar plots",
+            "2.2 Customizing plots",
+            "2.2.1 Adding titles",
+            "2.2.2 Changing colors"
+          ],
+          "concepts": [
+            "Plotting basics",
+            "Customization options",
+            "Saving plots"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Create Visualizations",
+              "goal": "Create and customize visualizations using Matplotlib."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise 1: Create a Line Plot",
+              "task": "Create a line plot from a dataset.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise 2: Customize a Bar Plot",
+              "task": "Add labels and a title to a bar plot.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What function is used to create a line plot in Matplotlib?",
+              "answer": "'plt.plot()'"
+            },
+            {
+              "question": "How can you save a plot to a file?",
+              "answer": "'plt.savefig()'"
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Create basic plots",
+            "Customize plots",
+            "Save visualizations"
+          ],
+          "prereqs": [
+            "module-5-lesson-1"
+          ],
+          "real_world_use_cases": [
+            "Visualizing data for presentations"
+          ],
+          "common_mistakes": [
+            "Not labeling axes",
+            "Ignoring plot aesthetics"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-5-lesson-3",
+          "title": "Presenting Findings in Notebooks",
+          "summary": "Learn how to present your analysis and visualizations in Jupyter notebooks.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "3.1 Structuring notebooks",
+            "3.1.1 Using markdown effectively",
+            "3.1.2 Adding visualizations",
+            "3.2 Sharing notebooks",
+            "3.2.1 Exporting to HTML",
+            "3.2.2 Sharing via GitHub"
+          ],
+          "concepts": [
+            "Combining code and markdown",
+            "Creating narratives",
+            "Sharing notebooks"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Create a Report",
+              "goal": "Combine analysis and visualizations into a cohesive report."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise 1: Add a Markdown Section",
+              "task": "Write a markdown section summarizing your findings.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise 2: Export Your Notebook",
+              "task": "Export your notebook to HTML format.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the purpose of combining code and markdown?",
+              "answer": "To create a narrative that explains the analysis."
+            },
+            {
+              "question": "How can you share your notebook with others?",
+              "answer": "By exporting it or sharing it via GitHub."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Combine code and markdown",
+            "Create a narrative",
+            "Share notebooks"
+          ],
+          "prereqs": [
+            "module-5-lesson-1",
+            "module-5-lesson-2"
+          ],
+          "real_world_use_cases": [
+            "Creating reports for stakeholders"
+          ],
+          "common_mistakes": [
+            "Not structuring the notebook",
+            "Ignoring audience"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 5
+    },
+    {
+      "id": "module-6",
+      "title": "Capstone Project",
+      "description": "Apply everything you've learned in a comprehensive project.",
+      "module_outcomes": [
+        "Demonstrate JupyterLab skills",
+        "Create a complete data analysis project",
+        "Present findings effectively"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-6-lesson-1",
+          "title": "Capstone Project Overview",
+          "summary": "Introduction to the capstone project and its requirements.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "1.1 Project requirements",
+            "1.1.1 Deliverables",
+            "1.1.2 Timeline",
+            "1.2 Planning your project",
+            "1.2.1 Setting goals",
+            "1.2.2 Identifying resources"
+          ],
+          "concepts": [
+            "Project planning",
+            "Environment setup",
+            "Deliverables"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Project Planning",
+              "goal": "Outline your project plan and set up your environment."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise 1: Define Your Project Goals",
+              "task": "Write down the goals for your capstone project.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise 2: Set Up Your Environment",
+              "task": "Create a new folder for your project and set up a virtual environment.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What are the key deliverables for the capstone project?",
+              "answer": "A complete data analysis project with a report and visualizations."
+            },
+            {
+              "question": "Why is project planning important?",
+              "answer": "It helps to organize tasks and manage time effectively."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Understand project requirements",
+            "Plan your project",
+            "Set up your environment"
+          ],
+          "prereqs": [
+            "module-1-lesson-1",
+            "module-2-lesson-1",
+            "module-5-lesson-1"
+          ],
+          "real_world_use_cases": [
+            "Applying skills in a real-world scenario"
+          ],
+          "common_mistakes": [
+            "Not planning adequately",
+            "Ignoring project deadlines"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-6-lesson-2",
+          "title": "Implementing Your Project",
+          "summary": "Work on your capstone project and implement your analysis.",
+          "difficulty": "beginner",
+          "estimated_minutes": 90,
+          "drilldown_outline": [
+            "2.1 Conducting data analysis",
+            "2.1.1 Using Pandas",
+            "2.1.2 Analyzing results",
+            "2.2 Creating visualizations",
+            "2.2.1 Using Matplotlib",
+            "2.2.2 Customizing plots"
+          ],
+          "concepts": [
+            "Data analysis",
+            "Visualization",
+            "Documentation"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Implement Your Analysis",
+              "goal": "Conduct data analysis and create visualizations for your project."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise 1: Analyze Your Dataset",
+              "task": "Perform data analysis on your chosen dataset.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise 2: Create Visualizations",
+              "task": "Generate visualizations to support your findings.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the purpose of documenting your findings?",
+              "answer": "To provide clarity and context for your analysis."
+            },
+            {
+              "question": "How can you ensure your visualizations are effective?",
+              "answer": "By making them clear and relevant to the analysis."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Conduct data analysis",
+            "Create visualizations",
+            "Document your findings"
+          ],
+          "prereqs": [
+            "module-5-lesson-1",
+            "module-5-lesson-2"
+          ],
+          "real_world_use_cases": [
+            "Completing a data analysis project"
+          ],
+          "common_mistakes": [
+            "Not documenting code",
+            "Skipping analysis steps"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-6-lesson-3",
+          "title": "Presenting Your Project",
+          "summary": "Learn how to present your capstone project effectively.",
+          "difficulty": "beginner",
+          "estimated_minutes": 60,
+          "drilldown_outline": [
+            "3.1 Preparing your presentation",
+            "3.1.1 Structuring your talk",
+            "3.1.2 Using visual aids",
+            "3.2 Sharing your findings",
+            "3.2.1 Using Jupyter Notebook",
+            "3.2.2 Exporting to PDF"
+          ],
+          "concepts": [
+            "Presentation skills",
+            "Feedback",
+            "Sharing results"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Prepare Your Presentation",
+              "goal": "Create a presentation based on your project findings."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise 1: Create a Presentation Outline",
+              "task": "Draft an outline for your project presentation.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Exercise 2: Practice Your Presentation",
+              "task": "Rehearse your presentation and gather feedback.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What are key elements of an effective presentation?",
+              "answer": "Clarity, engagement, and relevance."
+            },
+            {
+              "question": "How can you gather feedback on your presentation?",
+              "answer": "By asking for input from peers or mentors."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Prepare a presentation",
+            "Share your findings",
+            "Receive feedback"
+          ],
+          "prereqs": [
+            "module-6-lesson-1",
+            "module-6-lesson-2"
+          ],
+          "real_world_use_cases": [
+            "Presenting to stakeholders"
+          ],
+          "common_mistakes": [
+            "Not practicing the presentation",
+            "Ignoring audience questions"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 6
+    }
+  ],
+  "capstone": {
+    "id": "capstone-1",
+    "title": "Capstone Project",
+    "description": "Apply everything you've learned in a comprehensive project.",
+    "deliverables": [
+      "Complete data analysis project",
+      "Presentation of findings"
+    ]
+  },
+  "metadata": {}
+}

@@ -1,0 +1,1368 @@
+{
+  "course_id": "introduction-to-aws-sagemaker",
+  "title": "introduction to aws sagemaker",
+  "overview": {
+    "description": "This course provides a foundational understanding of AWS SageMaker, a powerful tool for building, training, and deploying machine learning models at scale. Participants will explore the various features and functionalities of SageMaker, including data preparation, model training, and deployment processes. Through hands-on exercises and real-world examples, learners will gain practical experience in utilizing SageMaker to streamline their machine learning workflows and enhance their capabilities as aspiring machine learning engineers.",
+    "target_audience": "This course is designed for beginners who are interested in machine learning and want to learn how to use AWS SageMaker to build and deploy machine learning models. It is suitable for individuals with little to no prior experience in machine learning or cloud computing, including students, professionals transitioning into data science, and anyone looking to enhance their technical skills in the rapidly evolving field of artificial intelligence.",
+    "prerequisites": [
+      "Basic understanding of machine learning concepts.",
+      "Familiarity with Python programming language.",
+      "Basic knowledge of AWS services is beneficial but not required."
+    ],
+    "estimated_hours": 0
+  },
+  "modules": [
+    {
+      "id": "module-1",
+      "title": "Introduction to AWS SageMaker",
+      "description": "An overview of AWS SageMaker and its components.",
+      "module_outcomes": [
+        "Understand the purpose of AWS SageMaker",
+        "Identify key components of SageMaker",
+        "Navigate the SageMaker interface"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-1-lesson-1",
+          "title": "What is AWS SageMaker?",
+          "summary": "Learn about the purpose and functionalities of AWS SageMaker.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "1.1 Overview of AWS SageMaker",
+            "1.1.1 Purpose of SageMaker",
+            "1.1.2 Key features",
+            "1.1.3 Benefits of using SageMaker"
+          ],
+          "concepts": [
+            "AWS SageMaker overview",
+            "Machine learning lifecycle",
+            "Cloud computing benefits"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Exploring SageMaker Studio",
+              "goal": "Navigate through the SageMaker Studio interface and understand its components."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Identify SageMaker Features",
+              "task": "List at least three features of AWS SageMaker and explain their significance.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Machine Learning Lifecycle",
+              "task": "Describe the stages of the machine learning lifecycle and how SageMaker fits into it.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the primary purpose of AWS SageMaker?",
+              "answer": "To provide a fully managed service for building, training, and deploying machine learning models."
+            },
+            {
+              "question": "Name one benefit of using cloud computing for machine learning.",
+              "answer": "Scalability and flexibility in resources."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Define AWS SageMaker",
+            "List its main features",
+            "Explain its importance in machine learning"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Using SageMaker for model training",
+            "Deploying models in production"
+          ],
+          "common_mistakes": [
+            "Confusing SageMaker with other AWS services",
+            "Underestimating the importance of data preparation"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-1-lesson-2",
+          "title": "Navigating SageMaker Studio",
+          "summary": "Learn how to navigate the SageMaker Studio interface and its components.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "1.2 SageMaker Studio Overview",
+            "1.2.1 Interface components",
+            "1.2.2 Creating notebooks",
+            "1.2.3 Managing resources"
+          ],
+          "concepts": [
+            "SageMaker Studio interface",
+            "Notebooks",
+            "Data preparation tools"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Creating Your First Notebook",
+              "goal": "Create and run a Jupyter notebook in SageMaker Studio."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Interface Exploration",
+              "task": "Explore the SageMaker Studio interface and identify at least five components.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Notebook Creation",
+              "task": "Create a new Jupyter notebook and run a simple Python command.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the purpose of SageMaker Notebooks?",
+              "answer": "To provide an interactive environment for writing and executing code."
+            },
+            {
+              "question": "How can you manage resources in SageMaker Studio?",
+              "answer": "By monitoring usage and adjusting instance types as needed."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Navigate the SageMaker Studio interface",
+            "Identify key components",
+            "Understand the workflow"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Creating a new notebook",
+            "Accessing datasets"
+          ],
+          "common_mistakes": [
+            "Not saving work",
+            "Ignoring resource limits"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-1-lesson-3",
+          "title": "Understanding Machine Learning Concepts",
+          "summary": "Explore fundamental machine learning concepts relevant to SageMaker.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "1.3 Machine Learning Basics",
+            "1.3.1 Supervised learning",
+            "1.3.2 Unsupervised learning",
+            "1.3.3 Common algorithms"
+          ],
+          "concepts": [
+            "Supervised learning",
+            "Unsupervised learning",
+            "Common algorithms"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Algorithm Selection",
+              "goal": "Select an appropriate algorithm for a given dataset and problem."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define Key Terms",
+              "task": "Define supervised learning and provide an example.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Algorithm Identification",
+              "task": "Identify which algorithms are used for supervised learning.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the difference between supervised and unsupervised learning?",
+              "answer": "Supervised learning uses labeled data, while unsupervised learning uses unlabeled data."
+            },
+            {
+              "question": "Name a common algorithm used in supervised learning.",
+              "answer": "Linear regression or decision trees."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Define key machine learning terms",
+            "Explain supervised vs unsupervised learning",
+            "Identify common algorithms"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Choosing the right algorithm for a problem",
+            "Understanding model evaluation"
+          ],
+          "common_mistakes": [
+            "Confusing supervised and unsupervised learning",
+            "Ignoring data quality"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "module-2",
+      "title": "Data Preparation in SageMaker",
+      "description": "Learn how to prepare data for machine learning using SageMaker.",
+      "module_outcomes": [
+        "Understand data preprocessing techniques",
+        "Use SageMaker tools for data preparation",
+        "Prepare datasets for training"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-2-lesson-1",
+          "title": "Data Ingestion",
+          "summary": "Learn how to ingest data into SageMaker from various sources.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "2.1 Data Sources",
+            "2.1.1 S3 buckets",
+            "2.1.2 Public datasets",
+            "2.1.3 Custom data sources"
+          ],
+          "concepts": [
+            "Data sources",
+            "Data formats",
+            "Ingestion methods"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Ingesting Data from S3",
+              "goal": "Ingest a dataset from an S3 bucket into SageMaker."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Identify Data Sources",
+              "task": "List at least three different data sources that can be used in SageMaker.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Ingestion Method",
+              "task": "Describe the steps to ingest data from an S3 bucket.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a common data source for machine learning in SageMaker?",
+              "answer": "Amazon S3 buckets."
+            },
+            {
+              "question": "Why is data format important when ingesting data?",
+              "answer": "Incompatible formats can lead to errors during processing."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Identify data sources",
+            "Ingest data into SageMaker",
+            "Understand data formats"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Ingesting data from S3",
+            "Using datasets from public repositories"
+          ],
+          "common_mistakes": [
+            "Not verifying data integrity",
+            "Ignoring data format compatibility"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-2-lesson-2",
+          "title": "Data Cleaning and Preprocessing",
+          "summary": "Learn techniques for cleaning and preprocessing data in SageMaker.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "2.2 Data Cleaning Techniques",
+            "2.2.1 Identifying missing values",
+            "2.2.2 Handling outliers",
+            "2.2.3 Feature scaling methods"
+          ],
+          "concepts": [
+            "Data cleaning",
+            "Handling missing values",
+            "Feature scaling"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Cleaning a Dataset",
+              "goal": "Clean a provided dataset and prepare it for training."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Identify Data Issues",
+              "task": "List common data issues that can affect model performance.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Apply Cleaning Techniques",
+              "task": "Demonstrate how to handle missing values in a dataset.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is one common issue found in datasets?",
+              "answer": "Missing values."
+            },
+            {
+              "question": "Why is feature scaling important?",
+              "answer": "It ensures that all features contribute equally to the model's performance."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Identify common data issues",
+            "Apply cleaning techniques",
+            "Preprocess data for training"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Cleaning a messy dataset",
+            "Scaling features for model training"
+          ],
+          "common_mistakes": [
+            "Ignoring missing values",
+            "Not normalizing data"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-2-lesson-3",
+          "title": "Feature Engineering",
+          "summary": "Learn how to create and select features for machine learning models.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "2.3 Feature Engineering Basics",
+            "2.3.1 Creating new features",
+            "2.3.2 Selecting features",
+            "2.3.3 Dimensionality reduction techniques"
+          ],
+          "concepts": [
+            "Feature creation",
+            "Feature selection",
+            "Dimensionality reduction"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Creating Features",
+              "goal": "Create new features from existing data to improve model performance."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define Feature Engineering",
+              "task": "Explain what feature engineering is and why it is important.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Feature Selection Techniques",
+              "task": "List and describe two techniques for feature selection.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is feature engineering?",
+              "answer": "The process of using domain knowledge to create features that make machine learning algorithms work."
+            },
+            {
+              "question": "Name one technique for dimensionality reduction.",
+              "answer": "Principal Component Analysis (PCA)."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Define feature engineering",
+            "Create new features",
+            "Select important features"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Creating interaction features",
+            "Using PCA for dimensionality reduction"
+          ],
+          "common_mistakes": [
+            "Overfitting by adding too many features",
+            "Ignoring feature importance"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 2
+    },
+    {
+      "id": "module-3",
+      "title": "Training Models in SageMaker",
+      "description": "Learn how to train machine learning models using SageMaker.",
+      "module_outcomes": [
+        "Understand the training process",
+        "Use built-in algorithms",
+        "Train custom models"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-3-lesson-1",
+          "title": "Using Built-in Algorithms",
+          "summary": "Learn how to use SageMaker's built-in algorithms for model training.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "3.1 Built-in Algorithms Overview",
+            "3.1.1 Types of algorithms",
+            "3.1.2 Use cases",
+            "3.1.3 Training process"
+          ],
+          "concepts": [
+            "Built-in algorithms",
+            "Algorithm selection",
+            "Training process"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Training a Model with XGBoost",
+              "goal": "Train a classification model using the XGBoost algorithm."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Identify Built-in Algorithms",
+              "task": "List at least three built-in algorithms available in SageMaker.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Use Case Matching",
+              "task": "Match algorithms to their appropriate use cases.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a built-in algorithm in SageMaker?",
+              "answer": "An algorithm provided by SageMaker that can be used for training without needing to code it from scratch."
+            },
+            {
+              "question": "Why is hyperparameter tuning important?",
+              "answer": "It helps improve the model's performance by finding the best parameters."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Identify built-in algorithms",
+            "Understand their use cases",
+            "Train a model using a built-in algorithm"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Using XGBoost for classification",
+            "Training a linear regression model"
+          ],
+          "common_mistakes": [
+            "Choosing the wrong algorithm for the problem",
+            "Not tuning hyperparameters"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-3-lesson-2",
+          "title": "Training Custom Models",
+          "summary": "Learn how to train custom machine learning models in SageMaker.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "3.2 Custom Model Training",
+            "3.2.1 Writing a training script",
+            "3.2.2 Submitting a training job",
+            "3.2.3 Evaluating model performance"
+          ],
+          "concepts": [
+            "Custom training scripts",
+            "Model evaluation",
+            "Training process"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Training a Custom Neural Network",
+              "goal": "Implement and train a custom neural network model in SageMaker."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Write a Training Script",
+              "task": "Write a simple training script for a linear regression model.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Evaluate Model Performance",
+              "task": "Describe how to evaluate the performance of a trained model.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a custom training script?",
+              "answer": "A script written by the user to define how a model should be trained."
+            },
+            {
+              "question": "Why is model evaluation necessary?",
+              "answer": "To ensure the model performs well on unseen data."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Understand the process of training custom models",
+            "Implement a custom training script",
+            "Evaluate model performance"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Training a neural network",
+            "Using TensorFlow in SageMaker"
+          ],
+          "common_mistakes": [
+            "Not following best practices for coding",
+            "Neglecting model evaluation"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-3-lesson-3",
+          "title": "Hyperparameter Tuning",
+          "summary": "Learn how to tune hyperparameters to improve model performance.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "3.3 Hyperparameter Tuning Basics",
+            "3.3.1 What are hyperparameters?",
+            "3.3.2 Tuning methods",
+            "3.3.3 Applying tuning in SageMaker"
+          ],
+          "concepts": [
+            "Hyperparameters",
+            "Tuning methods",
+            "SageMaker tuning"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Tuning Hyperparameters for XGBoost",
+              "goal": "Tune hyperparameters for an XGBoost model to improve its performance."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define Hyperparameters",
+              "task": "Explain what hyperparameters are and give examples.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Tuning Methods",
+              "task": "List and describe two methods for hyperparameter tuning.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the purpose of hyperparameter tuning?",
+              "answer": "To optimize the performance of a machine learning model."
+            },
+            {
+              "question": "Name one common hyperparameter for decision trees.",
+              "answer": "Max depth."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Define hyperparameters",
+            "Understand tuning methods",
+            "Apply tuning in SageMaker"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Improving model accuracy",
+            "Reducing overfitting"
+          ],
+          "common_mistakes": [
+            "Not tuning hyperparameters",
+            "Overfitting during tuning"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 3
+    },
+    {
+      "id": "module-4",
+      "title": "Model Evaluation and Validation",
+      "description": "Learn how to evaluate and validate machine learning models in SageMaker.",
+      "module_outcomes": [
+        "Understand evaluation metrics",
+        "Perform model validation",
+        "Use SageMaker tools for evaluation"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-4-lesson-1",
+          "title": "Evaluation Metrics",
+          "summary": "Learn about different evaluation metrics for machine learning models.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "4.1 Evaluation Metrics Overview",
+            "4.1.1 Accuracy",
+            "4.1.2 Precision and Recall",
+            "4.1.3 F1 Score"
+          ],
+          "concepts": [
+            "Accuracy",
+            "Precision and Recall",
+            "F1 Score"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Calculating Evaluation Metrics",
+              "goal": "Calculate and interpret evaluation metrics for a given model."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Identify Evaluation Metrics",
+              "task": "List at least three evaluation metrics used in machine learning.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Metric Significance",
+              "task": "Explain why precision and recall are important in classification tasks.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is accuracy in the context of model evaluation?",
+              "answer": "The ratio of correctly predicted instances to the total instances."
+            },
+            {
+              "question": "Why is the F1 Score useful?",
+              "answer": "It balances precision and recall, providing a single metric for model performance."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Identify common evaluation metrics",
+            "Understand their significance",
+            "Choose appropriate metrics for models"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Choosing metrics for a classification problem",
+            "Evaluating model performance"
+          ],
+          "common_mistakes": [
+            "Focusing only on accuracy",
+            "Ignoring model bias"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-4-lesson-2",
+          "title": "Model Validation Techniques",
+          "summary": "Learn various techniques for validating machine learning models.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "4.2 Validation Techniques Overview",
+            "4.2.1 Cross-validation",
+            "4.2.2 Train-test split",
+            "4.2.3 Model robustness evaluation"
+          ],
+          "concepts": [
+            "Cross-validation",
+            "Train-test split",
+            "Validation techniques"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Implementing Cross-Validation",
+              "goal": "Implement cross-validation on a dataset to evaluate model performance."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define Cross-Validation",
+              "task": "Explain what cross-validation is and why it is used.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Train-Test Split",
+              "task": "Describe the process of splitting data into training and testing sets.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the purpose of cross-validation?",
+              "answer": "To assess how the results of a statistical analysis will generalize to an independent dataset."
+            },
+            {
+              "question": "Why is it important to have a separate test set?",
+              "answer": "To evaluate the model's performance on unseen data."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Understand validation techniques",
+            "Implement cross-validation",
+            "Evaluate model robustness"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Validating model performance",
+            "Ensuring generalization"
+          ],
+          "common_mistakes": [
+            "Not validating models",
+            "Using the same data for training and testing"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-4-lesson-3",
+          "title": "Using SageMaker for Evaluation",
+          "summary": "Learn how to use SageMaker tools for model evaluation.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "4.3 SageMaker Evaluation Tools",
+            "4.3.1 Using built-in evaluation metrics",
+            "4.3.2 Interpreting results",
+            "4.3.3 Optimizing models"
+          ],
+          "concepts": [
+            "SageMaker evaluation tools",
+            "Model optimization",
+            "Interpreting results"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Evaluating a Model in SageMaker",
+              "goal": "Use SageMaker tools to evaluate a trained model."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Identify Evaluation Tools",
+              "task": "List at least two evaluation tools available in SageMaker.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Interpreting Results",
+              "task": "Explain how to interpret the results from SageMaker evaluation tools.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is one tool provided by SageMaker for evaluation?",
+              "answer": "SageMaker built-in metrics."
+            },
+            {
+              "question": "Why is it important to optimize models based on evaluation results?",
+              "answer": "To improve model performance and ensure it meets business objectives."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Utilize SageMaker evaluation tools",
+            "Interpret evaluation results",
+            "Optimize models based on feedback"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Using SageMaker to evaluate model performance",
+            "Optimizing models based on evaluation"
+          ],
+          "common_mistakes": [
+            "Misinterpreting evaluation results",
+            "Not using available tools"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 4
+    },
+    {
+      "id": "module-5",
+      "title": "Deploying Models in SageMaker",
+      "description": "Learn how to deploy machine learning models using SageMaker.",
+      "module_outcomes": [
+        "Understand deployment options",
+        "Deploy models to production",
+        "Monitor deployed models"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-5-lesson-1",
+          "title": "Deployment Options",
+          "summary": "Learn about different deployment options available in SageMaker.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "5.1 Deployment Overview",
+            "5.1.1 Real-time endpoints",
+            "5.1.2 Batch transform",
+            "5.1.3 Model hosting"
+          ],
+          "concepts": [
+            "Real-time endpoints",
+            "Batch transform",
+            "Model hosting"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Deploying a Real-Time Endpoint",
+              "goal": "Deploy a trained model as a real-time endpoint in SageMaker."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Identify Deployment Options",
+              "task": "List at least three deployment options available in SageMaker.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Use Case Matching",
+              "task": "Match deployment options to their appropriate use cases.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a real-time endpoint in SageMaker?",
+              "answer": "A service that allows you to make predictions in real-time using a deployed model."
+            },
+            {
+              "question": "Why is batch transform useful?",
+              "answer": "It allows for processing large datasets in a single request."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Identify deployment options",
+            "Understand their use cases",
+            "Choose appropriate options for models"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Deploying a model for real-time predictions",
+            "Using batch transform for large datasets"
+          ],
+          "common_mistakes": [
+            "Choosing the wrong deployment option",
+            "Not considering cost implications"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-5-lesson-2",
+          "title": "Deploying with SageMaker Pipelines",
+          "summary": "Learn how to use SageMaker Pipelines for model deployment.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "5.2 SageMaker Pipelines Overview",
+            "5.2.1 Defining pipeline steps",
+            "5.2.2 Automating deployment",
+            "5.2.3 Monitoring pipelines"
+          ],
+          "concepts": [
+            "SageMaker Pipelines",
+            "Automation",
+            "Deployment processes"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Creating a Deployment Pipeline",
+              "goal": "Create a SageMaker Pipeline for automating model deployment."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define Pipeline Steps",
+              "task": "List the steps involved in creating a SageMaker Pipeline.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Automation Benefits",
+              "task": "Explain the benefits of automating deployment processes.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the purpose of SageMaker Pipelines?",
+              "answer": "To automate and manage end-to-end machine learning workflows."
+            },
+            {
+              "question": "Why is monitoring important in deployment?",
+              "answer": "To ensure the deployed model is performing as expected and to catch issues early."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Understand SageMaker Pipelines",
+            "Implement a deployment pipeline",
+            "Automate deployment processes"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Automating the deployment of models",
+            "Creating reproducible workflows"
+          ],
+          "common_mistakes": [
+            "Not defining pipeline steps clearly",
+            "Ignoring error handling"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-5-lesson-3",
+          "title": "Monitoring Deployed Models",
+          "summary": "Learn how to monitor and manage deployed models in SageMaker.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "5.3 Monitoring Overview",
+            "5.3.1 Monitoring tools in SageMaker",
+            "5.3.2 Implementing monitoring strategies",
+            "5.3.3 Evaluating performance post-deployment"
+          ],
+          "concepts": [
+            "Monitoring tools",
+            "Model performance evaluation",
+            "Alerts and notifications"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Setting Up Monitoring for a Deployed Model",
+              "goal": "Implement monitoring for a deployed model in SageMaker."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Identify Monitoring Tools",
+              "task": "List at least two monitoring tools available in SageMaker.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Performance Evaluation",
+              "task": "Describe how to evaluate the performance of a deployed model.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is one monitoring tool provided by SageMaker?",
+              "answer": "Amazon CloudWatch."
+            },
+            {
+              "question": "Why is it important to monitor deployed models?",
+              "answer": "To ensure they continue to perform well and to detect any issues early."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Understand monitoring tools",
+            "Implement monitoring strategies",
+            "Evaluate model performance post-deployment"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Setting up alerts for model drift",
+            "Monitoring real-time predictions"
+          ],
+          "common_mistakes": [
+            "Neglecting to monitor models",
+            "Ignoring performance degradation"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 5
+    },
+    {
+      "id": "module-6",
+      "title": "Capstone Project",
+      "description": "A comprehensive project that integrates all learned concepts in AWS SageMaker.",
+      "module_outcomes": [
+        "Apply all learned skills in a real-world scenario",
+        "Build, train, and deploy a machine learning model",
+        "Evaluate and optimize the model"
+      ],
+      "estimated_minutes": 240,
+      "lessons": [
+        {
+          "id": "module-6-lesson-1",
+          "title": "Capstone Project Overview",
+          "summary": "Introduction to the capstone project and its objectives.",
+          "difficulty": "beginner",
+          "estimated_minutes": 60,
+          "drilldown_outline": [
+            "6.1 Capstone Overview",
+            "6.1.1 Project requirements",
+            "6.1.2 Defining scope",
+            "6.1.3 Planning timeline"
+          ],
+          "concepts": [
+            "Project requirements",
+            "Scope definition",
+            "Timeline planning"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Project Planning",
+              "goal": "Create a project plan outlining objectives and timelines."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define Project Objectives",
+              "task": "List the objectives for your capstone project.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Scope Definition",
+              "task": "Define the scope of your project including what will and won't be included.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the first step in planning a project?",
+              "answer": "Defining clear objectives."
+            },
+            {
+              "question": "Why is timeline planning important?",
+              "answer": "To ensure the project stays on track and meets deadlines."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Understand project requirements",
+            "Define project scope",
+            "Plan project timeline"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Real-world machine learning project"
+          ],
+          "common_mistakes": [
+            "Not defining clear objectives",
+            "Underestimating time requirements"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-6-lesson-2",
+          "title": "Building the Model",
+          "summary": "Learn how to build and train the machine learning model for the project.",
+          "difficulty": "beginner",
+          "estimated_minutes": 90,
+          "drilldown_outline": [
+            "6.2 Model Building",
+            "6.2.1 Building the model",
+            "6.2.2 Training the model",
+            "6.2.3 Evaluating performance"
+          ],
+          "concepts": [
+            "Model building",
+            "Training process",
+            "Performance evaluation"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Building and Training the Model",
+              "goal": "Build and train a machine learning model using SageMaker."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Model Building Steps",
+              "task": "List the steps involved in building a machine learning model.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Initial Performance Evaluation",
+              "task": "Describe how to evaluate the initial performance of your model.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the purpose of training a model?",
+              "answer": "To enable the model to learn from data and make predictions."
+            },
+            {
+              "question": "Why is performance evaluation important during training?",
+              "answer": "To ensure the model is learning effectively and to make necessary adjustments."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Build the model using SageMaker",
+            "Train the model with prepared data",
+            "Evaluate initial performance"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Building a predictive model"
+          ],
+          "common_mistakes": [
+            "Not using enough data",
+            "Ignoring model evaluation"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-6-lesson-3",
+          "title": "Deploying and Evaluating the Model",
+          "summary": "Learn how to deploy the trained model and evaluate its performance.",
+          "difficulty": "beginner",
+          "estimated_minutes": 90,
+          "drilldown_outline": [
+            "6.3 Model Deployment and Evaluation",
+            "6.3.1 Deploying the model",
+            "6.3.2 Evaluating performance post-deployment",
+            "6.3.3 Optimizing the model"
+          ],
+          "concepts": [
+            "Model deployment",
+            "Performance evaluation",
+            "Optimization"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Deploying the Model",
+              "goal": "Deploy the trained model and evaluate its performance."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Deployment Steps",
+              "task": "List the steps involved in deploying a machine learning model.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Post-Deployment Evaluation",
+              "task": "Describe how to evaluate the performance of a deployed model.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the purpose of deploying a model?",
+              "answer": "To make the model available for predictions in a production environment."
+            },
+            {
+              "question": "Why is post-deployment evaluation important?",
+              "answer": "To ensure the model continues to perform well and meets user needs."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Deploy the model using SageMaker",
+            "Evaluate the deployed model",
+            "Optimize based on feedback"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Deploying a model for production use"
+          ],
+          "common_mistakes": [
+            "Not monitoring the deployed model",
+            "Ignoring user feedback"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 6
+    }
+  ],
+  "capstone": {
+    "id": "capstone-1",
+    "title": "Capstone Project Title",
+    "description": "A comprehensive project that integrates all learned concepts in AWS SageMaker.",
+    "deliverables": [
+      "Build and train a machine learning model",
+      "Deploy the model",
+      "Evaluate and optimize the model"
+    ]
+  },
+  "metadata": {}
+}

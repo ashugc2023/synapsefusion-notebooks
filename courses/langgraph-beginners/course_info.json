@@ -1,0 +1,23 @@
+{
+  "course_id": "langgraph-beginners",
+  "title": "LangGraph for Beginners – Build Agentic Workflows Step-by-Step",
+  "description": "A hands-on, beginner-friendly introduction to LangGraph – the powerful framework for creating stateful, multi-actor AI agents with cycles and branching logic. Learn how to build simple to advanced agent workflows (single agent, multi-agent, hierarchical) using visual nodes, state management, persistence, and human-in-the-loop patterns. Every lesson includes clear explanations, micro-exercises, ready-to-run Jupyter notebooks, and small projects.",
+  "target_audience": "Beginners who know basic Python and want to build reliable, controllable AI agents that can plan, remember state, and loop until a task is complete.",
+  "learning_objectives": [
+    "Understand graphs vs chains and when to use LangGraph",
+    "Create nodes, edges, and state schemas",
+    "Build single-agent, multi-agent, and supervisor workflows",
+    "Add memory, persistence, and human-in-the-loop",
+    "Debug and visualize LangGraph executions",
+    "Deploy a complete LangGraph agent as a web API"
+  ],
+  "prerequisites": [
+    "Basic Python knowledge (variables, functions, lists/dicts)",
+    "Familiarity with Jupyter notebooks"
+  ],
+  "metadata": {
+    "difficulty": "beginner",
+    "estimated_hours": 10,
+    "course_focus": "Building stateful, cyclic AI agents with LangGraph"
+  }
+}

@@ -1,0 +1,845 @@
+{
+  "course_id": "python-beginners-v2",
+  "title": "Python for Beginners (Enhanced)",
+  "overview": {
+    "description": "A deeply structured, hands-on introduction to Python programming designed for absolute beginners. This course teaches Python from the ground up, progressing through fine-grained modules and lessons that drill down to specific skills, such as working with variables, data types, string manipulation, if/elif/else conditions, loops (for/while), lists, dictionaries, functions, and beginner project-building. Each lesson includes concepts, micro-exercises, hands-on labs, and knowledge checks to ensure practical understanding.",
+    "target_audience": "Complete beginners with no prior programming experience who want a structured, step-by-step path to mastering Python fundamentals.",
+    "prerequisites": [
+      "Basic computer literacy (creating folders, opening applications)",
+      "Ability to install software such as Python and JupyterLab"
+    ],
+    "estimated_hours": 12
+  },
+  "modules": [
+    {
+      "id": "module-1",
+      "title": "Getting Started with Python",
+      "description": "Introduction to Python programming, installation, and basic syntax.",
+      "module_outcomes": [
+        "Understand Python installation",
+        "Write simple Python scripts",
+        "Learn basic syntax and data types"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-1-lesson-1",
+          "title": "Installing Python and JupyterLab",
+          "summary": "Learn how to install Python and set up JupyterLab for coding.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "concepts": [
+            "Python Installation",
+            "JupyterLab Setup"
+          ],
+          "drilldown_outline": [
+            "1.1 Downloading Python",
+            "1.1.1 Choosing the right version",
+            "1.1.2 Installation steps",
+            "1.2 Installing JupyterLab",
+            "1.2.1 Using pip for installation"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Setting Up Your Environment",
+              "goal": "Successfully install Python and JupyterLab and run a simple script."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Verify Python Installation",
+              "task": "Open a terminal and run 'python --version' to check your installation.",
+              "notebook_section_title": "## Micro-Exercise 1"
+            },
+            {
+              "title": "Exercise: Create Your First Notebook",
+              "task": "Launch JupyterLab and create a new notebook titled 'My First Notebook'.",
+              "notebook_section_title": "## Micro-Exercise 2"
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What command do you use to check your Python version?",
+              "answer": "'python --version' or 'python3 --version'."
+            },
+            {
+              "question": "Why is JupyterLab useful for Python programming?",
+              "answer": "It provides an interactive environment for writing and testing code."
+            }
+          ],
+          "main_exercise": {
+            "title": "Main Exercise",
+            "task": "Complete the main exercise for Installing Python and JupyterLab"
+          }
+        },
+        {
+          "id": "module-1-lesson-2",
+          "title": "Understanding Python Syntax and Data Types",
+          "summary": "Explore the basic syntax of Python and learn about different data types.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "concepts": [
+            "Python Syntax",
+            "Data Types"
+          ],
+          "drilldown_outline": [
+            "2.1 Basic Syntax",
+            "2.1.1 Indentation rules",
+            "2.1.2 Writing comments",
+            "2.2 Data Types",
+            "2.2.1 Defining variables"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Exploring Data Types",
+              "goal": "Create variables of different data types and print them."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Create Variables",
+              "task": "Define variables for your name, age, and height, and print them.",
+              "notebook_section_title": "## Micro-Exercise 1"
+            },
+            {
+              "title": "Exercise: Identify Data Types",
+              "task": "Use the type() function to check the data types of your variables.",
+              "notebook_section_title": "## Micro-Exercise 2"
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the purpose of indentation in Python?",
+              "answer": "It defines the structure and flow of the code."
+            },
+            {
+              "question": "Name three basic data types in Python.",
+              "answer": "Integers, Floats, and Strings."
+            }
+          ],
+          "main_exercise": {
+            "title": "Main Exercise",
+            "task": "Complete the main exercise for Understanding Python Syntax and Data Types"
+          }
+        },
+        {
+          "id": "module-1-lesson-3",
+          "title": "Variables and Operators",
+          "summary": "Learn how to use variables and operators to manipulate data.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "concepts": [
+            "Variables",
+            "Operators"
+          ],
+          "drilldown_outline": [
+            "3.1 Declaring Variables",
+            "3.1.1 Naming conventions",
+            "3.1.2 Assigning values",
+            "3.2 Operators",
+            "3.2.1 Arithmetic operations"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Calculating with Variables",
+              "goal": "Perform calculations using variables and operators."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Variable Assignment",
+              "task": "Create variables for two numbers and calculate their sum.",
+              "notebook_section_title": "## Micro-Exercise 1"
+            },
+            {
+              "title": "Exercise: Comparison",
+              "task": "Use comparison operators to compare two variables and print the result.",
+              "notebook_section_title": "## Micro-Exercise 2"
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a variable in Python?",
+              "answer": "A variable is a named location in memory used to store data."
+            },
+            {
+              "question": "What is the difference between == and =?",
+              "answer": "'==' is a comparison operator, while '=' is an assignment operator."
+            }
+          ],
+          "main_exercise": {
+            "title": "Main Exercise",
+            "task": "Complete the main exercise for Variables and Operators"
+          }
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "module-2",
+      "title": "Control Flow in Python",
+      "description": "Learn how to control the flow of your programs using conditional statements and loops.",
+      "module_outcomes": [
+        "Implement conditional logic",
+        "Use loops to repeat actions",
+        "Understand break and continue statements"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-2-lesson-1",
+          "title": "If, Elif, and Else Statements",
+          "summary": "Explore how to use conditional statements to control program flow.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "concepts": [
+            "If Statements",
+            "Elif and Else"
+          ],
+          "drilldown_outline": [
+            "1.1 If Statements",
+            "1.1.1 Syntax and structure",
+            "1.1.2 Boolean expressions",
+            "1.2 Elif and Else",
+            "1.2.1 Chaining conditions"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Decision Making",
+              "goal": "Create a program that makes decisions based on user input."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Simple If Statement",
+              "task": "Write a program that checks if a number is positive or negative.",
+              "notebook_section_title": "## Micro-Exercise 1"
+            },
+            {
+              "title": "Exercise: Multiple Conditions",
+              "task": "Extend your program to check if the number is zero.",
+              "notebook_section_title": "## Micro-Exercise 2"
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the purpose of an if statement?",
+              "answer": "To execute code based on a condition."
+            },
+            {
+              "question": "How do you write an elif statement?",
+              "answer": "Using the keyword 'elif' followed by a condition."
+            }
+          ],
+          "main_exercise": {
+            "title": "Main Exercise",
+            "task": "Complete the main exercise for If, Elif, and Else Statements"
+          }
+        },
+        {
+          "id": "module-2-lesson-2",
+          "title": "For Loops",
+          "summary": "Learn how to use for loops to iterate over sequences.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "concepts": [
+            "For Loop Syntax",
+            "Using range()"
+          ],
+          "drilldown_outline": [
+            "2.1 For Loop Basics",
+            "2.1.1 Syntax and structure",
+            "2.1.2 Looping through a list",
+            "2.2 Using range()",
+            "2.2.1 Generating a sequence"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Iterating Over a List",
+              "goal": "Create a program that processes items in a list using a for loop."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Basic For Loop",
+              "task": "Write a for loop that prints numbers from 1 to 10.",
+              "notebook_section_title": "## Micro-Exercise 1"
+            },
+            {
+              "title": "Exercise: Looping Through a List",
+              "task": "Create a list of fruits and print each fruit using a for loop.",
+              "notebook_section_title": "## Micro-Exercise 2"
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the purpose of a for loop?",
+              "answer": "To iterate over a sequence or collection."
+            },
+            {
+              "question": "How do you use the range() function?",
+              "answer": "By calling range(start, stop) to generate a sequence of numbers."
+            }
+          ],
+          "main_exercise": {
+            "title": "Main Exercise",
+            "task": "Complete the main exercise for For Loops"
+          }
+        },
+        {
+          "id": "module-2-lesson-3",
+          "title": "While Loops and Break/Continue",
+          "summary": "Understand while loops and how to control loop execution with break and continue.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "concepts": [
+            "While Loop Syntax",
+            "Break and Continue"
+          ],
+          "drilldown_outline": [
+            "3.1 While Loop Basics",
+            "3.1.1 Syntax and structure",
+            "3.1.2 Loop conditions",
+            "3.2 Break and Continue",
+            "3.2.1 Using break"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: User Input Loop",
+              "goal": "Create a program that continues to ask for user input until a specific condition is met."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Basic While Loop",
+              "task": "Write a while loop that counts down from 10 to 1.",
+              "notebook_section_title": "## Micro-Exercise 1"
+            },
+            {
+              "title": "Exercise: Using Break",
+              "task": "Create a loop that asks for user input and breaks when the input is 'exit'.",
+              "notebook_section_title": "## Micro-Exercise 2"
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a while loop?",
+              "answer": "A loop that continues as long as a condition is true."
+            },
+            {
+              "question": "What does the break statement do?",
+              "answer": "It exits the loop immediately."
+            }
+          ],
+          "main_exercise": {
+            "title": "Main Exercise",
+            "task": "Complete the main exercise for While Loops and Break/Continue"
+          }
+        }
+      ],
+      "order": 2
+    },
+    {
+      "id": "module-3",
+      "title": "Data Structures in Python",
+      "description": "Learn about lists, dictionaries, and how to manipulate data effectively.",
+      "module_outcomes": [
+        "Understand lists and dictionaries",
+        "Manipulate data structures",
+        "Use built-in methods"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-3-lesson-1",
+          "title": "Working with Lists",
+          "summary": "Explore how to create and manipulate lists in Python.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "concepts": [
+            "List Creation",
+            "List Methods"
+          ],
+          "drilldown_outline": [
+            "1.1 Creating Lists",
+            "1.1.1 Syntax for lists",
+            "1.1.2 List comprehension",
+            "1.2 Accessing Elements",
+            "1.2.1 Indexing and slicing"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: List Manipulation",
+              "goal": "Create and modify a list of your favorite movies."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Create a List",
+              "task": "Define a list of five colors and print it.",
+              "notebook_section_title": "## Micro-Exercise 1"
+            },
+            {
+              "title": "Exercise: List Methods",
+              "task": "Use append() to add a new color to your list and print the updated list.",
+              "notebook_section_title": "## Micro-Exercise 2"
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "How do you create a list in Python?",
+              "answer": "By using square brackets, e.g., colors = ['red', 'blue']."
+            },
+            {
+              "question": "What does the append() method do?",
+              "answer": "It adds an item to the end of the list."
+            }
+          ],
+          "main_exercise": {
+            "title": "Main Exercise",
+            "task": "Complete the main exercise for Working with Lists"
+          }
+        },
+        {
+          "id": "module-3-lesson-2",
+          "title": "Dictionaries in Python",
+          "summary": "Learn how to create and manipulate dictionaries for key-value pairs.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "concepts": [
+            "Dictionary Creation",
+            "Dictionary Methods"
+          ],
+          "drilldown_outline": [
+            "2.1 Creating Dictionaries",
+            "2.1.1 Syntax for dictionaries",
+            "2.1.2 Adding key-value pairs",
+            "2.2 Accessing Values",
+            "2.2.1 Using keys to retrieve values"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: User Profiles",
+              "goal": "Create a dictionary to store user profile information."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Create a Dictionary",
+              "task": "Define a dictionary with three key-value pairs and print it.",
+              "notebook_section_title": "## Micro-Exercise 1"
+            },
+            {
+              "title": "Exercise: Accessing Values",
+              "task": "Use the get() method to retrieve a value from your dictionary.",
+              "notebook_section_title": "## Micro-Exercise 2"
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a dictionary in Python?",
+              "answer": "A collection of key-value pairs."
+            },
+            {
+              "question": "How do you access a value in a dictionary?",
+              "answer": "By using the key, e.g., my_dict['key'] or my_dict.get('key')."
+            }
+          ],
+          "main_exercise": {
+            "title": "Main Exercise",
+            "task": "Complete the main exercise for Dictionaries in Python"
+          }
+        },
+        {
+          "id": "module-3-lesson-3",
+          "title": "Tuples and Sets",
+          "summary": "Understand tuples and sets as alternative data structures in Python.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "concepts": [
+            "Tuples",
+            "Sets"
+          ],
+          "drilldown_outline": [
+            "3.1 Creating Tuples",
+            "3.1.1 Syntax for tuples",
+            "3.1.2 Accessing elements",
+            "3.2 Creating Sets",
+            "3.2.1 Syntax for sets"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Coordinate Storage",
+              "goal": "Create a tuple to store coordinates and a set to store unique items."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Create a Tuple",
+              "task": "Define a tuple with three elements and print it.",
+              "notebook_section_title": "## Micro-Exercise 1"
+            },
+            {
+              "title": "Exercise: Create a Set",
+              "task": "Define a set with five unique items and print it.",
+              "notebook_section_title": "## Micro-Exercise 2"
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a tuple?",
+              "answer": "An immutable collection of items."
+            },
+            {
+              "question": "How do you create a set?",
+              "answer": "By using curly braces or the set() function."
+            }
+          ],
+          "main_exercise": {
+            "title": "Main Exercise",
+            "task": "Complete the main exercise for Tuples and Sets"
+          }
+        }
+      ],
+      "order": 3
+    },
+    {
+      "id": "module-4",
+      "title": "Functions and Modules",
+      "description": "Learn how to create and use functions to organize code effectively.",
+      "module_outcomes": [
+        "Define functions",
+        "Use parameters and return values",
+        "Import and use modules"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-4-lesson-1",
+          "title": "Defining Functions",
+          "summary": "Explore how to define and call functions in Python.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "concepts": [
+            "Function Definition",
+            "Function Scope"
+          ],
+          "drilldown_outline": [
+            "1.1 Defining Functions",
+            "1.1.1 Syntax and structure",
+            "1.1.2 Naming conventions",
+            "1.2 Calling Functions",
+            "1.2.1 How to call a function"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Function Creation",
+              "goal": "Define and call functions to perform specific tasks."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Define a Simple Function",
+              "task": "Create a function that returns the square of a number.",
+              "notebook_section_title": "## Micro-Exercise 1"
+            },
+            {
+              "title": "Exercise: Call Your Function",
+              "task": "Call your function with different arguments and print the results.",
+              "notebook_section_title": "## Micro-Exercise 2"
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a function?",
+              "answer": "A block of code that performs a specific task."
+            },
+            {
+              "question": "How do you define a function in Python?",
+              "answer": "Using the def keyword followed by the function name and parentheses."
+            }
+          ],
+          "main_exercise": {
+            "title": "Main Exercise",
+            "task": "Complete the main exercise for Defining Functions"
+          }
+        },
+        {
+          "id": "module-4-lesson-2",
+          "title": "Parameters and Return Values",
+          "summary": "Learn how to use parameters and return values in functions.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "concepts": [
+            "Function Parameters",
+            "Return Values"
+          ],
+          "drilldown_outline": [
+            "2.1 Using Parameters",
+            "2.1.1 Defining parameters",
+            "2.1.2 Default parameters",
+            "2.2 Return Values",
+            "2.2.1 Using return statements"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Function Parameters",
+              "goal": "Create functions that accept parameters and return values."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Function with Parameters",
+              "task": "Define a function that takes two numbers and returns their sum.",
+              "notebook_section_title": "## Micro-Exercise 1"
+            },
+            {
+              "title": "Exercise: Return Multiple Values",
+              "task": "Create a function that returns both the sum and product of two numbers.",
+              "notebook_section_title": "## Micro-Exercise 2"
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a parameter?",
+              "answer": "A variable used in a function to accept input."
+            },
+            {
+              "question": "How do you return a value from a function?",
+              "answer": "Using the return statement followed by the value."
+            }
+          ],
+          "main_exercise": {
+            "title": "Main Exercise",
+            "task": "Complete the main exercise for Parameters and Return Values"
+          }
+        },
+        {
+          "id": "module-4-lesson-3",
+          "title": "Importing and Using Modules",
+          "summary": "Learn how to import and use modules to extend Python functionality.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "concepts": [
+            "Importing Modules",
+            "Module Scope"
+          ],
+          "drilldown_outline": [
+            "3.1 Importing Modules",
+            "3.1.1 Syntax for importing",
+            "3.1.2 Importing specific functions",
+            "3.2 Module Scope",
+            "3.2.1 Understanding variable visibility"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Using Python Modules",
+              "goal": "Import and use standard and third-party modules in your code."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Importing a Module",
+              "task": "Import the math module and use it to calculate the square root of a number.",
+              "notebook_section_title": "## Micro-Exercise 1"
+            },
+            {
+              "title": "Exercise: Using a Third-Party Module",
+              "task": "Install and use the requests module to make a simple HTTP request.",
+              "notebook_section_title": "## Micro-Exercise 2"
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "How do you import a module in Python?",
+              "answer": "Using the import statement followed by the module name."
+            },
+            {
+              "question": "What is the purpose of using modules?",
+              "answer": "To extend functionality and reuse code."
+            }
+          ],
+          "main_exercise": {
+            "title": "Main Exercise",
+            "task": "Complete the main exercise for Importing and Using Modules"
+          }
+        }
+      ],
+      "order": 4
+    },
+    {
+      "id": "module-5",
+      "title": "Capstone Project",
+      "description": "A comprehensive project that integrates all concepts learned throughout the course.",
+      "module_outcomes": [
+        "Apply all learned concepts",
+        "Build a complete Python application",
+        "Demonstrate understanding of Python fundamentals"
+      ],
+      "estimated_minutes": 240,
+      "lessons": [
+        {
+          "id": "module-5-lesson-1",
+          "title": "Capstone Project Overview",
+          "summary": "Introduction to the capstone project and its requirements.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "concepts": [
+            "Project Requirements",
+            "Project Planning"
+          ],
+          "drilldown_outline": [
+            "1.1 Understanding Requirements",
+            "1.1.1 Defining goals",
+            "1.1.2 Identifying components",
+            "1.2 Planning the Project",
+            "1.2.1 Creating a timeline"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Project Planning",
+              "goal": "Create a project plan outlining the steps to complete your capstone project."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Define Your Project Goals",
+              "task": "Write down the goals for your capstone project.",
+              "notebook_section_title": "## Micro-Exercise 1"
+            },
+            {
+              "title": "Exercise: Create a Timeline",
+              "task": "Draft a timeline for completing your project.",
+              "notebook_section_title": "## Micro-Exercise 2"
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "Why is project planning important?",
+              "answer": "It helps organize tasks and resources effectively."
+            },
+            {
+              "question": "What should you define in your project goals?",
+              "answer": "Clear objectives and user needs."
+            }
+          ],
+          "main_exercise": {
+            "title": "Main Exercise",
+            "task": "Complete the main exercise for Capstone Project Overview"
+          }
+        },
+        {
+          "id": "module-5-lesson-2",
+          "title": "Building Your Capstone Project",
+          "summary": "Hands-on coding session to build the capstone project.",
+          "difficulty": "beginner",
+          "estimated_minutes": 120,
+          "concepts": [
+            "Feature Implementation",
+            "Testing and Debugging"
+          ],
+          "drilldown_outline": [
+            "2.1 Implementing Features",
+            "2.1.1 Coding functionality",
+            "2.1.2 Integrating components",
+            "2.2 Testing and Debugging",
+            "2.2.1 Writing test cases"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Build and Test",
+              "goal": "Build your capstone project and test its functionality."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Code a Feature",
+              "task": "Implement a feature for your project and test it.",
+              "notebook_section_title": "## Micro-Exercise 1"
+            },
+            {
+              "title": "Exercise: Debug Your Code",
+              "task": "Identify and fix a bug in your project.",
+              "notebook_section_title": "## Micro-Exercise 2"
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the purpose of testing in a project?",
+              "answer": "To ensure the project functions as intended."
+            },
+            {
+              "question": "How do you debug code?",
+              "answer": "By identifying and fixing errors in the code."
+            }
+          ],
+          "main_exercise": {
+            "title": "Main Exercise",
+            "task": "Complete the main exercise for Building Your Capstone Project"
+          }
+        },
+        {
+          "id": "module-5-lesson-3",
+          "title": "Presenting Your Capstone Project",
+          "summary": "Learn how to present your project and gather feedback.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "concepts": [
+            "Project Presentation",
+            "Feedback Gathering"
+          ],
+          "drilldown_outline": [
+            "3.1 Preparing Your Presentation",
+            "3.1.1 Structuring your presentation",
+            "3.1.2 Engaging your audience",
+            "3.2 Gathering Feedback",
+            "3.2.1 Collecting and analyzing feedback"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Lab: Project Presentation",
+              "goal": "Prepare and deliver a presentation of your capstone project."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Exercise: Create a Presentation Outline",
+              "task": "Draft an outline for your project presentation.",
+              "notebook_section_title": "## Micro-Exercise 1"
+            },
+            {
+              "title": "Exercise: Practice Your Presentation",
+              "task": "Rehearse your presentation in front of a friend or family member.",
+              "notebook_section_title": "## Micro-Exercise 2"
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "Why is it important to gather feedback?",
+              "answer": "It helps improve your project and skills."
+            },
+            {
+              "question": "What should you include in your presentation?",
+              "answer": "An overview of your project, features, and outcomes."
+            }
+          ],
+          "main_exercise": {
+            "title": "Main Exercise",
+            "task": "Complete the main exercise for Presenting Your Capstone Project"
+          }
+        }
+      ],
+      "order": 5
+    }
+  ],
+  "capstone": {
+    "id": "capstone-1",
+    "title": "Capstone Project Title",
+    "description": "A comprehensive project that integrates all concepts learned throughout the course.",
+    "deliverables": [
+      "Complete Python application",
+      "Project presentation"
+    ]
+  },
+  "metadata": {}
+}

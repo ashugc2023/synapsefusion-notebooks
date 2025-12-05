@@ -1,0 +1,1130 @@
+{
+  "course_id": "grok-api-beginners",
+  "title": "Grok API for Beginners",
+  "overview": {
+    "description": "A comprehensive, hands-on introduction to using the Grok API for building AI-powered applications. Learn how to authenticate, make API calls, handle responses, and integrate Grok into your Python projects. Each lesson includes practical examples, micro-exercises, and real-world use cases.",
+    "target_audience": "Beginners who know basic Python and want to integrate Grok AI capabilities into their applications.",
+    "prerequisites": [
+      "Basic Python knowledge (variables, functions, HTTP requests)",
+      "Familiarity with REST APIs (helpful but not required)"
+    ],
+    "estimated_hours": 0
+  },
+  "modules": [
+    {
+      "id": "module-1",
+      "title": "Getting Started with Grok API",
+      "description": "Introduction to the Grok API, its capabilities, and how to set up your environment.",
+      "module_outcomes": [
+        "Understand Grok API basics",
+        "Set up a Python environment",
+        "Make your first API call"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-1-lesson-1",
+          "title": "Introduction to Grok API",
+          "summary": "Learn what Grok API is and its potential applications.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "1.1 What is an API?",
+            "1.1.1 Types of APIs",
+            "1.1.2 Grok API Overview"
+          ],
+          "concepts": [
+            "API definition",
+            "Use cases",
+            "HTTP methods"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Exploring Grok API Documentation",
+              "goal": "Navigate the Grok API documentation to understand its endpoints and capabilities."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Identify API Use Cases",
+              "task": "List three potential applications of the Grok API in real-world scenarios.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "API Terminology Quiz",
+              "task": "Match API terms with their definitions using a provided list.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is an API?",
+              "answer": "An API (Application Programming Interface) allows different software applications to communicate with each other."
+            },
+            {
+              "question": "What are common HTTP methods used in APIs?",
+              "answer": "Common HTTP methods include GET, POST, PUT, and DELETE."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Define Grok API",
+            "Identify use cases",
+            "Understand API terminology"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Integrating AI into applications",
+            "Automating tasks with Grok API"
+          ],
+          "common_mistakes": [
+            "Confusing API with libraries",
+            "Ignoring API documentation"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-1-lesson-2",
+          "title": "Setting Up Your Python Environment",
+          "summary": "Learn how to set up your Python environment for working with the Grok API.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "2.1 Installing Python",
+            "2.1.1 Downloading Python",
+            "2.1.2 Verifying installation"
+          ],
+          "concepts": [
+            "Python installation",
+            "Virtual environments",
+            "Library installation"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Create a Virtual Environment",
+              "goal": "Set up a virtual environment for your Grok API project."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Verify Python Installation",
+              "task": "Run a command to check if Python is installed correctly.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Create a Virtual Environment",
+              "task": "Use the command line to create a virtual environment for your project.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "Why use a virtual environment?",
+              "answer": "A virtual environment allows you to manage dependencies for different projects separately."
+            },
+            {
+              "question": "What command is used to install libraries in Python?",
+              "answer": "The command 'pip install library_name' is used to install libraries."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Install Python",
+            "Set up a virtual environment",
+            "Install required libraries"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Creating isolated environments for projects",
+            "Managing dependencies"
+          ],
+          "common_mistakes": [
+            "Not using virtual environments",
+            "Installing libraries globally"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-1-lesson-3",
+          "title": "Making Your First API Call",
+          "summary": "Learn how to make your first API call to the Grok API and handle the response.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "3.1 Making a GET request",
+            "3.1.1 Using requests library",
+            "3.1.2 Handling responses"
+          ],
+          "concepts": [
+            "GET requests",
+            "JSON format",
+            "HTTP status codes"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Fetch Data from Grok API",
+              "goal": "Make a GET request to the Grok API and display the response."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Make a GET Request",
+              "task": "Write a Python script to make a GET request to a sample endpoint.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Parse JSON Response",
+              "task": "Extract specific data from the JSON response and print it.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a GET request?",
+              "answer": "A GET request is used to retrieve data from a specified resource."
+            },
+            {
+              "question": "What does a status code of 200 indicate?",
+              "answer": "A status code of 200 indicates that the request was successful."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Make a GET request",
+            "Handle JSON responses",
+            "Understand status codes"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Fetching data from Grok API",
+            "Displaying API data in applications"
+          ],
+          "common_mistakes": [
+            "Not checking response status",
+            "Misunderstanding JSON structure"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "module-2",
+      "title": "Working with Grok API Endpoints",
+      "description": "Explore various endpoints of the Grok API and learn how to interact with them.",
+      "module_outcomes": [
+        "Understand different API endpoints",
+        "Make requests to various endpoints",
+        "Handle responses effectively"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-2-lesson-1",
+          "title": "Exploring Grok API Endpoints",
+          "summary": "Learn about the different endpoints available in the Grok API.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "1.1 Overview of Endpoints",
+            "1.1.1 Types of Endpoints",
+            "1.1.2 Accessing Endpoint Documentation"
+          ],
+          "concepts": [
+            "Endpoint definition",
+            "GET vs POST endpoints",
+            "API documentation"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Navigate Grok API Endpoints",
+              "goal": "Explore the Grok API documentation to identify key endpoints."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "List Key Endpoints",
+              "task": "Create a list of key endpoints and their functionalities.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Endpoint Functionality Quiz",
+              "task": "Answer questions about the functionalities of different endpoints.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is an endpoint?",
+              "answer": "An endpoint is a specific URL where an API can be accessed to perform operations."
+            },
+            {
+              "question": "What is the difference between GET and POST endpoints?",
+              "answer": "GET endpoints retrieve data, while POST endpoints send data to the server."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Identify key endpoints",
+            "Understand endpoint functionalities",
+            "Explore endpoint documentation"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Using endpoints to fetch data",
+            "Interacting with Grok AI features"
+          ],
+          "common_mistakes": [
+            "Not reading endpoint documentation",
+            "Confusing endpoint types"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-2-lesson-2",
+          "title": "Making POST Requests",
+          "summary": "Learn how to make POST requests to send data to the Grok API.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "2.1 Structure of a POST Request",
+            "2.1.1 JSON data format",
+            "2.1.2 Sending data with requests library"
+          ],
+          "concepts": [
+            "POST request structure",
+            "Sending JSON data",
+            "Response handling"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Submit Data to Grok API",
+              "goal": "Make a POST request to submit data to a Grok API endpoint."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Create a JSON Payload",
+              "task": "Write a JSON payload to send in a POST request.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Handle POST Response",
+              "task": "Write code to handle the response from a POST request.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the purpose of a POST request?",
+              "answer": "A POST request is used to send data to a server to create or update a resource."
+            },
+            {
+              "question": "How do you format data for a POST request?",
+              "answer": "Data for a POST request should be formatted as JSON."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Understand POST request structure",
+            "Send data in JSON format",
+            "Handle responses from POST requests"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Submitting data to Grok API",
+            "Creating new resources"
+          ],
+          "common_mistakes": [
+            "Not formatting JSON correctly",
+            "Ignoring response status"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-2-lesson-3",
+          "title": "Handling API Responses",
+          "summary": "Learn how to effectively handle responses from the Grok API.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "3.1 Parsing JSON Responses",
+            "3.1.1 Accessing JSON data",
+            "3.1.2 Error handling strategies"
+          ],
+          "concepts": [
+            "Parsing JSON",
+            "Error handling",
+            "HTTP status codes"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Handle API Response",
+              "goal": "Write code to handle and display data from an API response."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Parse JSON Data",
+              "task": "Extract specific fields from a JSON response and print them.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Error Handling Exercise",
+              "task": "Write code to handle potential errors from an API call.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is JSON?",
+              "answer": "JSON (JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and write."
+            },
+            {
+              "question": "What should you do if an API call fails?",
+              "answer": "You should check the error message and status code to understand the issue."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Parse JSON responses",
+            "Handle errors",
+            "Understand status codes"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Displaying data from API responses",
+            "Debugging API calls"
+          ],
+          "common_mistakes": [
+            "Not checking for errors",
+            "Misinterpreting status codes"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 2
+    },
+    {
+      "id": "module-3",
+      "title": "Error Handling and Rate Limiting",
+      "description": "Learn how to handle errors and implement rate limiting when working with the Grok API.",
+      "module_outcomes": [
+        "Implement error handling",
+        "Understand rate limiting",
+        "Manage API call frequency"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-3-lesson-1",
+          "title": "Understanding API Errors",
+          "summary": "Learn about common API errors and how to handle them.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "1.1 Common API Errors",
+            "1.1.1 404 Not Found",
+            "1.1.2 500 Internal Server Error"
+          ],
+          "concepts": [
+            "Common API errors",
+            "Error handling techniques",
+            "Logging errors"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Implement Error Handling",
+              "goal": "Write code to handle common API errors and log them."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Identify API Errors",
+              "task": "List common API errors and their meanings.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Error Handling Code",
+              "task": "Write a function to handle a specific API error.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What does a 404 error indicate?",
+              "answer": "A 404 error indicates that the requested resource was not found."
+            },
+            {
+              "question": "Why is error logging important?",
+              "answer": "Error logging helps in debugging and maintaining the application."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Identify common API errors",
+            "Implement error handling in code",
+            "Log errors for debugging"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Debugging API calls",
+            "Improving application reliability"
+          ],
+          "common_mistakes": [
+            "Ignoring error responses",
+            "Not logging errors"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-3-lesson-2",
+          "title": "Implementing Rate Limiting",
+          "summary": "Learn how to implement rate limiting to manage API call frequency.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "2.1 What is Rate Limiting?",
+            "2.1.1 Types of Rate Limits",
+            "2.1.2 Implementing Rate Limits"
+          ],
+          "concepts": [
+            "Rate limiting definition",
+            "Handling rate limit errors",
+            "Best practices"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Manage API Call Frequency",
+              "goal": "Write code to implement rate limiting for API calls."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Rate Limiting Scenarios",
+              "task": "Identify scenarios where rate limiting is necessary.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Implement Rate Limiting",
+              "task": "Write code to handle rate limit errors.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is rate limiting?",
+              "answer": "Rate limiting is a technique used to control the amount of incoming requests to a server."
+            },
+            {
+              "question": "What happens when you exceed the rate limit?",
+              "answer": "Exceeding the rate limit usually results in receiving a 429 Too Many Requests error."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Understand rate limiting concepts",
+            "Implement rate limiting in code",
+            "Handle rate limit errors"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Preventing API abuse",
+            "Managing application performance"
+          ],
+          "common_mistakes": [
+            "Ignoring rate limits",
+            "Making too many requests"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-3-lesson-3",
+          "title": "Best Practices for API Usage",
+          "summary": "Learn best practices for using APIs effectively and efficiently.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "3.1 API Usage Best Practices",
+            "3.1.1 Efficient API Calls",
+            "3.1.2 Error Handling Best Practices"
+          ],
+          "concepts": [
+            "API best practices",
+            "Avoiding common mistakes",
+            "Optimizing API calls"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Optimize API Usage",
+              "goal": "Review and optimize existing API calls in your project."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Identify Best Practices",
+              "task": "List best practices for API usage.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Optimize API Call",
+              "task": "Refactor an API call to improve efficiency.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a best practice for API usage?",
+              "answer": "A best practice is to minimize the number of API calls by caching responses."
+            },
+            {
+              "question": "Why is error handling important?",
+              "answer": "Error handling is crucial for maintaining application stability and user experience."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Identify best practices",
+            "Implement best practices in code",
+            "Avoid common pitfalls"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Improving application performance",
+            "Ensuring API reliability"
+          ],
+          "common_mistakes": [
+            "Not following best practices",
+            "Overloading the API"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 3
+    },
+    {
+      "id": "module-4",
+      "title": "Building a Complete Application with Grok API",
+      "description": "Integrate all learned concepts to build a complete application using the Grok API.",
+      "module_outcomes": [
+        "Build a functional application",
+        "Integrate Grok API features",
+        "Deploy the application"
+      ],
+      "estimated_minutes": 240,
+      "lessons": [
+        {
+          "id": "module-4-lesson-1",
+          "title": "Planning Your Application",
+          "summary": "Learn how to plan your application architecture and features.",
+          "difficulty": "beginner",
+          "estimated_minutes": 60,
+          "drilldown_outline": [
+            "1.1 Defining Features",
+            "1.1.1 User Stories",
+            "1.1.2 Feature Prioritization"
+          ],
+          "concepts": [
+            "Application architecture",
+            "Feature definition",
+            "API integration planning"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Create an Application Plan",
+              "goal": "Draft a plan outlining your application's features and architecture."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define User Stories",
+              "task": "Write user stories for your application.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Feature Prioritization Exercise",
+              "task": "Prioritize features based on user needs.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a user story?",
+              "answer": "A user story is a short description of a feature from the perspective of the user."
+            },
+            {
+              "question": "Why is feature prioritization important?",
+              "answer": "Feature prioritization helps focus development on the most valuable features."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Define application features",
+            "Design application architecture",
+            "Plan API integrations"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Creating a user-friendly application",
+            "Ensuring scalability"
+          ],
+          "common_mistakes": [
+            "Not planning features",
+            "Ignoring user experience"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-4-lesson-2",
+          "title": "Developing the Application",
+          "summary": "Learn how to develop the application using the Grok API.",
+          "difficulty": "beginner",
+          "estimated_minutes": 120,
+          "drilldown_outline": [
+            "2.1 Implementing Features",
+            "2.1.1 Writing Code",
+            "2.1.2 Integrating API Calls"
+          ],
+          "concepts": [
+            "Feature implementation",
+            "API integration",
+            "Testing"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Build Application Features",
+              "goal": "Develop and integrate features into your application."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Implement a Feature",
+              "task": "Write code to implement a specific feature of your application.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Test Application Functionality",
+              "task": "Run tests to ensure all features work as expected.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the purpose of testing?",
+              "answer": "Testing ensures that the application functions correctly and meets requirements."
+            },
+            {
+              "question": "How do you integrate API calls?",
+              "answer": "API calls are integrated by writing code that sends requests to the API and handles responses."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Implement application features",
+            "Integrate Grok API calls",
+            "Test application functionality"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Building a functional application",
+            "Ensuring code quality"
+          ],
+          "common_mistakes": [
+            "Skipping testing",
+            "Not integrating features properly"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-4-lesson-3",
+          "title": "Deploying Your Application",
+          "summary": "Learn how to deploy your application for public access.",
+          "difficulty": "beginner",
+          "estimated_minutes": 60,
+          "drilldown_outline": [
+            "3.1 Preparing for Deployment",
+            "3.1.1 Final Testing",
+            "3.1.2 Choosing a Hosting Platform"
+          ],
+          "concepts": [
+            "Deployment process",
+            "Hosting platforms",
+            "Application accessibility"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Deploy Your Application",
+              "goal": "Deploy your application to a chosen hosting platform."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Choose a Hosting Platform",
+              "task": "Research and select a suitable hosting platform for your application.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Prepare for Deployment",
+              "task": "List steps needed to prepare your application for deployment.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the deployment process?",
+              "answer": "The deployment process involves preparing the application and making it accessible to users."
+            },
+            {
+              "question": "Why is testing important before deployment?",
+              "answer": "Testing ensures that the application is functioning correctly and is free of critical bugs."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Prepare application for deployment",
+            "Choose a hosting platform",
+            "Deploy the application"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Making your application available to users",
+            "Ensuring application performance"
+          ],
+          "common_mistakes": [
+            "Not testing before deployment",
+            "Choosing the wrong hosting platform"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 4
+    },
+    {
+      "id": "module-5",
+      "title": "Capstone Project",
+      "description": "Integrate all learned concepts to build a complete application using the Grok API.",
+      "module_outcomes": [
+        "Build a functional application",
+        "Integrate Grok API features",
+        "Deploy the application"
+      ],
+      "estimated_minutes": 240,
+      "lessons": [
+        {
+          "id": "module-5-lesson-1",
+          "title": "Capstone Project Overview",
+          "summary": "Overview of the capstone project requirements and expectations.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "1.1 Project Requirements",
+            "1.1.1 Feature List",
+            "1.1.2 Timeline"
+          ],
+          "concepts": [
+            "Project requirements",
+            "Timeline planning",
+            "Resource identification"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Draft Project Plan",
+              "goal": "Create a project plan outlining features and timeline."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Identify Project Features",
+              "task": "List features to include in your capstone project.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Create a Project Timeline",
+              "task": "Draft a timeline for completing your project.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What are the key components of a project plan?",
+              "answer": "Key components include project requirements, timeline, and resources."
+            },
+            {
+              "question": "Why is planning important?",
+              "answer": "Planning helps ensure that the project is completed on time and meets requirements."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Understand project requirements",
+            "Plan project timeline",
+            "Identify necessary resources"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Applying learned skills to a real project",
+            "Demonstrating API integration"
+          ],
+          "common_mistakes": [
+            "Not understanding requirements",
+            "Poor planning"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-5-lesson-2",
+          "title": "Building the Capstone Project",
+          "summary": "Develop the capstone project using the Grok API.",
+          "difficulty": "beginner",
+          "estimated_minutes": 120,
+          "drilldown_outline": [
+            "2.1 Implementing Features",
+            "2.1.1 Writing Code",
+            "2.1.2 Integrating API Calls"
+          ],
+          "concepts": [
+            "Feature implementation",
+            "API integration",
+            "Testing"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Develop Capstone Features",
+              "goal": "Build and integrate features into your capstone project."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Implement a Feature",
+              "task": "Write code to implement a specific feature of your capstone project.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Test Project Functionality",
+              "task": "Run tests to ensure all features work as expected.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the purpose of testing?",
+              "answer": "Testing ensures that the project functions correctly and meets requirements."
+            },
+            {
+              "question": "How do you integrate API calls?",
+              "answer": "API calls are integrated by writing code that sends requests to the API and handles responses."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Implement project features",
+            "Integrate Grok API calls",
+            "Test project functionality"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Building a functional application",
+            "Demonstrating learned skills"
+          ],
+          "common_mistakes": [
+            "Skipping testing",
+            "Not integrating features properly"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-5-lesson-3",
+          "title": "Presenting the Capstone Project",
+          "summary": "Learn how to present your capstone project effectively.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "3.1 Preparing for Presentation",
+            "3.1.1 Creating Presentation Materials",
+            "3.1.2 Practicing Delivery"
+          ],
+          "concepts": [
+            "Presentation skills",
+            "Demonstrating features",
+            "Gathering feedback"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Prepare Presentation",
+              "goal": "Create materials for presenting your capstone project."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Draft Presentation Outline",
+              "task": "Create an outline for your project presentation.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Practice Presentation Delivery",
+              "task": "Rehearse your presentation in front of a peer.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What are key components of a project presentation?",
+              "answer": "Key components include project overview, demonstration, and feedback gathering."
+            },
+            {
+              "question": "Why is audience engagement important?",
+              "answer": "Audience engagement helps ensure that your message is effectively communicated."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Prepare project presentation",
+            "Demonstrate project features",
+            "Gather feedback"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Showcasing your work",
+            "Receiving constructive criticism"
+          ],
+          "common_mistakes": [
+            "Not preparing adequately",
+            "Ignoring audience engagement"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 5
+    }
+  ],
+  "capstone": {
+    "id": "capstone-1",
+    "title": "Capstone Project",
+    "description": "Integrate all learned concepts to build a complete application using the Grok API.",
+    "deliverables": [
+      "Functional application",
+      "Project presentation materials"
+    ]
+  },
+  "metadata": {}
+}

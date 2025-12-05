@@ -1,0 +1,1550 @@
+{
+  "course_id": "aws-beginners",
+  "title": "AWS for Beginners",
+  "overview": {
+    "description": "A comprehensive introduction to Amazon Web Services (AWS) for beginners. Learn the fundamentals of cloud computing, AWS core services (EC2, S3, Lambda, etc.), security best practices, and how to deploy applications to AWS. Each lesson includes hands-on labs, practical examples, and real-world scenarios.",
+    "target_audience": "Beginners who want to learn AWS cloud computing and deploy applications to the cloud.",
+    "prerequisites": [
+      "Basic computer literacy",
+      "Familiarity with command line (helpful but not required)"
+    ],
+    "estimated_hours": 0
+  },
+  "modules": [
+    {
+      "id": "module-1",
+      "title": "Introduction to Cloud Computing",
+      "description": "Understand the basics of cloud computing and its advantages.",
+      "module_outcomes": [
+        "Define cloud computing",
+        "Identify types of cloud services",
+        "Understand cloud deployment models"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-1-lesson-1",
+          "title": "What is Cloud Computing?",
+          "summary": "Learn the definition and key characteristics of cloud computing.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "1.1 Definition",
+            "1.1.1 Characteristics",
+            "1.1.2 Benefits"
+          ],
+          "concepts": [
+            "Definition of cloud computing",
+            "Key characteristics",
+            "Benefits of cloud computing"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Exploring Cloud Services",
+              "goal": "Identify different cloud services and their use cases."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define Cloud Computing",
+              "task": "Write a brief definition of cloud computing.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "List Benefits",
+              "task": "List at least three benefits of using cloud computing.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is cloud computing?",
+              "answer": "Cloud computing is the delivery of computing services over the internet."
+            },
+            {
+              "question": "Name a benefit of cloud computing.",
+              "answer": "Scalability is a key benefit of cloud computing."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Define cloud computing",
+            "Explain key characteristics",
+            "Identify benefits of cloud computing"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Businesses using cloud for scalability"
+          ],
+          "common_mistakes": [
+            "Confusing cloud with traditional hosting"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-1-lesson-2",
+          "title": "Types of Cloud Services",
+          "summary": "Explore the different types of cloud services: IaaS, PaaS, and SaaS.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "1.2 Types of Services",
+            "1.2.1 IaaS",
+            "1.2.2 PaaS",
+            "1.2.3 SaaS"
+          ],
+          "concepts": [
+            "IaaS",
+            "PaaS",
+            "SaaS"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Identifying Service Types",
+              "goal": "Categorize different services into IaaS, PaaS, and SaaS."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Match Services",
+              "task": "Match the service type with its definition.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "List Examples",
+              "task": "List one example of IaaS, PaaS, and SaaS.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What does IaaS stand for?",
+              "answer": "Infrastructure as a Service."
+            },
+            {
+              "question": "Give an example of PaaS.",
+              "answer": "Google App Engine is an example of PaaS."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Identify IaaS, PaaS, and SaaS",
+            "Explain use cases for each type",
+            "Differentiate between service types"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Using SaaS for CRM solutions"
+          ],
+          "common_mistakes": [
+            "Confusing IaaS with PaaS"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-1-lesson-3",
+          "title": "Cloud Deployment Models",
+          "summary": "Learn about the different cloud deployment models: public, private, hybrid.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "1.3 Deployment Models",
+            "1.3.1 Public Cloud",
+            "1.3.2 Private Cloud",
+            "1.3.3 Hybrid Cloud"
+          ],
+          "concepts": [
+            "Public cloud",
+            "Private cloud",
+            "Hybrid cloud"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Evaluating Deployment Models",
+              "goal": "Evaluate which deployment model fits a given scenario."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define Deployment Models",
+              "task": "Write definitions for public, private, and hybrid clouds.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Identify Use Cases",
+              "task": "Identify a use case for each deployment model.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a public cloud?",
+              "answer": "A public cloud is a cloud service offered over the public internet."
+            },
+            {
+              "question": "What is a hybrid cloud?",
+              "answer": "A hybrid cloud combines public and private cloud resources."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Define public, private, and hybrid clouds",
+            "Identify use cases for each model",
+            "Understand the pros and cons"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Companies using hybrid cloud for flexibility"
+          ],
+          "common_mistakes": [
+            "Assuming all clouds are public"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "module-2",
+      "title": "Getting Started with AWS",
+      "description": "Learn how to set up and navigate the AWS Management Console.",
+      "module_outcomes": [
+        "Create an AWS account",
+        "Navigate the AWS Management Console",
+        "Understand AWS regions and availability zones"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-2-lesson-1",
+          "title": "Creating an AWS Account",
+          "summary": "Step-by-step guide to creating an AWS account.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "2.1 Account Creation",
+            "2.1.1 Sign-up process",
+            "2.1.2 Account types",
+            "2.1.3 Billing setup"
+          ],
+          "concepts": [
+            "AWS account creation",
+            "Account types",
+            "Billing alerts"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Create Your AWS Account",
+              "goal": "Successfully create an AWS account and set up billing alerts."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Account Creation Steps",
+              "task": "List the steps to create an AWS account.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Billing Alerts",
+              "task": "Explain how to set up billing alerts in AWS.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the first step to create an AWS account?",
+              "answer": "Visit the AWS website and click on 'Create an AWS Account'."
+            },
+            {
+              "question": "Why are billing alerts important?",
+              "answer": "They help monitor and control AWS spending."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Create an AWS account",
+            "Understand account types",
+            "Set up billing alerts"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Setting up an account for a startup"
+          ],
+          "common_mistakes": [
+            "Not verifying email during signup"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-2-lesson-2",
+          "title": "Navigating the AWS Management Console",
+          "summary": "Learn how to navigate the AWS Management Console effectively.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "2.2 Console Overview",
+            "2.2.1 Key Components",
+            "2.2.2 Using the Search Bar",
+            "2.2.3 Accessing Services"
+          ],
+          "concepts": [
+            "AWS Management Console",
+            "Service search",
+            "Dashboard navigation"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Explore the Console",
+              "goal": "Familiarize yourself with the AWS Management Console layout."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Identify Components",
+              "task": "Identify and describe three key components of the AWS Management Console.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Search Functionality",
+              "task": "Demonstrate how to use the search bar to find a service.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the purpose of the AWS Management Console?",
+              "answer": "It provides a web-based interface for managing AWS services."
+            },
+            {
+              "question": "How can you quickly find a service in the console?",
+              "answer": "Use the search bar at the top of the console."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Identify key components of the console",
+            "Use the search bar",
+            "Access different services"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Finding services quickly in the console"
+          ],
+          "common_mistakes": [
+            "Overlooking the search functionality"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-2-lesson-3",
+          "title": "Understanding AWS Regions and Availability Zones",
+          "summary": "Learn about AWS regions and availability zones and their importance.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "2.3 Regions and Zones",
+            "2.3.1 Definition of Regions",
+            "2.3.2 Definition of Availability Zones",
+            "2.3.3 Importance of Regions"
+          ],
+          "concepts": [
+            "AWS regions",
+            "Availability zones",
+            "Significance of regions"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Identify Your Region",
+              "goal": "Determine the nearest AWS region for your location."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define Regions",
+              "task": "Write a definition for AWS regions and availability zones.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Identify Your Region",
+              "task": "Find and list the nearest AWS region to your location.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is an AWS region?",
+              "answer": "An AWS region is a geographical area that contains multiple availability zones."
+            },
+            {
+              "question": "Why are availability zones important?",
+              "answer": "They provide redundancy and high availability for applications."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Define regions and availability zones",
+            "Understand their significance",
+            "Identify your nearest region"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Choosing the right region for deployment"
+          ],
+          "common_mistakes": [
+            "Not considering latency when choosing a region"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 2
+    },
+    {
+      "id": "module-3",
+      "title": "AWS Core Services",
+      "description": "Explore the core services offered by AWS, including EC2, S3, and Lambda.",
+      "module_outcomes": [
+        "Understand EC2 instances",
+        "Work with S3 buckets",
+        "Implement serverless functions with Lambda"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-3-lesson-1",
+          "title": "Introduction to EC2",
+          "summary": "Learn about Amazon EC2 and how to launch instances.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "3.1 EC2 Overview",
+            "3.1.1 What is EC2?",
+            "3.1.2 Launching an Instance",
+            "3.1.3 Connecting to an Instance"
+          ],
+          "concepts": [
+            "EC2 basics",
+            "Launching instances",
+            "Connecting to instances"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Launch Your First EC2 Instance",
+              "goal": "Successfully launch and connect to an EC2 instance."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define EC2",
+              "task": "Write a brief definition of Amazon EC2.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "List Instance Types",
+              "task": "List at least three types of EC2 instances.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What does EC2 stand for?",
+              "answer": "Elastic Compute Cloud."
+            },
+            {
+              "question": "What is the purpose of EC2?",
+              "answer": "To provide scalable computing capacity in the cloud."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Understand EC2 basics",
+            "Launch an EC2 instance",
+            "Connect to an EC2 instance"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Hosting a web application on EC2"
+          ],
+          "common_mistakes": [
+            "Not configuring security groups"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-3-lesson-2",
+          "title": "Working with S3",
+          "summary": "Learn how to create and manage S3 buckets and objects.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "3.2 S3 Overview",
+            "3.2.1 Creating Buckets",
+            "3.2.2 Uploading Objects",
+            "3.2.3 Managing Permissions"
+          ],
+          "concepts": [
+            "S3 buckets",
+            "Object management",
+            "Permissions"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Create and Manage an S3 Bucket",
+              "goal": "Successfully create an S3 bucket and upload objects."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define S3",
+              "task": "Write a brief definition of Amazon S3.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "List S3 Operations",
+              "task": "List at least three operations you can perform on S3.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is Amazon S3 used for?",
+              "answer": "Amazon S3 is used for object storage in the cloud."
+            },
+            {
+              "question": "How do you set permissions on an S3 bucket?",
+              "answer": "You can set permissions through the bucket policy or access control lists."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Create an S3 bucket",
+            "Upload and manage objects",
+            "Set permissions"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Storing images for a website"
+          ],
+          "common_mistakes": [
+            "Not setting bucket permissions correctly"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-3-lesson-3",
+          "title": "Introduction to AWS Lambda",
+          "summary": "Learn about AWS Lambda and how to create serverless functions.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "3.3 Lambda Overview",
+            "3.3.1 What is Lambda?",
+            "3.3.2 Creating Functions",
+            "3.3.3 Invoking Functions"
+          ],
+          "concepts": [
+            "Serverless computing",
+            "Creating Lambda functions",
+            "Invoking functions"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Create Your First Lambda Function",
+              "goal": "Successfully create and invoke a Lambda function."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define Lambda",
+              "task": "Write a brief definition of AWS Lambda.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "List Use Cases",
+              "task": "List at least two use cases for AWS Lambda.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is AWS Lambda used for?",
+              "answer": "AWS Lambda is used to run code in response to events without provisioning servers."
+            },
+            {
+              "question": "How do you invoke a Lambda function?",
+              "answer": "You can invoke a Lambda function through the AWS Management Console or programmatically."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Understand serverless computing",
+            "Create a Lambda function",
+            "Invoke a Lambda function"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Running code in response to events"
+          ],
+          "common_mistakes": [
+            "Not configuring triggers correctly"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 3
+    },
+    {
+      "id": "module-4",
+      "title": "AWS Security Best Practices",
+      "description": "Learn about security best practices when using AWS.",
+      "module_outcomes": [
+        "Implement IAM roles and policies",
+        "Understand security groups",
+        "Apply encryption methods"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-4-lesson-1",
+          "title": "Introduction to IAM",
+          "summary": "Learn about AWS Identity and Access Management (IAM).",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "4.1 IAM Overview",
+            "4.1.1 What is IAM?",
+            "4.1.2 Creating Users",
+            "4.1.3 Assigning Permissions"
+          ],
+          "concepts": [
+            "IAM basics",
+            "Creating users",
+            "Assigning permissions"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Create IAM Users",
+              "goal": "Successfully create IAM users and assign permissions."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define IAM",
+              "task": "Write a brief definition of AWS IAM.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "List IAM Components",
+              "task": "List at least three components of IAM.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What does IAM stand for?",
+              "answer": "Identity and Access Management."
+            },
+            {
+              "question": "Why is IAM important?",
+              "answer": "It helps manage access to AWS resources securely."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Understand IAM basics",
+            "Create IAM users",
+            "Assign permissions"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Managing user access in an organization"
+          ],
+          "common_mistakes": [
+            "Not following the principle of least privilege"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-4-lesson-2",
+          "title": "Understanding Security Groups",
+          "summary": "Learn how to configure security groups for your AWS resources.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "4.2 Security Groups Overview",
+            "4.2.1 What are Security Groups?",
+            "4.2.2 Configuring Rules",
+            "4.2.3 Applying Security Groups"
+          ],
+          "concepts": [
+            "Security groups",
+            "Inbound rules",
+            "Outbound rules"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Configure Security Groups",
+              "goal": "Successfully configure security groups for an EC2 instance."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define Security Groups",
+              "task": "Write a brief definition of security groups.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "List Rules",
+              "task": "List at least three types of rules you can configure in a security group.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the purpose of a security group?",
+              "answer": "To control inbound and outbound traffic to AWS resources."
+            },
+            {
+              "question": "How do you apply a security group?",
+              "answer": "You apply a security group when launching an EC2 instance or modifying an existing instance."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Define security groups",
+            "Configure inbound and outbound rules",
+            "Apply security groups to resources"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Securing EC2 instances with security groups"
+          ],
+          "common_mistakes": [
+            "Not configuring rules correctly"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-4-lesson-3",
+          "title": "Implementing Encryption in AWS",
+          "summary": "Learn about encryption methods available in AWS.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "4.3 Encryption Overview",
+            "4.3.1 What is Encryption?",
+            "4.3.2 S3 Encryption Methods",
+            "4.3.3 Using KMS"
+          ],
+          "concepts": [
+            "Encryption basics",
+            "S3 encryption",
+            "KMS"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Implement S3 Encryption",
+              "goal": "Successfully implement encryption for S3 buckets."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define Encryption",
+              "task": "Write a brief definition of encryption.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "List Encryption Methods",
+              "task": "List at least two encryption methods available in AWS.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is encryption?",
+              "answer": "Encryption is the process of converting data into a coded format to prevent unauthorized access."
+            },
+            {
+              "question": "What does KMS stand for?",
+              "answer": "Key Management Service."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Understand encryption basics",
+            "Implement encryption for S3",
+            "Use KMS for key management"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Protecting sensitive data in S3"
+          ],
+          "common_mistakes": [
+            "Not encrypting sensitive data"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 4
+    },
+    {
+      "id": "module-5",
+      "title": "Deploying Applications on AWS",
+      "description": "Learn how to deploy applications using AWS services.",
+      "module_outcomes": [
+        "Deploy a web application",
+        "Use Elastic Beanstalk",
+        "Implement CI/CD with AWS"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-5-lesson-1",
+          "title": "Deploying a Web Application",
+          "summary": "Learn how to deploy a simple web application on AWS.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "5.1 Web Application Deployment",
+            "5.1.1 Static Website Hosting",
+            "5.1.2 Configuring Route 53",
+            "5.1.3 Using S3 for Hosting"
+          ],
+          "concepts": [
+            "Static website hosting",
+            "Route 53",
+            "S3"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Deploy Your Web Application",
+              "goal": "Successfully deploy a static website using S3 and Route 53."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define Static Hosting",
+              "task": "Write a brief definition of static website hosting.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "List Hosting Steps",
+              "task": "List the steps to host a static website on AWS.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is static website hosting?",
+              "answer": "Hosting a website where content does not change dynamically."
+            },
+            {
+              "question": "What is Route 53 used for?",
+              "answer": "Route 53 is a scalable DNS web service."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Deploy a static website",
+            "Configure Route 53",
+            "Use S3 for hosting"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Hosting a portfolio website"
+          ],
+          "common_mistakes": [
+            "Not configuring Route 53 correctly"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-5-lesson-2",
+          "title": "Using Elastic Beanstalk",
+          "summary": "Learn how to deploy applications using AWS Elastic Beanstalk.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "5.2 Elastic Beanstalk Overview",
+            "5.2.1 What is Elastic Beanstalk?",
+            "5.2.2 Deploying Applications",
+            "5.2.3 Managing Versions"
+          ],
+          "concepts": [
+            "Elastic Beanstalk",
+            "Application deployment",
+            "Version management"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Deploy an Application with Elastic Beanstalk",
+              "goal": "Successfully deploy an application using Elastic Beanstalk."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define Elastic Beanstalk",
+              "task": "Write a brief definition of AWS Elastic Beanstalk.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "List Benefits",
+              "task": "List at least two benefits of using Elastic Beanstalk.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the purpose of Elastic Beanstalk?",
+              "answer": "To simplify the deployment of applications."
+            },
+            {
+              "question": "How do you manage application versions in Elastic Beanstalk?",
+              "answer": "You can manage versions through the Elastic Beanstalk console."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Understand Elastic Beanstalk",
+            "Deploy an application",
+            "Manage application versions"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Deploying a web application with minimal configuration"
+          ],
+          "common_mistakes": [
+            "Not configuring environment variables"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-5-lesson-3",
+          "title": "Implementing CI/CD with AWS",
+          "summary": "Learn how to implement Continuous Integration and Continuous Deployment using AWS services.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "5.3 CI/CD Overview",
+            "5.3.1 What is CI/CD?",
+            "5.3.2 Using AWS CodePipeline",
+            "5.3.3 Automating Deployments"
+          ],
+          "concepts": [
+            "CI/CD",
+            "AWS CodePipeline",
+            "Automated deployment"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Set Up a CI/CD Pipeline",
+              "goal": "Successfully set up a CI/CD pipeline using AWS CodePipeline."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define CI/CD",
+              "task": "Write a brief definition of Continuous Integration and Continuous Deployment.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "List Pipeline Stages",
+              "task": "List the stages of a typical CI/CD pipeline.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What does CI/CD stand for?",
+              "answer": "Continuous Integration and Continuous Deployment."
+            },
+            {
+              "question": "What is the purpose of AWS CodePipeline?",
+              "answer": "To automate the build, test, and deployment phases of application development."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Understand CI/CD concepts",
+            "Use AWS CodePipeline",
+            "Deploy applications automatically"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Automating application deployment"
+          ],
+          "common_mistakes": [
+            "Not integrating testing in the pipeline"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 5
+    },
+    {
+      "id": "module-6",
+      "title": "Monitoring and Managing AWS Resources",
+      "description": "Learn how to monitor and manage your AWS resources effectively.",
+      "module_outcomes": [
+        "Use CloudWatch for monitoring",
+        "Manage resources with AWS CLI",
+        "Implement cost management strategies"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-6-lesson-1",
+          "title": "Introduction to AWS CloudWatch",
+          "summary": "Learn how to monitor AWS resources using CloudWatch.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "6.1 CloudWatch Overview",
+            "6.1.1 What is CloudWatch?",
+            "6.1.2 Setting Up Alarms",
+            "6.1.3 Monitoring Metrics"
+          ],
+          "concepts": [
+            "CloudWatch basics",
+            "Setting up alarms",
+            "Monitoring metrics"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Set Up CloudWatch Alarms",
+              "goal": "Successfully set up CloudWatch alarms for your resources."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define CloudWatch",
+              "task": "Write a brief definition of AWS CloudWatch.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "List Metrics",
+              "task": "List at least three metrics you can monitor with CloudWatch.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is AWS CloudWatch used for?",
+              "answer": "AWS CloudWatch is used for monitoring AWS resources and applications."
+            },
+            {
+              "question": "How do you set up an alarm in CloudWatch?",
+              "answer": "You can set up an alarm through the CloudWatch console by selecting a metric and defining the alarm conditions."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Understand CloudWatch basics",
+            "Set up alarms",
+            "Monitor metrics"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Monitoring application performance"
+          ],
+          "common_mistakes": [
+            "Not setting up alarms for critical metrics"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-6-lesson-2",
+          "title": "Managing AWS Resources with AWS CLI",
+          "summary": "Learn how to manage AWS resources using the AWS Command Line Interface (CLI).",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "6.2 AWS CLI Overview",
+            "6.2.1 Installing AWS CLI",
+            "6.2.2 Using CLI Commands",
+            "6.2.3 Managing Resources"
+          ],
+          "concepts": [
+            "AWS CLI installation",
+            "CLI commands",
+            "Resource management"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Manage Resources with AWS CLI",
+              "goal": "Successfully manage AWS resources using the AWS CLI."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define AWS CLI",
+              "task": "Write a brief definition of AWS CLI.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "List Commands",
+              "task": "List at least three commands you can use with AWS CLI.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is AWS CLI?",
+              "answer": "AWS CLI is a unified tool to manage AWS services from the command line."
+            },
+            {
+              "question": "How do you install AWS CLI?",
+              "answer": "You can install AWS CLI using pip or by downloading the installer from the AWS website."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Install AWS CLI",
+            "Use CLI commands",
+            "Manage resources"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Managing resources efficiently from the command line"
+          ],
+          "common_mistakes": [
+            "Not configuring AWS CLI correctly"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-6-lesson-3",
+          "title": "Implementing Cost Management Strategies",
+          "summary": "Learn how to manage and optimize costs in AWS.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "drilldown_outline": [
+            "6.3 Cost Management Overview",
+            "6.3.1 What is Cost Management?",
+            "6.3.2 Using AWS Budgets",
+            "6.3.3 Optimizing Resource Usage"
+          ],
+          "concepts": [
+            "Cost management",
+            "AWS Budgets",
+            "Resource optimization"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Set Up AWS Budgets",
+              "goal": "Successfully set up AWS Budgets to monitor costs."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define Cost Management",
+              "task": "Write a brief definition of cost management in AWS.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "List Strategies",
+              "task": "List at least two strategies for optimizing costs in AWS.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the purpose of AWS Budgets?",
+              "answer": "AWS Budgets helps you set custom cost and usage budgets."
+            },
+            {
+              "question": "How can you optimize resource usage?",
+              "answer": "By rightsizing instances and using reserved instances."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Understand cost management basics",
+            "Use AWS Budgets",
+            "Optimize resource usage"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Reducing AWS spending for a startup"
+          ],
+          "common_mistakes": [
+            "Not monitoring costs regularly"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 6
+    },
+    {
+      "id": "module-7",
+      "title": "Capstone Project",
+      "description": "A comprehensive project to apply all the skills learned throughout the course.",
+      "module_outcomes": [
+        "Design and deploy a full-stack application",
+        "Implement security best practices",
+        "Monitor and manage resources"
+      ],
+      "estimated_minutes": 240,
+      "lessons": [
+        {
+          "id": "module-7-lesson-1",
+          "title": "Capstone Project Overview",
+          "summary": "Introduction to the capstone project and its objectives.",
+          "difficulty": "beginner",
+          "estimated_minutes": 60,
+          "drilldown_outline": [
+            "7.1 Project Overview",
+            "7.1.1 Requirements Gathering",
+            "7.1.2 Planning",
+            "7.1.3 Service Identification"
+          ],
+          "concepts": [
+            "Project planning",
+            "AWS services",
+            "Deployment strategies"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Project Planning Session",
+              "goal": "Create a project plan outlining the steps to complete the capstone."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define Project Objectives",
+              "task": "Write down the objectives for your capstone project.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Identify Services",
+              "task": "List the AWS services you plan to use for your project.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the first step in planning your capstone project?",
+              "answer": "Gathering project requirements."
+            },
+            {
+              "question": "Why is it important to identify necessary AWS services?",
+              "answer": "To ensure you have the right tools for your project."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Understand project requirements",
+            "Plan the project",
+            "Identify necessary AWS services"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Building a full-stack application"
+          ],
+          "common_mistakes": [
+            "Not defining clear objectives"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-7-lesson-2",
+          "title": "Building the Application",
+          "summary": "Hands-on session to build the application using AWS services.",
+          "difficulty": "beginner",
+          "estimated_minutes": 120,
+          "drilldown_outline": [
+            "7.2 Application Development",
+            "7.2.1 Implementing Features",
+            "7.2.2 Deployment Process",
+            "7.2.3 Testing"
+          ],
+          "concepts": [
+            "Application development",
+            "Deployment",
+            "Testing"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Build and Deploy Your Application",
+              "goal": "Successfully build and deploy your application on AWS."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define Features",
+              "task": "List the key features of your application.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Deployment Steps",
+              "task": "Outline the steps you will take to deploy your application.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a key feature of your application?",
+              "answer": "The specific functionality that addresses user needs."
+            },
+            {
+              "question": "Why is testing important before deployment?",
+              "answer": "To ensure the application works as intended and is free of bugs."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Implement the application",
+            "Deploy using AWS services",
+            "Test the application"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Deploying a web application"
+          ],
+          "common_mistakes": [
+            "Not testing thoroughly before deployment"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-7-lesson-3",
+          "title": "Final Presentation and Review",
+          "summary": "Present your capstone project and review the learning outcomes.",
+          "difficulty": "beginner",
+          "estimated_minutes": 60,
+          "drilldown_outline": [
+            "7.3 Project Presentation",
+            "7.3.1 Preparing the Presentation",
+            "7.3.2 Presenting to Peers",
+            "7.3.3 Receiving Feedback"
+          ],
+          "concepts": [
+            "Project presentation",
+            "Feedback",
+            "Review"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Prepare Your Presentation",
+              "goal": "Create a presentation summarizing your capstone project."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Outline Your Presentation",
+              "task": "Create an outline for your project presentation.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Feedback Questions",
+              "task": "List questions you want to ask for feedback after your presentation.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What should you include in your presentation?",
+              "answer": "Key features, challenges faced, and solutions implemented."
+            },
+            {
+              "question": "Why is feedback important?",
+              "answer": "It helps improve future projects and skills."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Present the project",
+            "Review key concepts",
+            "Receive feedback"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Showcasing your work to stakeholders"
+          ],
+          "common_mistakes": [
+            "Not preparing for the presentation"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 7
+    }
+  ],
+  "capstone": {
+    "id": "capstone-1",
+    "title": "Capstone Project Title",
+    "description": "Project description",
+    "deliverables": [
+      "Deliverable 1",
+      "Deliverable 2"
+    ]
+  },
+  "metadata": {}
+}

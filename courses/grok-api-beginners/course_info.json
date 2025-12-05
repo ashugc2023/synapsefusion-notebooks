@@ -1,0 +1,22 @@
+{
+  "course_id": "grok-api-beginners",
+  "title": "Grok API for Beginners",
+  "description": "A comprehensive, hands-on introduction to using the Grok API for building AI-powered applications. Learn how to authenticate, make API calls, handle responses, and integrate Grok into your Python projects. Each lesson includes practical examples, micro-exercises, and real-world use cases.",
+  "target_audience": "Beginners who know basic Python and want to integrate Grok AI capabilities into their applications.",
+  "learning_objectives": [
+    "Understand Grok API authentication and setup",
+    "Make API calls and handle responses",
+    "Work with different Grok API endpoints",
+    "Implement error handling and rate limiting",
+    "Build a complete application using Grok API"
+  ],
+  "prerequisites": [
+    "Basic Python knowledge (variables, functions, HTTP requests)",
+    "Familiarity with REST APIs (helpful but not required)"
+  ],
+  "metadata": {
+    "difficulty": "beginner",
+    "estimated_hours": 8,
+    "course_focus": "Grok API integration and practical applications"
+  }
+}

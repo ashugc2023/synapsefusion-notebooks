@@ -1,0 +1,25 @@
+{
+  "course_id": "jupyterlab-local-beginners",
+  "title": "JupyterLab for Beginners - Local Development",
+  "description": "A comprehensive guide to setting up and using JupyterLab for local Python development. Learn how to install JupyterLab, create notebooks, manage extensions, work with kernels, and organize your data science projects. Each lesson includes hands-on exercises and best practices for local development workflows.",
+  "target_audience": "Beginners who want to learn JupyterLab for local Python development and data science projects.",
+  "learning_objectives": [
+    "Install and configure JupyterLab locally",
+    "Create and manage Jupyter notebooks",
+    "Install and use JupyterLab extensions",
+    "Work with different Python kernels and environments",
+    "Organize projects and manage files in JupyterLab",
+    "Use JupyterLab for data analysis and visualization"
+  ],
+  "prerequisites": [
+    "Basic Python knowledge",
+    "Ability to install software on your computer"
+  ],
+  "metadata": {
+    "difficulty": "beginner",
+    "estimated_hours": 6,
+    "course_focus": "JupyterLab setup and local development workflows"
+  },
+  "available": true,
+  "course_type": "free"
+}

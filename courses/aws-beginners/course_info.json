@@ -1,0 +1,23 @@
+{
+  "course_id": "aws-beginners",
+  "title": "AWS for Beginners",
+  "description": "A comprehensive introduction to Amazon Web Services (AWS) for beginners. Learn the fundamentals of cloud computing, AWS core services (EC2, S3, Lambda, etc.), security best practices, and how to deploy applications to AWS. Each lesson includes hands-on labs, practical examples, and real-world scenarios.",
+  "target_audience": "Beginners who want to learn AWS cloud computing and deploy applications to the cloud.",
+  "learning_objectives": [
+    "Understand AWS fundamentals and core services",
+    "Set up and manage AWS accounts and IAM",
+    "Work with EC2, S3, Lambda, and other AWS services",
+    "Implement security best practices",
+    "Deploy applications to AWS",
+    "Monitor and manage AWS resources"
+  ],
+  "prerequisites": [
+    "Basic computer literacy",
+    "Familiarity with command line (helpful but not required)"
+  ],
+  "metadata": {
+    "difficulty": "beginner",
+    "estimated_hours": 15,
+    "course_focus": "AWS fundamentals and cloud deployment"
+  }
+}

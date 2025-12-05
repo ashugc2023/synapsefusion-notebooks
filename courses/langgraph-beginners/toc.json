@@ -1,0 +1,1567 @@
+{
+  "course_id": "langgraph-beginners",
+  "title": "LangGraph for Beginners – Build Agentic Workflows Step-by-Step",
+  "overview": {
+    "description": "A hands-on, beginner-friendly introduction to LangGraph – the powerful framework for creating stateful, multi-actor AI agents with cycles and branching logic. Learn how to build simple to advanced agent workflows (single agent, multi-agent, hierarchical) using visual nodes, state management, persistence, and human-in-the-loop patterns. Every lesson includes clear explanations, micro-exercises, ready-to-run Jupyter notebooks, and small projects.",
+    "target_audience": "Beginners who know basic Python and want to build reliable, controllable AI agents that can plan, remember state, and loop until a task is complete.",
+    "prerequisites": [
+      "Basic Python knowledge (variables, functions, lists/dicts)",
+      "Familiarity with Jupyter notebooks"
+    ],
+    "estimated_hours": 0
+  },
+  "modules": [
+    {
+      "id": "module-1",
+      "title": "Introduction to LangGraph",
+      "description": "Learn the fundamentals of LangGraph and its architecture.",
+      "module_outcomes": [
+        "Understand the basics of LangGraph",
+        "Identify components of LangGraph",
+        "Set up the LangGraph environment"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-1-lesson-1",
+          "title": "What is LangGraph?",
+          "summary": "An overview of LangGraph and its capabilities.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "1.1 Definition of LangGraph",
+            "1.1.1 Key features",
+            "1.1.2 Use cases"
+          ],
+          "concepts": [
+            "LangGraph architecture",
+            "use cases",
+            "components"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Setting Up LangGraph",
+              "goal": "Install LangGraph and run a sample workflow."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Identify LangGraph Components",
+              "task": "List and describe the main components of LangGraph.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Explore Use Cases",
+              "task": "Research and present two use cases for LangGraph.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is LangGraph?",
+              "answer": "LangGraph is a framework for creating stateful AI agents."
+            },
+            {
+              "question": "What are the key features of LangGraph?",
+              "answer": "Key features include state management, multi-agent support, and visual workflows."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Define LangGraph",
+            "Explain its use cases",
+            "Identify its components"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Creating AI agents for task automation"
+          ],
+          "common_mistakes": [
+            "Confusing LangGraph with other frameworks"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-1-lesson-2",
+          "title": "LangGraph Architecture",
+          "summary": "Dive into the architecture of LangGraph and its components.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "2.1 Nodes in LangGraph",
+            "2.1.1 Types of nodes",
+            "2.1.2 Node properties"
+          ],
+          "concepts": [
+            "nodes",
+            "edges",
+            "state management"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Creating Your First Node",
+              "goal": "Build a simple node in LangGraph."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Node Identification",
+              "task": "Identify and describe different types of nodes in LangGraph.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Edge Creation",
+              "task": "Create edges between nodes in a sample workflow.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a node in LangGraph?",
+              "answer": "A node represents a specific task or action in the workflow."
+            },
+            {
+              "question": "How do edges function in LangGraph?",
+              "answer": "Edges connect nodes and define the flow of execution."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Describe the architecture of LangGraph",
+            "Identify key components",
+            "Explain how components interact"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Building a simple task manager"
+          ],
+          "common_mistakes": [
+            "Misunderstanding the role of nodes and edges"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-1-lesson-3",
+          "title": "Setting Up Your LangGraph Environment",
+          "summary": "Learn how to set up the LangGraph environment for development.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "3.1 Installing LangGraph",
+            "3.1.1 Using pip",
+            "3.1.2 Verifying installation"
+          ],
+          "concepts": [
+            "environment setup",
+            "package installation",
+            "running applications"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "LangGraph Installation Lab",
+              "goal": "Successfully install LangGraph and run a sample application."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Package Installation",
+              "task": "Install LangGraph and any dependencies.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Run Sample Application",
+              "task": "Run a provided sample LangGraph application.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What command is used to install LangGraph?",
+              "answer": "You can use pip install langgraph."
+            },
+            {
+              "question": "How can you verify the installation?",
+              "answer": "Run a sample application to ensure it executes without errors."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Install necessary packages",
+            "Configure the environment",
+            "Run a sample LangGraph application"
+          ],
+          "prereqs": [],
+          "real_world_use_cases": [
+            "Setting up a development environment for AI projects"
+          ],
+          "common_mistakes": [
+            "Skipping installation steps"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "module-2",
+      "title": "Building Basic Workflows",
+      "description": "Learn how to create simple workflows using LangGraph.",
+      "module_outcomes": [
+        "Create basic workflows",
+        "Understand workflow components",
+        "Implement simple logic"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-2-lesson-1",
+          "title": "Creating Your First Workflow",
+          "summary": "Step-by-step guide to building a basic workflow in LangGraph.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "1.1 Workflow Basics",
+            "1.1.1 Defining a workflow",
+            "1.1.2 Adding nodes"
+          ],
+          "concepts": [
+            "workflow creation",
+            "nodes",
+            "edges"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Build a Simple Task Workflow",
+              "goal": "Create a workflow that automates a simple task."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Node Addition",
+              "task": "Add at least three nodes to your workflow.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Edge Connection",
+              "task": "Connect the nodes with edges to define the workflow.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a workflow in LangGraph?",
+              "answer": "A workflow is a sequence of tasks represented by nodes and edges."
+            },
+            {
+              "question": "How do you add a node to a workflow?",
+              "answer": "You can add a node by defining its properties and connecting it to other nodes."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Build a simple workflow",
+            "Add nodes and edges",
+            "Test the workflow"
+          ],
+          "prereqs": [
+            "module-1-lesson-3"
+          ],
+          "real_world_use_cases": [
+            "Automating a simple task"
+          ],
+          "common_mistakes": [
+            "Not connecting nodes correctly"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-2-lesson-2",
+          "title": "Implementing Conditional Logic",
+          "summary": "Learn how to add conditional logic to your workflows.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "2.1 Conditional Statements",
+            "2.1.1 Syntax of if statements",
+            "2.1.2 Using else and elif"
+          ],
+          "concepts": [
+            "if statements",
+            "branching logic",
+            "workflow testing"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Conditional Workflow Lab",
+              "goal": "Create a workflow that uses conditional logic."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define Conditions",
+              "task": "Write if statements for your workflow.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Test Your Workflow",
+              "task": "Run your workflow and check the output based on conditions.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the purpose of an if statement?",
+              "answer": "An if statement allows you to execute code based on a condition."
+            },
+            {
+              "question": "How do you implement branching logic?",
+              "answer": "By using if, elif, and else statements to control the flow."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Use if statements",
+            "Implement branching logic",
+            "Test conditional workflows"
+          ],
+          "prereqs": [
+            "module-2-lesson-1"
+          ],
+          "real_world_use_cases": [
+            "Creating decision-based workflows"
+          ],
+          "common_mistakes": [
+            "Incorrectly defining conditions"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-2-lesson-3",
+          "title": "Testing and Debugging Workflows",
+          "summary": "Learn how to test and debug your workflows effectively.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "3.1 Testing Techniques",
+            "3.1.1 Unit testing",
+            "3.1.2 Integration testing"
+          ],
+          "concepts": [
+            "workflow testing",
+            "error identification",
+            "debugging techniques"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Debugging Lab",
+              "goal": "Identify and fix errors in a provided workflow."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Run Tests",
+              "task": "Run tests on your workflow and document the results.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Error Analysis",
+              "task": "Analyze error messages and suggest fixes.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the importance of testing workflows?",
+              "answer": "Testing ensures that workflows function as intended and helps identify issues."
+            },
+            {
+              "question": "What should you do when you encounter an error?",
+              "answer": "Analyze the error message and debug the workflow accordingly."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Test workflows",
+            "Identify errors",
+            "Debug common issues"
+          ],
+          "prereqs": [
+            "module-2-lesson-2"
+          ],
+          "real_world_use_cases": [
+            "Ensuring workflows run smoothly"
+          ],
+          "common_mistakes": [
+            "Ignoring error messages"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 2
+    },
+    {
+      "id": "module-3",
+      "title": "Advanced Workflow Techniques",
+      "description": "Explore advanced techniques for building complex workflows.",
+      "module_outcomes": [
+        "Implement advanced logic",
+        "Manage state effectively",
+        "Optimize workflows"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-3-lesson-1",
+          "title": "State Management in LangGraph",
+          "summary": "Learn how to manage state within your workflows.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "1.1 Understanding State",
+            "1.1.1 What is state?",
+            "1.1.2 Why manage state?"
+          ],
+          "concepts": [
+            "state management",
+            "state variables",
+            "state transitions"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "State Management Lab",
+              "goal": "Implement state management in a sample workflow."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define State Variables",
+              "task": "Create state variables for your workflow.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Test State Changes",
+              "task": "Run your workflow and observe state changes.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is state in a workflow?",
+              "answer": "State refers to the current condition or data held by the workflow."
+            },
+            {
+              "question": "Why is state management important?",
+              "answer": "It allows workflows to remember information and make decisions based on past inputs."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Define state management",
+            "Implement state in workflows",
+            "Test state changes"
+          ],
+          "prereqs": [
+            "module-2-lesson-3"
+          ],
+          "real_world_use_cases": [
+            "Creating workflows that remember user input"
+          ],
+          "common_mistakes": [
+            "Not updating state correctly"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-3-lesson-2",
+          "title": "Using Loops in Workflows",
+          "summary": "Implement loops to repeat tasks within workflows.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "2.1 Loop Basics",
+            "2.1.1 For loops",
+            "2.1.2 While loops"
+          ],
+          "concepts": [
+            "for loops",
+            "while loops",
+            "loop control"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Loop Implementation Lab",
+              "goal": "Create a workflow that uses loops to automate tasks."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Implement a For Loop",
+              "task": "Add a for loop to iterate over a list in your workflow.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Implement a While Loop",
+              "task": "Add a while loop to repeat a task until a condition is met.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a for loop?",
+              "answer": "A for loop iterates over a sequence, executing code for each item."
+            },
+            {
+              "question": "What is a while loop?",
+              "answer": "A while loop repeats code as long as a condition is true."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Define loops",
+            "Implement for and while loops",
+            "Test looping workflows"
+          ],
+          "prereqs": [
+            "module-3-lesson-1"
+          ],
+          "real_world_use_cases": [
+            "Automating repetitive tasks"
+          ],
+          "common_mistakes": [
+            "Creating infinite loops"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-3-lesson-3",
+          "title": "Optimizing Workflows",
+          "summary": "Learn techniques to optimize your workflows for performance.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "3.1 Performance Analysis",
+            "3.1.1 Identifying bottlenecks",
+            "3.1.2 Techniques for optimization"
+          ],
+          "concepts": [
+            "performance optimization",
+            "bottlenecks",
+            "execution time"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Workflow Optimization Lab",
+              "goal": "Analyze and optimize a provided workflow."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Analyze Performance",
+              "task": "Run performance tests on your workflow.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Implement Optimizations",
+              "task": "Apply optimizations to improve workflow efficiency.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What are performance bottlenecks?",
+              "answer": "Bottlenecks are points in the workflow that slow down execution."
+            },
+            {
+              "question": "How can you optimize a workflow?",
+              "answer": "By analyzing performance and applying techniques to improve efficiency."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Identify performance bottlenecks",
+            "Optimize node execution",
+            "Test optimized workflows"
+          ],
+          "prereqs": [
+            "module-3-lesson-2"
+          ],
+          "real_world_use_cases": [
+            "Improving the efficiency of workflows"
+          ],
+          "common_mistakes": [
+            "Neglecting to test after optimization"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 3
+    },
+    {
+      "id": "module-4",
+      "title": "Multi-Agent Workflows",
+      "description": "Explore the creation of workflows involving multiple agents.",
+      "module_outcomes": [
+        "Create multi-agent workflows",
+        "Manage agent interactions",
+        "Implement communication between agents"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-4-lesson-1",
+          "title": "Introduction to Multi-Agent Workflows",
+          "summary": "Understand the basics of multi-agent systems and their applications.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "1.1 What is a Multi-Agent System?",
+            "1.1.1 Characteristics of multi-agent systems",
+            "1.1.2 Applications of multi-agent systems"
+          ],
+          "concepts": [
+            "multi-agent systems",
+            "agent interactions",
+            "use cases"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Multi-Agent System Lab",
+              "goal": "Create a simple multi-agent system."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define Multi-Agent Use Cases",
+              "task": "List and describe two use cases for multi-agent systems.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Identify Agent Interactions",
+              "task": "Describe how agents can interact in a multi-agent system.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a multi-agent system?",
+              "answer": "A system composed of multiple interacting agents."
+            },
+            {
+              "question": "What are some applications of multi-agent systems?",
+              "answer": "Applications include collaborative problem-solving and distributed control."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Define multi-agent systems",
+            "Identify use cases",
+            "Explain agent interactions"
+          ],
+          "prereqs": [
+            "module-3-lesson-3"
+          ],
+          "real_world_use_cases": [
+            "Collaborative task management"
+          ],
+          "common_mistakes": [
+            "Overcomplicating agent interactions"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-4-lesson-2",
+          "title": "Creating Multi-Agent Workflows",
+          "summary": "Learn how to create workflows that involve multiple agents.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "2.1 Designing Multi-Agent Workflows",
+            "2.1.1 Defining roles",
+            "2.1.2 Establishing communication"
+          ],
+          "concepts": [
+            "workflow design",
+            "agent roles",
+            "interaction testing"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Multi-Agent Workflow Lab",
+              "goal": "Create a workflow that involves multiple agents working together."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define Agent Roles",
+              "task": "Outline the roles of each agent in your workflow.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Test Agent Communication",
+              "task": "Run your workflow and observe agent interactions.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "How do you define roles for agents?",
+              "answer": "Roles can be defined based on the tasks each agent is responsible for."
+            },
+            {
+              "question": "What is the importance of agent communication?",
+              "answer": "Effective communication allows agents to collaborate and complete tasks efficiently."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Build a multi-agent workflow",
+            "Define agent roles",
+            "Test agent interactions"
+          ],
+          "prereqs": [
+            "module-4-lesson-1"
+          ],
+          "real_world_use_cases": [
+            "Coordinating tasks between agents"
+          ],
+          "common_mistakes": [
+            "Failing to define clear roles for agents"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-4-lesson-3",
+          "title": "Testing Multi-Agent Interactions",
+          "summary": "Learn how to test and debug interactions between multiple agents.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "3.1 Testing Techniques for Multi-Agent Systems",
+            "3.1.1 Unit testing",
+            "3.1.2 Integration testing"
+          ],
+          "concepts": [
+            "interaction testing",
+            "debugging techniques",
+            "communication issues"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Multi-Agent Testing Lab",
+              "goal": "Test and debug a multi-agent workflow."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Run Interaction Tests",
+              "task": "Run tests on your multi-agent workflow and document results.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Analyze Communication Issues",
+              "task": "Identify and suggest fixes for any communication problems.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the purpose of testing multi-agent interactions?",
+              "answer": "To ensure that agents can communicate and collaborate effectively."
+            },
+            {
+              "question": "What should you do if you encounter communication issues?",
+              "answer": "Analyze the workflow and debug the interactions between agents."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Test multi-agent workflows",
+            "Identify interaction issues",
+            "Debug agent communication"
+          ],
+          "prereqs": [
+            "module-4-lesson-2"
+          ],
+          "real_world_use_cases": [
+            "Ensuring smooth operation of multi-agent systems"
+          ],
+          "common_mistakes": [
+            "Neglecting to test interactions"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 4
+    },
+    {
+      "id": "module-5",
+      "title": "Persistence and Memory in Workflows",
+      "description": "Learn how to implement persistence and memory in your workflows.",
+      "module_outcomes": [
+        "Implement memory in workflows",
+        "Manage persistent data",
+        "Utilize stateful workflows"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-5-lesson-1",
+          "title": "Understanding Memory in Workflows",
+          "summary": "Explore the concept of memory in workflows and its importance.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "1.1 What is Memory?",
+            "1.1.1 Types of memory",
+            "1.1.2 Importance of memory in workflows"
+          ],
+          "concepts": [
+            "memory types",
+            "importance of memory",
+            "stateful workflows"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Memory Implementation Lab",
+              "goal": "Implement memory in a sample workflow."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define Memory Types",
+              "task": "List and describe different types of memory used in workflows.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Explain Memory Importance",
+              "task": "Write a brief explanation of why memory is important in workflows.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is memory in a workflow?",
+              "answer": "Memory refers to the ability of a workflow to retain information across executions."
+            },
+            {
+              "question": "Why is memory important?",
+              "answer": "It allows workflows to adapt based on previous interactions and data."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Define memory in workflows",
+            "Identify types of memory",
+            "Explain the importance of memory"
+          ],
+          "prereqs": [
+            "module-4-lesson-3"
+          ],
+          "real_world_use_cases": [
+            "Creating workflows that remember user preferences"
+          ],
+          "common_mistakes": [
+            "Failing to implement memory correctly"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-5-lesson-2",
+          "title": "Implementing Persistent Data Storage",
+          "summary": "Learn how to store data persistently in workflows.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "2.1 Data Storage Basics",
+            "2.1.1 Types of data storage",
+            "2.1.2 Implementing storage solutions"
+          ],
+          "concepts": [
+            "data storage",
+            "retrieval methods",
+            "persistence"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Data Storage Lab",
+              "goal": "Implement a data storage solution in a sample workflow."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define Storage Types",
+              "task": "List and describe different types of data storage solutions.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Test Data Retrieval",
+              "task": "Implement and test data retrieval methods.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is persistent data storage?",
+              "answer": "Persistent data storage allows data to be saved and retrieved across sessions."
+            },
+            {
+              "question": "Why is data retrieval important?",
+              "answer": "It enables workflows to access previously stored information."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Define persistent data storage",
+            "Implement data storage solutions",
+            "Test data retrieval"
+          ],
+          "prereqs": [
+            "module-5-lesson-1"
+          ],
+          "real_world_use_cases": [
+            "Storing user data for future interactions"
+          ],
+          "common_mistakes": [
+            "Not testing data retrieval"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-5-lesson-3",
+          "title": "Utilizing Stateful Workflows",
+          "summary": "Learn how to create workflows that maintain state across executions.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "3.1 Understanding Stateful Workflows",
+            "3.1.1 Characteristics of stateful workflows",
+            "3.1.2 Implementing stateful behavior"
+          ],
+          "concepts": [
+            "stateful workflows",
+            "state management",
+            "workflow testing"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Stateful Workflow Lab",
+              "goal": "Create a stateful workflow that remembers user interactions."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define Stateful Characteristics",
+              "task": "List characteristics of stateful workflows.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Test Stateful Behavior",
+              "task": "Run your stateful workflow and observe its behavior.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a stateful workflow?",
+              "answer": "A stateful workflow retains information across executions."
+            },
+            {
+              "question": "Why is state management important in workflows?",
+              "answer": "It allows workflows to adapt and respond to user inputs effectively."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Define stateful workflows",
+            "Implement state management",
+            "Test stateful workflows"
+          ],
+          "prereqs": [
+            "module-5-lesson-2"
+          ],
+          "real_world_use_cases": [
+            "Creating workflows that adapt to user behavior"
+          ],
+          "common_mistakes": [
+            "Neglecting to test stateful behavior"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 5
+    },
+    {
+      "id": "module-6",
+      "title": "Deploying LangGraph Agents",
+      "description": "Learn how to deploy your LangGraph agents as web APIs.",
+      "module_outcomes": [
+        "Deploy agents",
+        "Create web APIs",
+        "Test deployed agents"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-6-lesson-1",
+          "title": "Introduction to Deployment",
+          "summary": "Understand the basics of deploying LangGraph agents.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "1.1 What is Deployment?",
+            "1.1.1 Types of deployment",
+            "1.1.2 Deployment process"
+          ],
+          "concepts": [
+            "deployment",
+            "web APIs",
+            "deployment options"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Deployment Lab",
+              "goal": "Deploy a simple LangGraph agent as a web API."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define Deployment Types",
+              "task": "List and describe different types of deployment options.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Explain Deployment Process",
+              "task": "Outline the steps involved in deploying an agent.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is deployment?",
+              "answer": "Deployment is the process of making an application accessible for use."
+            },
+            {
+              "question": "What are common deployment options?",
+              "answer": "Common options include cloud services, on-premises servers, and containerization."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Define deployment",
+            "Identify deployment options",
+            "Explain the deployment process"
+          ],
+          "prereqs": [
+            "module-5-lesson-3"
+          ],
+          "real_world_use_cases": [
+            "Making agents accessible via the web"
+          ],
+          "common_mistakes": [
+            "Skipping deployment steps"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-6-lesson-2",
+          "title": "Creating Web APIs for LangGraph Agents",
+          "summary": "Learn how to create web APIs for your LangGraph agents.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "2.1 Understanding Web APIs",
+            "2.1.1 API design principles",
+            "2.1.2 Implementing an API"
+          ],
+          "concepts": [
+            "web APIs",
+            "API implementation",
+            "testing APIs"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "API Implementation Lab",
+              "goal": "Create and test a web API for a LangGraph agent."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define API Principles",
+              "task": "List and describe key principles of API design.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Test Your API",
+              "task": "Run tests on your API to ensure it functions correctly.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a web API?",
+              "answer": "A web API allows applications to communicate over the internet."
+            },
+            {
+              "question": "Why is testing important for APIs?",
+              "answer": "Testing ensures that the API behaves as expected and handles errors gracefully."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Define web APIs",
+            "Implement a web API",
+            "Test the API"
+          ],
+          "prereqs": [
+            "module-6-lesson-1"
+          ],
+          "real_world_use_cases": [
+            "Interfacing with agents via HTTP requests"
+          ],
+          "common_mistakes": [
+            "Not testing the API"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-6-lesson-3",
+          "title": "Testing and Debugging Deployed Agents",
+          "summary": "Learn how to test and debug your deployed LangGraph agents.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "3.1 Testing Techniques",
+            "3.1.1 Unit testing",
+            "3.1.2 Integration testing"
+          ],
+          "concepts": [
+            "testing deployed agents",
+            "debugging techniques",
+            "issue identification"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Deployed Agent Testing Lab",
+              "goal": "Test and debug a deployed LangGraph agent."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Run Deployment Tests",
+              "task": "Run tests on your deployed agent and document results.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Analyze Issues",
+              "task": "Identify and suggest fixes for any issues encountered.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "Why is testing important after deployment?",
+              "answer": "To ensure that the agent functions correctly in a live environment."
+            },
+            {
+              "question": "What should you do if you encounter issues?",
+              "answer": "Analyze the logs and debug the agent to resolve issues."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Test deployed agents",
+            "Identify issues",
+            "Debug agents"
+          ],
+          "prereqs": [
+            "module-6-lesson-2"
+          ],
+          "real_world_use_cases": [
+            "Ensuring reliability of deployed agents"
+          ],
+          "common_mistakes": [
+            "Neglecting to test after deployment"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 6
+    },
+    {
+      "id": "module-7",
+      "title": "Capstone Project",
+      "description": "Integrate all skills learned to build a complete LangGraph agent.",
+      "module_outcomes": [
+        "Build a complete LangGraph agent",
+        "Deploy the agent as a web API",
+        "Demonstrate agent capabilities"
+      ],
+      "estimated_minutes": 240,
+      "lessons": [
+        {
+          "id": "module-7-lesson-1",
+          "title": "Capstone Project Overview",
+          "summary": "Introduction to the capstone project and its requirements.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "1.1 Project Requirements",
+            "1.1.1 Defining objectives",
+            "1.1.2 Identifying resources"
+          ],
+          "concepts": [
+            "project planning",
+            "resource identification",
+            "requirements gathering"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Project Planning Lab",
+              "goal": "Create a project plan for your capstone project."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Outline Project Objectives",
+              "task": "List the main objectives of your capstone project.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Identify Resources",
+              "task": "Identify the resources you will need for your project.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What are the key components of a project plan?",
+              "answer": "Objectives, resources, timeline, and deliverables."
+            },
+            {
+              "question": "Why is planning important?",
+              "answer": "Planning helps ensure that the project stays on track and meets its goals."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Understand project requirements",
+            "Outline project plan",
+            "Identify necessary resources"
+          ],
+          "prereqs": [
+            "module-6-lesson-3"
+          ],
+          "real_world_use_cases": [
+            "Building a comprehensive AI agent"
+          ],
+          "common_mistakes": [
+            "Not planning adequately"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-7-lesson-2",
+          "title": "Building Your LangGraph Agent",
+          "summary": "Step-by-step guide to building your LangGraph agent.",
+          "difficulty": "beginner",
+          "estimated_minutes": 90,
+          "drilldown_outline": [
+            "2.1 Building the Agent",
+            "2.1.1 Implementing workflows",
+            "2.1.2 Testing functionality"
+          ],
+          "concepts": [
+            "agent building",
+            "workflow implementation",
+            "functionality testing"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Agent Building Lab",
+              "goal": "Build and test your LangGraph agent."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Implement Workflows",
+              "task": "Create and implement workflows for your agent.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Test Agent Functionality",
+              "task": "Run tests to ensure your agent works as intended.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the first step in building your agent?",
+              "answer": "Define the workflows that the agent will execute."
+            },
+            {
+              "question": "How do you test your agent's functionality?",
+              "answer": "By running scenarios and checking the outputs."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Build the agent",
+            "Implement workflows",
+            "Test agent functionality"
+          ],
+          "prereqs": [
+            "module-7-lesson-1"
+          ],
+          "real_world_use_cases": [
+            "Creating a functional AI agent"
+          ],
+          "common_mistakes": [
+            "Rushing the building process"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-7-lesson-3",
+          "title": "Deploying Your LangGraph Agent",
+          "summary": "Learn how to deploy your completed LangGraph agent.",
+          "difficulty": "beginner",
+          "estimated_minutes": 30,
+          "drilldown_outline": [
+            "3.1 Deployment Process",
+            "3.1.1 Creating a web API",
+            "3.1.2 Testing the deployed agent"
+          ],
+          "concepts": [
+            "deployment",
+            "web API creation",
+            "testing"
+          ],
+          "hands_on_labs": [
+            {
+              "title": "Deployment Lab",
+              "goal": "Deploy your LangGraph agent as a web API."
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Deploy Your Agent",
+              "task": "Follow the steps to deploy your LangGraph agent.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Test Your Deployment",
+              "task": "Run tests on your deployed agent to ensure functionality.",
+              "notebook_section_title": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the final step in the project?",
+              "answer": "Deploying the agent and ensuring it works as expected."
+            },
+            {
+              "question": "Why is testing important after deployment?",
+              "answer": "To confirm that the agent operates correctly in a live environment."
+            }
+          ],
+          "main_exercise": null,
+          "objectives": [
+            "Deploy the agent",
+            "Create a web API",
+            "Test the deployed agent"
+          ],
+          "prereqs": [
+            "module-7-lesson-2"
+          ],
+          "real_world_use_cases": [
+            "Making your agent accessible to users"
+          ],
+          "common_mistakes": [
+            "Neglecting to test after deployment"
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 7
+    }
+  ],
+  "capstone": {
+    "id": "capstone-1",
+    "title": "Capstone Project Title",
+    "description": "Integrate all skills learned to build a complete LangGraph agent.",
+    "deliverables": [
+      "Build a functional LangGraph agent",
+      "Deploy the agent as a web API",
+      "Demonstrate agent capabilities"
+    ]
+  },
+  "metadata": {}
+}

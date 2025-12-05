@@ -1,0 +1,1495 @@
+{
+  "course_id": "python-beginners",
+  "title": "Python for Beginners",
+  "overview": {
+    "description": "A deeply structured, hands-on introduction to Python programming designed for absolute beginners. This course teaches Python from the ground up, progressing through fine-grained modules and lessons that drill down to specific skills, such as working with variables, data types, string manipulation, if/elif/else conditions, loops (for/while), lists, dictionaries, functions, and beginner project-building. Each lesson includes concepts, micro-exercises, hands-on labs, and knowledge checks to ensure practical understanding.",
+    "target_audience": "Complete beginners with no prior programming experience who want a structured, step-by-step path to mastering Python fundamentals.",
+    "prerequisites": [
+      "Basic computer literacy (creating folders, opening applications)",
+      "Ability to install software such as Python and JupyterLab"
+    ],
+    "estimated_hours": 0
+  },
+  "modules": [
+    {
+      "id": "module-1",
+      "title": "Getting Started with Python",
+      "description": "Introduction to Python programming, installation, and basic syntax.",
+      "module_outcomes": [
+        "Understand Python installation",
+        "Write simple Python scripts",
+        "Utilize basic data types"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-1-lesson-1",
+          "title": "Installing Python and JupyterLab",
+          "summary": "Learn how to install Python and set up JupyterLab for coding.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "objectives": [
+            "Install Python on your machine",
+            "Set up JupyterLab",
+            "Run your first Python script"
+          ],
+          "prereqs": [],
+          "drilldown_outline": [
+            "1.1 Downloading Python",
+            "1.1.1 Choosing the right version",
+            "1.1.2 Installation process",
+            "1.2 Setting up JupyterLab",
+            "1.2.1 Installing JupyterLab via pip"
+          ],
+          "concepts": [
+            {
+              "name": "Python Installation",
+              "why_it_matters": "Essential for running Python code.",
+              "subtopics": [
+                "Downloading Python",
+                "Installation steps",
+                "Verifying installation"
+              ]
+            },
+            {
+              "name": "JupyterLab Setup",
+              "why_it_matters": "Provides an interactive environment for coding.",
+              "subtopics": [
+                "Installing JupyterLab",
+                "Launching JupyterLab",
+                "Creating a new notebook"
+              ]
+            }
+          ],
+          "real_world_use_cases": [
+            "Setting up a development environment for data analysis"
+          ],
+          "common_mistakes": [
+            "Skipping installation verification",
+            "Not updating Python"
+          ],
+          "hands_on_labs": [
+            {
+              "lab_id": "",
+              "title": "Lab: Your First Python Script",
+              "goal": "Write and run a simple Python script that prints 'Hello, World!'",
+              "steps": [],
+              "expected_output": ""
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Verify Python Installation",
+              "task": "Open a terminal and type 'python --version' to check if Python is installed.",
+              "prompt": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Create a New Jupyter Notebook",
+              "task": "Launch JupyterLab and create a new notebook titled 'My First Notebook'.",
+              "prompt": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What command do you use to check Python version?",
+              "answer": "'python --version' or 'python3 --version'",
+              "answer_type": "short",
+              "options": [],
+              "correct_answer": null
+            },
+            {
+              "question": "Why is JupyterLab useful?",
+              "answer": "It provides an interactive environment for writing and testing Python code.",
+              "answer_type": "short",
+              "options": [],
+              "correct_answer": null
+            }
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-1-lesson-2",
+          "title": "Understanding Python Syntax",
+          "summary": "Explore the basic syntax of Python, including indentation and comments.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "objectives": [
+            "Learn Python syntax rules",
+            "Understand the importance of indentation",
+            "Use comments effectively"
+          ],
+          "prereqs": [],
+          "drilldown_outline": [
+            "2.1 Basic Syntax",
+            "2.1.1 Structure of a Python script",
+            "2.1.2 Indentation importance",
+            "2.2 Comments",
+            "2.2.1 Single-line comments",
+            "2.2.2 Multi-line comments"
+          ],
+          "concepts": [
+            {
+              "name": "Python Syntax Rules",
+              "why_it_matters": "Correct syntax is crucial for code execution.",
+              "subtopics": [
+                "Basic structure of a Python program",
+                "Indentation rules",
+                "Using comments"
+              ]
+            },
+            {
+              "name": "Comments in Python",
+              "why_it_matters": "Comments help document code for better understanding.",
+              "subtopics": [
+                "Single-line comments",
+                "Multi-line comments"
+              ]
+            }
+          ],
+          "real_world_use_cases": [
+            "Writing maintainable code for projects"
+          ],
+          "common_mistakes": [
+            "Incorrect indentation",
+            "Forgetting to comment code"
+          ],
+          "hands_on_labs": [
+            {
+              "lab_id": "",
+              "title": "Lab: Writing Your First Script",
+              "goal": "Create a Python script that includes comments and proper indentation.",
+              "steps": [],
+              "expected_output": ""
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Indentation Practice",
+              "task": "Write a simple script that uses indentation to define a function.",
+              "prompt": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Comment Your Code",
+              "task": "Add comments to your previous script explaining each part.",
+              "prompt": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the role of indentation in Python?",
+              "answer": "It defines the structure and flow of the code.",
+              "answer_type": "short",
+              "options": [],
+              "correct_answer": null
+            },
+            {
+              "question": "How do you write a single-line comment in Python?",
+              "answer": "Use the '#' symbol before the comment text.",
+              "answer_type": "short",
+              "options": [],
+              "correct_answer": null
+            }
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-1-lesson-3",
+          "title": "Variables and Data Types",
+          "summary": "Learn about variables, data types, and how to use them in Python.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "objectives": [
+            "Define variables in Python",
+            "Understand different data types",
+            "Perform operations with variables"
+          ],
+          "prereqs": [],
+          "drilldown_outline": [
+            "3.1 Defining Variables",
+            "3.1.1 Syntax for variable assignment",
+            "3.1.2 Naming conventions",
+            "3.2 Data Types",
+            "3.2.1 Understanding integers",
+            "3.2.2 Understanding floats",
+            "3.2.3 Understanding strings",
+            "3.2.4 Understanding booleans"
+          ],
+          "concepts": [
+            {
+              "name": "Variables in Python",
+              "why_it_matters": "Variables store data for use in programs.",
+              "subtopics": [
+                "Defining variables",
+                "Variable naming conventions"
+              ]
+            },
+            {
+              "name": "Data Types",
+              "why_it_matters": "Different data types allow for varied operations.",
+              "subtopics": [
+                "Integers",
+                "Floats",
+                "Strings",
+                "Booleans"
+              ]
+            }
+          ],
+          "real_world_use_cases": [
+            "Storing user input for applications"
+          ],
+          "common_mistakes": [
+            "Using incorrect variable names",
+            "Not understanding data types"
+          ],
+          "hands_on_labs": [
+            {
+              "lab_id": "",
+              "title": "Lab: Working with Variables",
+              "goal": "Create a script that uses different data types and performs operations.",
+              "steps": [],
+              "expected_output": ""
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Variable Assignment",
+              "task": "Create variables for your name, age, and height.",
+              "prompt": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Data Type Identification",
+              "task": "Identify the data type of each variable you created.",
+              "prompt": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a variable?",
+              "answer": "A variable is a named storage location for data.",
+              "answer_type": "short",
+              "options": [],
+              "correct_answer": null
+            },
+            {
+              "question": "What data type would you use for a person's age?",
+              "answer": "An integer data type.",
+              "answer_type": "short",
+              "options": [],
+              "correct_answer": null
+            }
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": "module-2",
+      "title": "Control Flow in Python",
+      "description": "Learn how to control the flow of your Python programs using conditional statements and loops.",
+      "module_outcomes": [
+        "Implement if/elif/else statements",
+        "Use for and while loops",
+        "Understand loop control statements"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-2-lesson-1",
+          "title": "Conditional Statements: if/elif/else",
+          "summary": "Explore how to use conditional statements to control program flow.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "objectives": [
+            "Understand the syntax of if statements",
+            "Implement elif and else",
+            "Use logical operators"
+          ],
+          "prereqs": [],
+          "drilldown_outline": [
+            "1.1 if Statement Syntax",
+            "1.1.1 Basic structure",
+            "1.1.2 Comparison operators",
+            "1.2 elif and else",
+            "1.2.1 Syntax of elif",
+            "1.2.2 Syntax of else"
+          ],
+          "concepts": [
+            {
+              "name": "if Statements",
+              "why_it_matters": "Control flow based on conditions.",
+              "subtopics": [
+                "Basic syntax",
+                "Using comparison operators"
+              ]
+            },
+            {
+              "name": "elif and else",
+              "why_it_matters": "Handle multiple conditions effectively.",
+              "subtopics": [
+                "Syntax of elif",
+                "Syntax of else"
+              ]
+            }
+          ],
+          "real_world_use_cases": [
+            "Making decisions in applications based on user input"
+          ],
+          "common_mistakes": [
+            "Incorrect indentation",
+            "Using the wrong comparison operator"
+          ],
+          "hands_on_labs": [
+            {
+              "lab_id": "",
+              "title": "Lab: Building a Simple Decision Maker",
+              "goal": "Create a program that makes decisions based on user input.",
+              "steps": [],
+              "expected_output": ""
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Create an if Statement",
+              "task": "Write an if statement that checks if a number is positive.",
+              "prompt": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Implement elif and else",
+              "task": "Extend your if statement to include elif and else for negative and zero.",
+              "prompt": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the purpose of an if statement?",
+              "answer": "To execute code based on a condition.",
+              "answer_type": "short",
+              "options": [],
+              "correct_answer": null
+            },
+            {
+              "question": "How do you write an elif statement?",
+              "answer": "Use 'elif' followed by a condition and a colon.",
+              "answer_type": "short",
+              "options": [],
+              "correct_answer": null
+            }
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-2-lesson-2",
+          "title": "Loops: for and while",
+          "summary": "Learn how to use for and while loops to repeat actions in your code.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "objectives": [
+            "Understand the syntax of for loops",
+            "Implement while loops",
+            "Use break and continue statements"
+          ],
+          "prereqs": [],
+          "drilldown_outline": [
+            "2.1 for Loop Syntax",
+            "2.1.1 Basic structure",
+            "2.1.2 Using range()",
+            "2.2 while Loop Syntax",
+            "2.2.1 Basic structure",
+            "2.2.2 Sentinel loops"
+          ],
+          "concepts": [
+            {
+              "name": "for Loops",
+              "why_it_matters": "Iterate over sequences efficiently.",
+              "subtopics": [
+                "Basic syntax",
+                "Using range()"
+              ]
+            },
+            {
+              "name": "while Loops",
+              "why_it_matters": "Repeat actions until a condition is met.",
+              "subtopics": [
+                "Basic syntax",
+                "Sentinel loops"
+              ]
+            }
+          ],
+          "real_world_use_cases": [
+            "Processing items in a list",
+            "Repeating tasks until a condition changes"
+          ],
+          "common_mistakes": [
+            "Infinite loops",
+            "Incorrect loop conditions"
+          ],
+          "hands_on_labs": [
+            {
+              "lab_id": "",
+              "title": "Lab: Creating a Countdown Timer",
+              "goal": "Build a countdown timer using a while loop.",
+              "steps": [],
+              "expected_output": ""
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Write a for Loop",
+              "task": "Create a for loop that prints numbers from 1 to 10.",
+              "prompt": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Implement a while Loop",
+              "task": "Write a while loop that counts down from 10 to 1.",
+              "prompt": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the purpose of a for loop?",
+              "answer": "To iterate over a sequence or range of values.",
+              "answer_type": "short",
+              "options": [],
+              "correct_answer": null
+            },
+            {
+              "question": "How does a while loop work?",
+              "answer": "It continues to execute as long as a specified condition is true.",
+              "answer_type": "short",
+              "options": [],
+              "correct_answer": null
+            }
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-2-lesson-3",
+          "title": "Loop Control Statements: break and continue",
+          "summary": "Learn how to control loop execution with break and continue statements.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "objectives": [
+            "Understand the use of break",
+            "Implement continue in loops",
+            "Control loop flow effectively"
+          ],
+          "prereqs": [],
+          "drilldown_outline": [
+            "3.1 break Statement",
+            "3.1.1 Syntax and usage",
+            "3.1.2 Common scenarios",
+            "3.2 continue Statement",
+            "3.2.1 Syntax and usage",
+            "3.2.2 Common scenarios"
+          ],
+          "concepts": [
+            {
+              "name": "break Statement",
+              "why_it_matters": "Exit a loop prematurely when a condition is met.",
+              "subtopics": [
+                "Basic syntax",
+                "Use cases"
+              ]
+            },
+            {
+              "name": "continue Statement",
+              "why_it_matters": "Skip the current iteration and continue with the next.",
+              "subtopics": [
+                "Basic syntax",
+                "Use cases"
+              ]
+            }
+          ],
+          "real_world_use_cases": [
+            "Exiting loops based on user input",
+            "Skipping unwanted iterations"
+          ],
+          "common_mistakes": [
+            "Using break incorrectly",
+            "Not understanding loop flow"
+          ],
+          "hands_on_labs": [
+            {
+              "lab_id": "",
+              "title": "Lab: Building a Number Guessing Game",
+              "goal": "Create a game that uses break and continue to control the flow.",
+              "steps": [],
+              "expected_output": ""
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Use break in a Loop",
+              "task": "Write a loop that breaks when a specific condition is met.",
+              "prompt": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Use continue in a Loop",
+              "task": "Write a loop that skips even numbers and prints only odd numbers.",
+              "prompt": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What does the break statement do?",
+              "answer": "It exits the loop immediately.",
+              "answer_type": "short",
+              "options": [],
+              "correct_answer": null
+            },
+            {
+              "question": "What is the purpose of the continue statement?",
+              "answer": "It skips the current iteration and continues with the next.",
+              "answer_type": "short",
+              "options": [],
+              "correct_answer": null
+            }
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 2
+    },
+    {
+      "id": "module-3",
+      "title": "Data Structures in Python",
+      "description": "Explore Python's built-in data structures including lists, dictionaries, and tuples.",
+      "module_outcomes": [
+        "Manipulate lists and dictionaries",
+        "Understand tuples and sets",
+        "Use data structures effectively"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-3-lesson-1",
+          "title": "Working with Lists",
+          "summary": "Learn how to create and manipulate lists in Python.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "objectives": [
+            "Create lists and access elements",
+            "Modify lists",
+            "Use list methods"
+          ],
+          "prereqs": [],
+          "drilldown_outline": [
+            "1.1 Creating Lists",
+            "1.1.1 Syntax for list creation",
+            "1.1.2 Accessing elements",
+            "1.2 Modifying Lists",
+            "1.2.1 Adding elements",
+            "1.2.2 Removing elements",
+            "1.3 List Methods",
+            "1.3.1 Using append()",
+            "1.3.2 Using remove()",
+            "1.3.3 Using sort()"
+          ],
+          "concepts": [
+            {
+              "name": "Creating Lists",
+              "why_it_matters": "Lists are essential for storing collections of data.",
+              "subtopics": [
+                "List syntax",
+                "Accessing elements"
+              ]
+            },
+            {
+              "name": "List Methods",
+              "why_it_matters": "Methods allow for efficient manipulation of list data.",
+              "subtopics": [
+                "append()",
+                "remove()",
+                "sort()"
+              ]
+            }
+          ],
+          "real_world_use_cases": [
+            "Storing a collection of items like shopping lists"
+          ],
+          "common_mistakes": [
+            "Indexing errors",
+            "Modifying lists incorrectly"
+          ],
+          "hands_on_labs": [
+            {
+              "lab_id": "",
+              "title": "Lab: Building a To-Do List Application",
+              "goal": "Create a simple to-do list application using lists.",
+              "steps": [],
+              "expected_output": ""
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Create a List",
+              "task": "Create a list of your favorite fruits.",
+              "prompt": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Modify the List",
+              "task": "Add a new fruit to your list and remove one.",
+              "prompt": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "How do you access the first element of a list?",
+              "answer": "Use list_name[0] to access the first element.",
+              "answer_type": "short",
+              "options": [],
+              "correct_answer": null
+            },
+            {
+              "question": "What method would you use to add an element to a list?",
+              "answer": "Use the append() method.",
+              "answer_type": "short",
+              "options": [],
+              "correct_answer": null
+            }
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-3-lesson-2",
+          "title": "Dictionaries: Key-Value Pairs",
+          "summary": "Understand how to use dictionaries to store data in key-value pairs.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "objectives": [
+            "Create dictionaries",
+            "Access and modify values",
+            "Use dictionary methods"
+          ],
+          "prereqs": [],
+          "drilldown_outline": [
+            "2.1 Creating Dictionaries",
+            "2.1.1 Syntax for dictionary creation",
+            "2.1.2 Accessing values",
+            "2.2 Dictionary Methods",
+            "2.2.1 Using get()",
+            "2.2.2 Using keys()",
+            "2.2.3 Using values()"
+          ],
+          "concepts": [
+            {
+              "name": "Creating Dictionaries",
+              "why_it_matters": "Dictionaries allow for efficient data retrieval.",
+              "subtopics": [
+                "Syntax for creating dictionaries",
+                "Accessing values"
+              ]
+            },
+            {
+              "name": "Dictionary Methods",
+              "why_it_matters": "Methods provide functionality for managing dictionary data.",
+              "subtopics": [
+                "get()",
+                "keys()",
+                "values()"
+              ]
+            }
+          ],
+          "real_world_use_cases": [
+            "Storing user profiles with attributes"
+          ],
+          "common_mistakes": [
+            "Using incorrect keys",
+            "Not checking for key existence"
+          ],
+          "hands_on_labs": [
+            {
+              "lab_id": "",
+              "title": "Lab: Building a Contact Book",
+              "goal": "Create a contact book application using dictionaries.",
+              "steps": [],
+              "expected_output": ""
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Create a Dictionary",
+              "task": "Create a dictionary to store information about your favorite book.",
+              "prompt": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Modify the Dictionary",
+              "task": "Add a new attribute to your book dictionary.",
+              "prompt": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "How do you access a value in a dictionary?",
+              "answer": "Use dictionary_name[key] to access the value.",
+              "answer_type": "short",
+              "options": [],
+              "correct_answer": null
+            },
+            {
+              "question": "What does the get() method do?",
+              "answer": "It retrieves the value for a specified key.",
+              "answer_type": "short",
+              "options": [],
+              "correct_answer": null
+            }
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-3-lesson-3",
+          "title": "Tuples and Sets",
+          "summary": "Learn about tuples and sets, their properties, and when to use them.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "objectives": [
+            "Understand tuples and their immutability",
+            "Learn about sets and their uniqueness",
+            "Use tuples and sets effectively"
+          ],
+          "prereqs": [],
+          "drilldown_outline": [
+            "3.1 Understanding Tuples",
+            "3.1.1 Creating tuples",
+            "3.1.2 Accessing elements",
+            "3.2 Understanding Sets",
+            "3.2.1 Creating sets",
+            "3.2.2 Set operations"
+          ],
+          "concepts": [
+            {
+              "name": "Tuples",
+              "why_it_matters": "Tuples are immutable and can be used for fixed collections.",
+              "subtopics": [
+                "Creating tuples",
+                "Accessing tuple elements"
+              ]
+            },
+            {
+              "name": "Sets",
+              "why_it_matters": "Sets store unique items and are useful for membership testing.",
+              "subtopics": [
+                "Creating sets",
+                "Set operations"
+              ]
+            }
+          ],
+          "real_world_use_cases": [
+            "Using tuples for coordinates",
+            "Using sets for unique items"
+          ],
+          "common_mistakes": [
+            "Trying to modify a tuple",
+            "Not understanding set properties"
+          ],
+          "hands_on_labs": [
+            {
+              "lab_id": "",
+              "title": "Lab: Using Tuples and Sets",
+              "goal": "Create a program that utilizes tuples and sets for data management.",
+              "steps": [],
+              "expected_output": ""
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Create a Tuple",
+              "task": "Create a tuple to store coordinates (x, y).",
+              "prompt": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Create a Set",
+              "task": "Create a set of unique colors.",
+              "prompt": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a tuple?",
+              "answer": "A tuple is an immutable collection of items.",
+              "answer_type": "short",
+              "options": [],
+              "correct_answer": null
+            },
+            {
+              "question": "What is the main property of a set?",
+              "answer": "A set contains only unique items.",
+              "answer_type": "short",
+              "options": [],
+              "correct_answer": null
+            }
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 3
+    },
+    {
+      "id": "module-4",
+      "title": "Functions and Modules",
+      "description": "Learn how to define and use functions to create modular code.",
+      "module_outcomes": [
+        "Define functions",
+        "Use parameters and return values",
+        "Organize code into modules"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-4-lesson-1",
+          "title": "Defining Functions",
+          "summary": "Understand how to define and call functions in Python.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "objectives": [
+            "Define a function",
+            "Call a function",
+            "Understand function scope"
+          ],
+          "prereqs": [],
+          "drilldown_outline": [
+            "1.1 Defining Functions",
+            "1.1.1 Syntax for defining functions",
+            "1.1.2 Naming conventions",
+            "1.2 Calling Functions",
+            "1.2.1 Syntax for calling functions",
+            "1.2.2 Passing arguments"
+          ],
+          "concepts": [
+            {
+              "name": "Function Definition",
+              "why_it_matters": "Functions allow for code reuse and organization.",
+              "subtopics": [
+                "Syntax for defining functions",
+                "Function naming conventions"
+              ]
+            },
+            {
+              "name": "Calling Functions",
+              "why_it_matters": "Calling functions executes the code within them.",
+              "subtopics": [
+                "Syntax for calling functions",
+                "Passing arguments"
+              ]
+            }
+          ],
+          "real_world_use_cases": [
+            "Creating reusable code for common tasks"
+          ],
+          "common_mistakes": [
+            "Not returning values",
+            "Incorrect function calls"
+          ],
+          "hands_on_labs": [
+            {
+              "lab_id": "",
+              "title": "Lab: Creating a Simple Calculator",
+              "goal": "Build a calculator that uses functions for operations.",
+              "steps": [],
+              "expected_output": ""
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define a Function",
+              "task": "Create a function that adds two numbers.",
+              "prompt": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Call Your Function",
+              "task": "Call your function with different arguments.",
+              "prompt": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a function?",
+              "answer": "A function is a block of code that performs a specific task.",
+              "answer_type": "short",
+              "options": [],
+              "correct_answer": null
+            },
+            {
+              "question": "How do you call a function?",
+              "answer": "Use the function name followed by parentheses.",
+              "answer_type": "short",
+              "options": [],
+              "correct_answer": null
+            }
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-4-lesson-2",
+          "title": "Parameters and Return Values",
+          "summary": "Learn how to use parameters and return values in functions.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "objectives": [
+            "Define functions with parameters",
+            "Return values from functions",
+            "Understand scope"
+          ],
+          "prereqs": [],
+          "drilldown_outline": [
+            "2.1 Function Parameters",
+            "2.1.1 Defining parameters",
+            "2.1.2 Default parameters",
+            "2.2 Return Values",
+            "2.2.1 Using return statements",
+            "2.2.2 Returning multiple values"
+          ],
+          "concepts": [
+            {
+              "name": "Function Parameters",
+              "why_it_matters": "Parameters allow functions to accept input.",
+              "subtopics": [
+                "Defining parameters",
+                "Using default parameters"
+              ]
+            },
+            {
+              "name": "Return Values",
+              "why_it_matters": "Return values provide output from functions.",
+              "subtopics": [
+                "Using return statements",
+                "Returning multiple values"
+              ]
+            }
+          ],
+          "real_world_use_cases": [
+            "Creating functions that process user input"
+          ],
+          "common_mistakes": [
+            "Not using return statements",
+            "Confusing parameter names"
+          ],
+          "hands_on_labs": [
+            {
+              "lab_id": "",
+              "title": "Lab: Building a Temperature Converter",
+              "goal": "Create a function that converts temperatures between Celsius and Fahrenheit.",
+              "steps": [],
+              "expected_output": ""
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Define a Function with Parameters",
+              "task": "Create a function that calculates the area of a rectangle.",
+              "prompt": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Return a Value",
+              "task": "Modify your function to return the area.",
+              "prompt": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a parameter?",
+              "answer": "A parameter is a variable used in a function definition.",
+              "answer_type": "short",
+              "options": [],
+              "correct_answer": null
+            },
+            {
+              "question": "How do you return a value from a function?",
+              "answer": "Use the return statement followed by the value.",
+              "answer_type": "short",
+              "options": [],
+              "correct_answer": null
+            }
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-4-lesson-3",
+          "title": "Organizing Code into Modules",
+          "summary": "Learn how to organize your code into modules for better structure.",
+          "difficulty": "beginner",
+          "estimated_minutes": 45,
+          "objectives": [
+            "Understand what modules are",
+            "Import modules in Python",
+            "Create your own modules"
+          ],
+          "prereqs": [],
+          "drilldown_outline": [
+            "3.1 Understanding Modules",
+            "3.1.1 Definition of a module",
+            "3.1.2 Benefits of modular code",
+            "3.2 Importing Modules",
+            "3.2.1 Syntax for importing",
+            "3.2.2 Importing specific functions"
+          ],
+          "concepts": [
+            {
+              "name": "Understanding Modules",
+              "why_it_matters": "Modules help organize code into reusable components.",
+              "subtopics": [
+                "What is a module?",
+                "Benefits of using modules"
+              ]
+            },
+            {
+              "name": "Importing Modules",
+              "why_it_matters": "Importing allows access to functions and variables from other files.",
+              "subtopics": [
+                "Using import statement",
+                "Importing specific functions"
+              ]
+            }
+          ],
+          "real_world_use_cases": [
+            "Structuring larger applications"
+          ],
+          "common_mistakes": [
+            "Not importing correctly",
+            "Confusing module names"
+          ],
+          "hands_on_labs": [
+            {
+              "lab_id": "",
+              "title": "Lab: Creating a Module for Your Calculator",
+              "goal": "Organize your calculator functions into a separate module.",
+              "steps": [],
+              "expected_output": ""
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Create a Simple Module",
+              "task": "Create a module that contains your area calculation function.",
+              "prompt": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Import Your Module",
+              "task": "Import your module into a new script and use the function.",
+              "prompt": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is a module in Python?",
+              "answer": "A module is a file containing Python code that can be imported.",
+              "answer_type": "short",
+              "options": [],
+              "correct_answer": null
+            },
+            {
+              "question": "How do you import a module?",
+              "answer": "Use the import statement followed by the module name.",
+              "answer_type": "short",
+              "options": [],
+              "correct_answer": null
+            }
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 4
+    },
+    {
+      "id": "module-5",
+      "title": "Building Projects",
+      "description": "Apply your knowledge by building small projects using Python.",
+      "module_outcomes": [
+        "Create simple applications",
+        "Apply learned concepts",
+        "Work on a capstone project"
+      ],
+      "estimated_minutes": 180,
+      "lessons": [
+        {
+          "id": "module-5-lesson-1",
+          "title": "Project: To-Do List Application",
+          "summary": "Build a simple to-do list application using Python.",
+          "difficulty": "beginner",
+          "estimated_minutes": 60,
+          "objectives": [
+            "Implement a user interface",
+            "Store tasks in a list",
+            "Allow task management"
+          ],
+          "prereqs": [],
+          "drilldown_outline": [
+            "1.1 Designing the UI",
+            "1.1.1 Using input() for user interaction",
+            "1.1.2 Displaying tasks",
+            "1.2 Managing Tasks",
+            "1.2.1 Adding tasks",
+            "1.2.2 Removing tasks"
+          ],
+          "concepts": [
+            {
+              "name": "User Interface Design",
+              "why_it_matters": "A good UI enhances user experience.",
+              "subtopics": [
+                "Basic UI concepts",
+                "Using input() for user interaction"
+              ]
+            },
+            {
+              "name": "Task Management",
+              "why_it_matters": "Managing tasks effectively is crucial for productivity.",
+              "subtopics": [
+                "Adding tasks",
+                "Removing tasks",
+                "Displaying tasks"
+              ]
+            }
+          ],
+          "real_world_use_cases": [
+            "Creating applications for personal productivity"
+          ],
+          "common_mistakes": [
+            "Not validating user input",
+            "Poor task management"
+          ],
+          "hands_on_labs": [
+            {
+              "lab_id": "",
+              "title": "Lab: Building the To-Do List",
+              "goal": "Create a functional to-do list application.",
+              "steps": [],
+              "expected_output": ""
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Design the UI",
+              "task": "Sketch out how your to-do list application will look.",
+              "prompt": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Implement Task Addition",
+              "task": "Write code to add tasks to your list.",
+              "prompt": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the purpose of a user interface?",
+              "answer": "To allow users to interact with the application.",
+              "answer_type": "short",
+              "options": [],
+              "correct_answer": null
+            },
+            {
+              "question": "How do you store tasks in a list?",
+              "answer": "Use a list to append tasks as they are added.",
+              "answer_type": "short",
+              "options": [],
+              "correct_answer": null
+            }
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 1
+        },
+        {
+          "id": "module-5-lesson-2",
+          "title": "Project: Simple Calculator",
+          "summary": "Create a simple calculator application using functions.",
+          "difficulty": "beginner",
+          "estimated_minutes": 60,
+          "objectives": [
+            "Implement basic arithmetic operations",
+            "Use functions for calculations",
+            "Create a user-friendly interface"
+          ],
+          "prereqs": [],
+          "drilldown_outline": [
+            "2.1 Implementing Operations",
+            "2.1.1 Addition function",
+            "2.1.2 Subtraction function",
+            "2.1.3 Multiplication function",
+            "2.1.4 Division function",
+            "2.2 Creating the UI",
+            "2.2.1 Using input() for user interaction"
+          ],
+          "concepts": [
+            {
+              "name": "Arithmetic Operations",
+              "why_it_matters": "Basic operations are fundamental to programming.",
+              "subtopics": [
+                "Addition",
+                "Subtraction",
+                "Multiplication",
+                "Division"
+              ]
+            },
+            {
+              "name": "Function Usage",
+              "why_it_matters": "Functions help organize code and reduce repetition.",
+              "subtopics": [
+                "Defining functions for operations",
+                "Calling functions"
+              ]
+            }
+          ],
+          "real_world_use_cases": [
+            "Creating tools for everyday calculations"
+          ],
+          "common_mistakes": [
+            "Not handling division by zero",
+            "Incorrect function calls"
+          ],
+          "hands_on_labs": [
+            {
+              "lab_id": "",
+              "title": "Lab: Building the Calculator",
+              "goal": "Create a functional calculator application.",
+              "steps": [],
+              "expected_output": ""
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Implement Addition Function",
+              "task": "Write a function that adds two numbers.",
+              "prompt": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Implement Subtraction Function",
+              "task": "Write a function that subtracts two numbers.",
+              "prompt": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "What is the purpose of a calculator application?",
+              "answer": "To perform arithmetic operations on user input.",
+              "answer_type": "short",
+              "options": [],
+              "correct_answer": null
+            },
+            {
+              "question": "How do you handle division by zero?",
+              "answer": "Check if the denominator is zero before performing the division.",
+              "answer_type": "short",
+              "options": [],
+              "correct_answer": null
+            }
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 2
+        },
+        {
+          "id": "module-5-lesson-3",
+          "title": "Capstone Project: Personal Portfolio Website",
+          "summary": "Build a personal portfolio website to showcase your projects and skills.",
+          "difficulty": "beginner",
+          "estimated_minutes": 60,
+          "objectives": [
+            "Design a simple website layout",
+            "Include project descriptions",
+            "Deploy the website"
+          ],
+          "prereqs": [],
+          "drilldown_outline": [
+            "3.1 Designing the Layout",
+            "3.1.1 Using HTML for structure",
+            "3.1.2 Using CSS for styling",
+            "3.2 Presenting Projects",
+            "3.2.1 Writing effective descriptions",
+            "3.2.2 Organizing content"
+          ],
+          "concepts": [
+            {
+              "name": "Web Design Basics",
+              "why_it_matters": "A portfolio showcases your skills to potential employers.",
+              "subtopics": [
+                "HTML basics",
+                "CSS basics"
+              ]
+            },
+            {
+              "name": "Project Presentation",
+              "why_it_matters": "Presenting projects effectively is crucial for job applications.",
+              "subtopics": [
+                "Writing project descriptions",
+                "Organizing content"
+              ]
+            }
+          ],
+          "real_world_use_cases": [
+            "Creating an online presence for job applications"
+          ],
+          "common_mistakes": [
+            "Poor design choices",
+            "Not including enough information"
+          ],
+          "hands_on_labs": [
+            {
+              "lab_id": "",
+              "title": "Lab: Building Your Portfolio",
+              "goal": "Create a personal portfolio website to showcase your work.",
+              "steps": [],
+              "expected_output": ""
+            }
+          ],
+          "micro_exercises": [
+            {
+              "title": "Sketch Your Website Layout",
+              "task": "Draw a layout for your portfolio website.",
+              "prompt": "",
+              "starter_code": ""
+            },
+            {
+              "title": "Write a Project Description",
+              "task": "Draft a description for one of your projects.",
+              "prompt": "",
+              "starter_code": ""
+            }
+          ],
+          "knowledge_check": [
+            {
+              "question": "Why is a portfolio important?",
+              "answer": "It showcases your skills and projects to potential employers.",
+              "answer_type": "short",
+              "options": [],
+              "correct_answer": null
+            },
+            {
+              "question": "What should you include in your project descriptions?",
+              "answer": "Include the project goal, technologies used, and your role.",
+              "answer_type": "short",
+              "options": [],
+              "correct_answer": null
+            }
+          ],
+          "practice_project": {
+            "title": "",
+            "deliverables": [],
+            "rubric": []
+          },
+          "doc_links_used": [],
+          "order": 3
+        }
+      ],
+      "order": 5
+    }
+  ],
+  "capstone": {
+    "id": "capstone-1",
+    "title": "Capstone Project: Personal Portfolio Website",
+    "description": "Build a personal portfolio website to showcase your projects and skills.",
+    "deliverables": [
+      "Portfolio website hosted online",
+      "Project descriptions and links"
+    ]
+  },
+  "metadata": {}
+}
