@@ -1,0 +1,581 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2024-12-27T00:00:00Z",
+  "courses": [
+    {
+      "course_id": "aws-beginners",
+      "course_uuid": "e24768c3-f006-4b07-9923-d892a813c363",
+      "course_title": "AWS for Beginners",
+      "s3_key": "courses/aws-beginners/manifest.json",
+      "s3_uri": "s3://amplify-synapsefusion-ash-coursecontentbuckete1778-4skkhzdohjm1/courses/aws-beginners/manifest.json",
+      "available": true,
+      "course_type": "public",
+      "created_at": "2025-11-30T09:32:38.333591",
+      "updated_at": "2025-12-07T21:17:16.215969",
+      "metadata": {
+        "version": "2.0.0",
+        "toc_based": true,
+        "module_structure": {
+          "module-1": {
+            "title": "Introduction to Cloud Computing",
+            "lessons": [
+              "modules/module-1/module-1-lesson-1.ipynb",
+              "modules/module-1/module-1-lesson-2.ipynb",
+              "modules/module-1/module-1-lesson-3.ipynb"
+            ]
+          },
+          "module-2": {
+            "title": "Getting Started with AWS",
+            "lessons": [
+              "modules/module-2/module-2-lesson-1.ipynb",
+              "modules/module-2/module-2-lesson-2.ipynb",
+              "modules/module-2/module-2-lesson-3.ipynb"
+            ]
+          },
+          "module-3": {
+            "title": "AWS Core Services",
+            "lessons": [
+              "modules/module-3/module-3-lesson-1.ipynb",
+              "modules/module-3/module-3-lesson-2.ipynb",
+              "modules/module-3/module-3-lesson-3.ipynb"
+            ]
+          },
+          "module-4": {
+            "title": "AWS Security Best Practices",
+            "lessons": [
+              "modules/module-4/module-4-lesson-1.ipynb",
+              "modules/module-4/module-4-lesson-2.ipynb",
+              "modules/module-4/module-4-lesson-3.ipynb"
+            ]
+          },
+          "module-5": {
+            "title": "Deploying Applications on AWS",
+            "lessons": [
+              "modules/module-5/module-5-lesson-1.ipynb",
+              "modules/module-5/module-5-lesson-2.ipynb",
+              "modules/module-5/module-5-lesson-3.ipynb"
+            ]
+          },
+          "module-6": {
+            "title": "Monitoring and Managing AWS Resources",
+            "lessons": [
+              "modules/module-6/module-6-lesson-1.ipynb",
+              "modules/module-6/module-6-lesson-2.ipynb",
+              "modules/module-6/module-6-lesson-3.ipynb"
+            ]
+          },
+          "module-7": {
+            "title": "Capstone Project",
+            "lessons": [
+              "modules/module-7/module-7-lesson-1.ipynb",
+              "modules/module-7/module-7-lesson-2.ipynb",
+              "modules/module-7/module-7-lesson-3.ipynb"
+            ]
+          }
+        }
+      },
+      "allowed_roles": null
+    },
+    {
+      "course_id": "grok-api-beginners",
+      "course_uuid": "3c1aefcb-1ada-412e-8633-fc1ebd681458",
+      "course_title": "Grok API for Beginners",
+      "s3_key": "courses/grok-api-beginners/manifest.json",
+      "s3_uri": "s3://amplify-synapsefusion-ash-coursecontentbuckete1778-4skkhzdohjm1/courses/grok-api-beginners/manifest.json",
+      "available": true,
+      "course_type": "public",
+      "created_at": "2025-11-27T09:14:49.885649",
+      "updated_at": "2025-12-07T21:17:19.350298",
+      "metadata": {
+        "version": "2.0.0",
+        "toc_based": true,
+        "module_structure": {
+          "module-1": {
+            "title": "Getting Started with Grok API",
+            "lessons": [
+              "modules/module-1/module-1-lesson-1.ipynb",
+              "modules/module-1/module-1-lesson-2.ipynb",
+              "modules/module-1/module-1-lesson-3.ipynb"
+            ]
+          },
+          "module-2": {
+            "title": "Working with Grok API Endpoints",
+            "lessons": [
+              "modules/module-2/module-2-lesson-1.ipynb",
+              "modules/module-2/module-2-lesson-2.ipynb",
+              "modules/module-2/module-2-lesson-3.ipynb"
+            ]
+          },
+          "module-3": {
+            "title": "Error Handling and Rate Limiting",
+            "lessons": [
+              "modules/module-3/module-3-lesson-1.ipynb",
+              "modules/module-3/module-3-lesson-2.ipynb",
+              "modules/module-3/module-3-lesson-3.ipynb"
+            ]
+          },
+          "module-4": {
+            "title": "Building a Complete Application with Grok API",
+            "lessons": [
+              "modules/module-4/module-4-lesson-1.ipynb",
+              "modules/module-4/module-4-lesson-2.ipynb",
+              "modules/module-4/module-4-lesson-3.ipynb"
+            ]
+          },
+          "module-5": {
+            "title": "Capstone Project",
+            "lessons": [
+              "modules/module-5/module-5-lesson-1.ipynb",
+              "modules/module-5/module-5-lesson-2.ipynb",
+              "modules/module-5/module-5-lesson-3.ipynb"
+            ]
+          }
+        }
+      },
+      "allowed_roles": null
+    },
+    {
+      "course_id": "introduction-to-aws-sagemaker",
+      "course_uuid": "05a35096-afd3-4a92-a113-8bf6e4921264",
+      "course_title": "introduction to aws sagemaker",
+      "s3_key": "courses/introduction-to-aws-sagemaker/manifest.json",
+      "s3_uri": "s3://amplify-synapsefusion-ash-coursecontentbuckete1778-4skkhzdohjm1/courses/introduction-to-aws-sagemaker/manifest.json",
+      "available": true,
+      "course_type": "public",
+      "created_at": "2025-12-01T06:49:12.729385",
+      "updated_at": "2025-12-07T21:17:22.060507",
+      "metadata": {
+        "version": "2.0.0",
+        "toc_based": true,
+        "module_structure": {
+          "module-1": {
+            "title": "Introduction to AWS SageMaker",
+            "lessons": [
+              "modules/module-1/module-1-lesson-1.ipynb",
+              "modules/module-1/module-1-lesson-2.ipynb",
+              "modules/module-1/module-1-lesson-3.ipynb"
+            ]
+          },
+          "module-2": {
+            "title": "Data Preparation in SageMaker",
+            "lessons": [
+              "modules/module-2/module-2-lesson-1.ipynb",
+              "modules/module-2/module-2-lesson-2.ipynb",
+              "modules/module-2/module-2-lesson-3.ipynb"
+            ]
+          },
+          "module-3": {
+            "title": "Training Models in SageMaker",
+            "lessons": [
+              "modules/module-3/module-3-lesson-1.ipynb",
+              "modules/module-3/module-3-lesson-2.ipynb",
+              "modules/module-3/module-3-lesson-3.ipynb"
+            ]
+          },
+          "module-4": {
+            "title": "Model Evaluation and Validation",
+            "lessons": [
+              "modules/module-4/module-4-lesson-1.ipynb",
+              "modules/module-4/module-4-lesson-2.ipynb",
+              "modules/module-4/module-4-lesson-3.ipynb"
+            ]
+          },
+          "module-5": {
+            "title": "Deploying Models in SageMaker",
+            "lessons": [
+              "modules/module-5/module-5-lesson-1.ipynb",
+              "modules/module-5/module-5-lesson-2.ipynb",
+              "modules/module-5/module-5-lesson-3.ipynb"
+            ]
+          },
+          "module-6": {
+            "title": "Capstone Project",
+            "lessons": [
+              "modules/module-6/module-6-lesson-1.ipynb",
+              "modules/module-6/module-6-lesson-2.ipynb",
+              "modules/module-6/module-6-lesson-3.ipynb"
+            ]
+          }
+        }
+      },
+      "allowed_roles": null
+    },
+    {
+      "course_id": "introduction-to-context-engineering-in-llm-models",
+      "course_uuid": "9073aaa6-e305-4cc6-a9fc-4bf10025fcdf",
+      "course_title": "introduction to context engineering in llm models ",
+      "s3_key": "courses/introduction-to-context-engineering-in-llm-models/manifest.json",
+      "s3_uri": "s3://amplify-synapsefusion-ash-coursecontentbuckete1778-4skkhzdohjm1/courses/introduction-to-context-engineering-in-llm-models/manifest.json",
+      "available": true,
+      "course_type": "public",
+      "created_at": "2025-11-30T22:11:43.157682",
+      "updated_at": "2025-12-07T21:17:24.959080",
+      "metadata": {
+        "version": "2.0.0",
+        "toc_based": true,
+        "module_structure": {
+          "module-1": {
+            "title": "Understanding Context in LLMs",
+            "lessons": [
+              "modules/module-1/module-1-lesson-1.ipynb",
+              "modules/module-1/module-1-lesson-2.ipynb",
+              "modules/module-1/module-1-lesson-3.ipynb"
+            ]
+          },
+          "module-2": {
+            "title": "Advanced Context Engineering Techniques",
+            "lessons": [
+              "modules/module-2/module-2-lesson-1.ipynb",
+              "modules/module-2/module-2-lesson-2.ipynb",
+              "modules/module-2/module-2-lesson-3.ipynb"
+            ]
+          }
+        }
+      },
+      "allowed_roles": null
+    },
+    {
+      "course_id": "langgraph-beginners",
+      "course_uuid": "96977d9f-63f2-406d-93f6-7e91195f9b86",
+      "course_title": "LangGraph for Beginners \u2013 Build Agentic Workflows Step-by-Step",
+      "s3_key": "courses/langgraph-beginners/manifest.json",
+      "s3_uri": "s3://amplify-synapsefusion-ash-coursecontentbuckete1778-4skkhzdohjm1/courses/langgraph-beginners/manifest.json",
+      "available": true,
+      "course_type": "public",
+      "created_at": "2025-11-25T07:51:07.998349",
+      "updated_at": "2025-12-07T21:17:30.368179",
+      "metadata": {
+        "version": "2.0.0",
+        "toc_based": true,
+        "module_structure": {
+          "module-1": {
+            "title": "Introduction to LangGraph",
+            "lessons": [
+              "modules/module-1/module-1-lesson-1.ipynb",
+              "modules/module-1/module-1-lesson-2.ipynb",
+              "modules/module-1/module-1-lesson-3.ipynb"
+            ]
+          },
+          "module-2": {
+            "title": "Building Basic Workflows",
+            "lessons": [
+              "modules/module-2/module-2-lesson-1.ipynb",
+              "modules/module-2/module-2-lesson-2.ipynb",
+              "modules/module-2/module-2-lesson-3.ipynb"
+            ]
+          },
+          "module-3": {
+            "title": "Advanced Workflow Techniques",
+            "lessons": [
+              "modules/module-3/module-3-lesson-1.ipynb",
+              "modules/module-3/module-3-lesson-2.ipynb",
+              "modules/module-3/module-3-lesson-3.ipynb"
+            ]
+          },
+          "module-4": {
+            "title": "Multi-Agent Workflows",
+            "lessons": [
+              "modules/module-4/module-4-lesson-1.ipynb",
+              "modules/module-4/module-4-lesson-2.ipynb",
+              "modules/module-4/module-4-lesson-3.ipynb"
+            ]
+          },
+          "module-5": {
+            "title": "Persistence and Memory in Workflows",
+            "lessons": [
+              "modules/module-5/module-5-lesson-1.ipynb",
+              "modules/module-5/module-5-lesson-2.ipynb",
+              "modules/module-5/module-5-lesson-3.ipynb"
+            ]
+          },
+          "module-6": {
+            "title": "Deploying LangGraph Agents",
+            "lessons": [
+              "modules/module-6/module-6-lesson-1.ipynb",
+              "modules/module-6/module-6-lesson-2.ipynb",
+              "modules/module-6/module-6-lesson-3.ipynb"
+            ]
+          },
+          "module-7": {
+            "title": "Capstone Project",
+            "lessons": [
+              "modules/module-7/module-7-lesson-1.ipynb",
+              "modules/module-7/module-7-lesson-2.ipynb"
+            ]
+          }
+        }
+      },
+      "allowed_roles": null
+    },
+    {
+      "course_id": "python-beginners",
+      "course_uuid": "a955a3cb-fb40-4673-8bf8-ce9904919af6",
+      "course_title": "Python for Beginners",
+      "s3_key": "courses/python-beginners/manifest.json",
+      "s3_uri": "s3://amplify-synapsefusion-ash-coursecontentbuckete1778-4skkhzdohjm1/courses/python-beginners/manifest.json",
+      "available": true,
+      "course_type": "public",
+      "created_at": "2025-11-24T07:35:27.641700",
+      "updated_at": "2025-12-07T21:17:32.797719",
+      "metadata": {
+        "version": "2.0.0",
+        "toc_based": true,
+        "module_structure": {
+          "module-1": {
+            "title": "Getting Started with Python",
+            "lessons": [
+              "outputs/courses/python-beginners/notebooks/modules/module-1/module-1-lesson-1.ipynb",
+              "outputs/courses/python-beginners/notebooks/modules/module-1/module-1-lesson-2.ipynb",
+              "outputs/courses/python-beginners/notebooks/modules/module-1/module-1-lesson-3.ipynb"
+            ]
+          },
+          "module-2": {
+            "title": "Control Flow in Python",
+            "lessons": [
+              "outputs/courses/python-beginners/notebooks/modules/module-2/module-2-lesson-1.ipynb",
+              "outputs/courses/python-beginners/notebooks/modules/module-2/module-2-lesson-2.ipynb",
+              "outputs/courses/python-beginners/notebooks/modules/module-2/module-2-lesson-3.ipynb"
+            ]
+          },
+          "module-3": {
+            "title": "Data Structures in Python",
+            "lessons": [
+              "outputs/courses/python-beginners/notebooks/modules/module-3/module-3-lesson-2.ipynb",
+              "outputs/courses/python-beginners/notebooks/modules/module-3/module-3-lesson-3.ipynb"
+            ]
+          },
+          "module-4": {
+            "title": "Functions and Modules",
+            "lessons": [
+              "outputs/courses/python-beginners/notebooks/modules/module-4/module-4-lesson-1.ipynb",
+              "outputs/courses/python-beginners/notebooks/modules/module-4/module-4-lesson-2.ipynb",
+              "outputs/courses/python-beginners/notebooks/modules/module-4/module-4-lesson-3.ipynb"
+            ]
+          },
+          "module-5": {
+            "title": "Error Handling and Debugging",
+            "lessons": [
+              "outputs/courses/python-beginners/notebooks/modules/module-5/module-5-lesson-1.ipynb",
+              "outputs/courses/python-beginners/notebooks/modules/module-5/module-5-lesson-2.ipynb",
+              "outputs/courses/python-beginners/notebooks/modules/module-5/module-5-lesson-3.ipynb"
+            ]
+          },
+          "module-6": {
+            "title": "File Handling and Data Persistence",
+            "lessons": [
+              "outputs/courses/python-beginners/notebooks/modules/module-6/module-6-lesson-1.ipynb",
+              "outputs/courses/python-beginners/notebooks/modules/module-6/module-6-lesson-3.ipynb"
+            ]
+          },
+          "module-7": {
+            "title": "Capstone Project",
+            "lessons": [
+              "outputs/courses/python-beginners/notebooks/modules/module-7/module-7-lesson-1.ipynb",
+              "outputs/courses/python-beginners/notebooks/modules/module-7/module-7-lesson-2.ipynb",
+              "outputs/courses/python-beginners/notebooks/modules/module-7/module-7-lesson-3.ipynb"
+            ]
+          }
+        }
+      },
+      "allowed_roles": null
+    },
+    {
+      "course_id": "jupyterlab-local-beginners",
+      "course_uuid": "3acd4b24-c843-42f2-84aa-d2b8c9f3bf56",
+      "course_title": "JupyterLab for Beginners - Local Development",
+      "s3_key": "courses/jupyterlab-local-beginners/manifest.json",
+      "s3_uri": "s3://amplify-synapsefusion-ash-coursecontentbuckete1778-4skkhzdohjm1/courses/jupyterlab-local-beginners/manifest.json",
+      "available": true,
+      "course_type": "public",
+      "created_at": "2025-12-05T10:58:24.484468",
+      "updated_at": "2025-12-07T21:17:35.568645",
+      "metadata": {
+        "version": "2.0.0",
+        "toc_based": true,
+        "module_structure": {
+          "module-1": {
+            "title": "Getting Started with JupyterLab",
+            "lessons": [
+              "modules/module-1/module-1-lesson-1.ipynb",
+              "modules/module-1/module-1-lesson-2.ipynb",
+              "modules/module-1/module-1-lesson-3.ipynb"
+            ]
+          },
+          "module-2": {
+            "title": "Working with JupyterLab Extensions",
+            "lessons": [
+              "modules/module-2/module-2-lesson-1.ipynb",
+              "modules/module-2/module-2-lesson-2.ipynb",
+              "modules/module-2/module-2-lesson-3.ipynb"
+            ]
+          },
+          "module-3": {
+            "title": "Working with Python Kernels",
+            "lessons": [
+              "modules/module-3/module-3-lesson-1.ipynb",
+              "modules/module-3/module-3-lesson-2.ipynb",
+              "modules/module-3/module-3-lesson-3.ipynb"
+            ]
+          },
+          "module-4": {
+            "title": "Organizing Projects in JupyterLab",
+            "lessons": [
+              "modules/module-4/module-4-lesson-1.ipynb",
+              "modules/module-4/module-4-lesson-2.ipynb",
+              "modules/module-4/module-4-lesson-3.ipynb"
+            ]
+          },
+          "module-5": {
+            "title": "Data Analysis and Visualization in JupyterLab",
+            "lessons": [
+              "modules/module-5/module-5-lesson-1.ipynb",
+              "modules/module-5/module-5-lesson-2.ipynb",
+              "modules/module-5/module-5-lesson-3.ipynb"
+            ]
+          },
+          "module-6": {
+            "title": "Capstone Project",
+            "lessons": [
+              "modules/module-6/module-6-lesson-1.ipynb",
+              "modules/module-6/module-6-lesson-2.ipynb",
+              "modules/module-6/module-6-lesson-3.ipynb"
+            ]
+          }
+        }
+      },
+      "allowed_roles": null
+    },
+    {
+      "course_id": "introduction-to-aws-snow-family",
+      "course_uuid": "e7510485-40a0-45de-a67a-dd4756827a63",
+      "course_title": "Introduction to AWS Snow Family",
+      "s3_key": "courses/introduction-to-aws-snow-family/manifest.json",
+      "s3_uri": "s3://amplify-synapsefusion-ash-coursecontentbuckete1778-4skkhzdohjm1/courses/introduction-to-aws-snow-family/manifest.json",
+      "available": true,
+      "course_type": "public",
+      "created_at": "2025-12-05T15:21:24.221752",
+      "updated_at": "2025-12-07T21:17:40.695097",
+      "metadata": {
+        "version": "2.0.0",
+        "toc_based": true,
+        "module_structure": {
+          "module-1": {
+            "title": "Introduction to AWS Snow Family",
+            "lessons": [
+              "modules/module-1/module-1-lesson-1.ipynb",
+              "modules/module-1/module-1-lesson-2.ipynb",
+              "modules/module-1/module-1-lesson-3.ipynb"
+            ]
+          },
+          "module-2": {
+            "title": "Data Transfer and Migration Strategies",
+            "lessons": [
+              "modules/module-2/module-2-lesson-1.ipynb",
+              "modules/module-2/module-2-lesson-2.ipynb",
+              "modules/module-2/module-2-lesson-3.ipynb"
+            ]
+          },
+          "module-3": {
+            "title": "Integrating AWS Snow Family with Other AWS Services",
+            "lessons": [
+              "modules/module-3/module-3-lesson-1.ipynb",
+              "modules/module-3/module-3-lesson-3.ipynb"
+            ]
+          },
+          "module-4": {
+            "title": "Real-World Use Cases of AWS Snow Family",
+            "lessons": [
+              "modules/module-4/module-4-lesson-1.ipynb",
+              "modules/module-4/module-4-lesson-2.ipynb",
+              "modules/module-4/module-4-lesson-3.ipynb"
+            ]
+          },
+          "module-5": {
+            "title": "Best Practices and Optimization Techniques",
+            "lessons": [
+              "modules/module-5/module-5-lesson-1.ipynb",
+              "modules/module-5/module-5-lesson-2.ipynb",
+              "modules/module-5/module-5-lesson-3.ipynb"
+            ]
+          },
+          "module-6": {
+            "title": "Capstone Project",
+            "lessons": [
+              "modules/module-6/module-6-lesson-1.ipynb",
+              "modules/module-6/module-6-lesson-2.ipynb",
+              "modules/module-6/module-6-lesson-3.ipynb"
+            ]
+          }
+        }
+      },
+      "allowed_roles": null
+    },
+    {
+      "course_id": "introduction-aws-glue",
+      "course_uuid": "02ce873b-211d-4063-b97e-97840fc354d0",
+      "course_title": "introduction AWS Glue",
+      "s3_key": "courses/introduction-aws-glue/manifest.json",
+      "s3_uri": "s3://amplify-synapsefusion-ash-coursecontentbuckete1778-4skkhzdohjm1/courses/introduction-aws-glue/manifest.json",
+      "available": true,
+      "course_type": "public",
+      "created_at": "2025-12-05T15:36:49.485905",
+      "updated_at": "2025-12-07T21:17:43.128630",
+      "metadata": {
+        "version": "2.0.0",
+        "toc_based": true,
+        "module_structure": {
+          "module-1": {
+            "title": "Introduction to AWS Glue",
+            "lessons": [
+              "modules/module-1/module-1-lesson-1.ipynb",
+              "modules/module-1/module-1-lesson-2.ipynb",
+              "modules/module-1/module-1-lesson-3.ipynb"
+            ]
+          },
+          "module-2": {
+            "title": "Working with AWS Glue Transformations",
+            "lessons": [
+              "modules/module-2/module-2-lesson-1.ipynb",
+              "modules/module-2/module-2-lesson-2.ipynb",
+              "modules/module-2/module-2-lesson-3.ipynb"
+            ]
+          },
+          "module-3": {
+            "title": "Integrating AWS Glue with Other AWS Services",
+            "lessons": [
+              "modules/module-3/module-3-lesson-1.ipynb",
+              "modules/module-3/module-3-lesson-2.ipynb",
+              "modules/module-3/module-3-lesson-3.ipynb"
+            ]
+          },
+          "module-4": {
+            "title": "Scheduling and Monitoring ETL Jobs",
+            "lessons": [
+              "modules/module-4/module-4-lesson-1.ipynb",
+              "modules/module-4/module-4-lesson-2.ipynb",
+              "modules/module-4/module-4-lesson-3.ipynb"
+            ]
+          },
+          "module-5": {
+            "title": "Performance Optimization in AWS Glue",
+            "lessons": [
+              "modules/module-5/module-5-lesson-1.ipynb",
+              "modules/module-5/module-5-lesson-2.ipynb",
+              "modules/module-5/module-5-lesson-3.ipynb"
+            ]
+          },
+          "module-6": {
+            "title": "Capstone Project",
+            "lessons": [
+              "modules/module-6/module-6-lesson-1.ipynb",
+              "modules/module-6/module-6-lesson-2.ipynb",
+              "modules/module-6/module-6-lesson-3.ipynb"
+            ]
+          }
+        }
+      },
+      "allowed_roles": null
+    }
+  ],
+  "updated_at": "2025-12-06T21:47:05.097948"
+}
