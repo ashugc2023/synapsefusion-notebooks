@@ -1,0 +1,245 @@
+{
+  "course_id": "jupyterlab-local-beginners",
+  "course_uuid": "3acd4b24-c843-42f2-84aa-d2b8c9f3bf56",
+  "course_title": "JupyterLab for Beginners - Local Development",
+  "notebooks": [
+    {
+      "notebook_id": "module-1-lesson-1",
+      "chapter_id": "module-1-lesson-1",
+      "lesson_id": "1",
+      "title": "Installing JupyterLab",
+      "file_path": "modules/module-1/module-1-lesson-1.ipynb",
+      "order": 1,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/jupyterlab-local-beginners/modules/module-1/module-1-lesson-1.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/jupyterlab-local-beginners/modules/module-1/module-1-lesson-1.ipynb"
+    },
+    {
+      "notebook_id": "module-1-lesson-2",
+      "chapter_id": "module-1-lesson-2",
+      "lesson_id": "2",
+      "title": "Navigating the JupyterLab Interface",
+      "file_path": "modules/module-1/module-1-lesson-2.ipynb",
+      "order": 2,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/jupyterlab-local-beginners/modules/module-1/module-1-lesson-2.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/jupyterlab-local-beginners/modules/module-1/module-1-lesson-2.ipynb"
+    },
+    {
+      "notebook_id": "module-1-lesson-3",
+      "chapter_id": "module-1-lesson-3",
+      "lesson_id": "3",
+      "title": "Creating and Managing Notebooks",
+      "file_path": "modules/module-1/module-1-lesson-3.ipynb",
+      "order": 3,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/jupyterlab-local-beginners/modules/module-1/module-1-lesson-3.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/jupyterlab-local-beginners/modules/module-1/module-1-lesson-3.ipynb"
+    },
+    {
+      "notebook_id": "module-2-lesson-1",
+      "chapter_id": "module-2-lesson-1",
+      "lesson_id": "1",
+      "title": "Installing JupyterLab Extensions",
+      "file_path": "modules/module-2/module-2-lesson-1.ipynb",
+      "order": 1,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/jupyterlab-local-beginners/modules/module-2/module-2-lesson-1.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/jupyterlab-local-beginners/modules/module-2/module-2-lesson-1.ipynb"
+    },
+    {
+      "notebook_id": "module-2-lesson-2",
+      "chapter_id": "module-2-lesson-2",
+      "lesson_id": "2",
+      "title": "Popular JupyterLab Extensions",
+      "file_path": "modules/module-2/module-2-lesson-2.ipynb",
+      "order": 2,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/jupyterlab-local-beginners/modules/module-2/module-2-lesson-2.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/jupyterlab-local-beginners/modules/module-2/module-2-lesson-2.ipynb"
+    },
+    {
+      "notebook_id": "module-2-lesson-3",
+      "chapter_id": "module-2-lesson-3",
+      "lesson_id": "3",
+      "title": "Managing Extensions in JupyterLab",
+      "file_path": "modules/module-2/module-2-lesson-3.ipynb",
+      "order": 3,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/jupyterlab-local-beginners/modules/module-2/module-2-lesson-3.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/jupyterlab-local-beginners/modules/module-2/module-2-lesson-3.ipynb"
+    },
+    {
+      "notebook_id": "module-3-lesson-1",
+      "chapter_id": "module-3-lesson-1",
+      "lesson_id": "1",
+      "title": "Understanding Jupyter Kernels",
+      "file_path": "modules/module-3/module-3-lesson-1.ipynb",
+      "order": 1,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/jupyterlab-local-beginners/modules/module-3/module-3-lesson-1.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/jupyterlab-local-beginners/modules/module-3/module-3-lesson-1.ipynb"
+    },
+    {
+      "notebook_id": "module-3-lesson-2",
+      "chapter_id": "module-3-lesson-2",
+      "lesson_id": "2",
+      "title": "Switching Between Kernels",
+      "file_path": "modules/module-3/module-3-lesson-2.ipynb",
+      "order": 2,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/jupyterlab-local-beginners/modules/module-3/module-3-lesson-2.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/jupyterlab-local-beginners/modules/module-3/module-3-lesson-2.ipynb"
+    },
+    {
+      "notebook_id": "module-3-lesson-3",
+      "chapter_id": "module-3-lesson-3",
+      "lesson_id": "3",
+      "title": "Installing Additional Kernels",
+      "file_path": "modules/module-3/module-3-lesson-3.ipynb",
+      "order": 3,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/jupyterlab-local-beginners/modules/module-3/module-3-lesson-3.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/jupyterlab-local-beginners/modules/module-3/module-3-lesson-3.ipynb"
+    },
+    {
+      "notebook_id": "module-4-lesson-1",
+      "chapter_id": "module-4-lesson-1",
+      "lesson_id": "1",
+      "title": "Creating Project Folders",
+      "file_path": "modules/module-4/module-4-lesson-1.ipynb",
+      "order": 1,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/jupyterlab-local-beginners/modules/module-4/module-4-lesson-1.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/jupyterlab-local-beginners/modules/module-4/module-4-lesson-1.ipynb"
+    },
+    {
+      "notebook_id": "module-4-lesson-2",
+      "chapter_id": "module-4-lesson-2",
+      "lesson_id": "2",
+      "title": "Managing Files and Notebooks",
+      "file_path": "modules/module-4/module-4-lesson-2.ipynb",
+      "order": 2,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/jupyterlab-local-beginners/modules/module-4/module-4-lesson-2.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/jupyterlab-local-beginners/modules/module-4/module-4-lesson-2.ipynb"
+    },
+    {
+      "notebook_id": "module-4-lesson-3",
+      "chapter_id": "module-4-lesson-3",
+      "lesson_id": "3",
+      "title": "Using Version Control with Git",
+      "file_path": "modules/module-4/module-4-lesson-3.ipynb",
+      "order": 3,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/jupyterlab-local-beginners/modules/module-4/module-4-lesson-3.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/jupyterlab-local-beginners/modules/module-4/module-4-lesson-3.ipynb"
+    },
+    {
+      "notebook_id": "module-5-lesson-1",
+      "chapter_id": "module-5-lesson-1",
+      "lesson_id": "1",
+      "title": "Data Analysis with Pandas",
+      "file_path": "modules/module-5/module-5-lesson-1.ipynb",
+      "order": 1,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/jupyterlab-local-beginners/modules/module-5/module-5-lesson-1.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/jupyterlab-local-beginners/modules/module-5/module-5-lesson-1.ipynb"
+    },
+    {
+      "notebook_id": "module-5-lesson-2",
+      "chapter_id": "module-5-lesson-2",
+      "lesson_id": "2",
+      "title": "Data Visualization with Matplotlib",
+      "file_path": "modules/module-5/module-5-lesson-2.ipynb",
+      "order": 2,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/jupyterlab-local-beginners/modules/module-5/module-5-lesson-2.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/jupyterlab-local-beginners/modules/module-5/module-5-lesson-2.ipynb"
+    },
+    {
+      "notebook_id": "module-5-lesson-3",
+      "chapter_id": "module-5-lesson-3",
+      "lesson_id": "3",
+      "title": "Presenting Findings in Notebooks",
+      "file_path": "modules/module-5/module-5-lesson-3.ipynb",
+      "order": 3,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/jupyterlab-local-beginners/modules/module-5/module-5-lesson-3.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/jupyterlab-local-beginners/modules/module-5/module-5-lesson-3.ipynb"
+    },
+    {
+      "notebook_id": "module-6-lesson-1",
+      "chapter_id": "module-6-lesson-1",
+      "lesson_id": "1",
+      "title": "Capstone Project Overview",
+      "file_path": "modules/module-6/module-6-lesson-1.ipynb",
+      "order": 1,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/jupyterlab-local-beginners/modules/module-6/module-6-lesson-1.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/jupyterlab-local-beginners/modules/module-6/module-6-lesson-1.ipynb"
+    },
+    {
+      "notebook_id": "module-6-lesson-2",
+      "chapter_id": "module-6-lesson-2",
+      "lesson_id": "2",
+      "title": "Implementing Your Project",
+      "file_path": "modules/module-6/module-6-lesson-2.ipynb",
+      "order": 2,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/jupyterlab-local-beginners/modules/module-6/module-6-lesson-2.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/jupyterlab-local-beginners/modules/module-6/module-6-lesson-2.ipynb"
+    },
+    {
+      "notebook_id": "module-6-lesson-3",
+      "chapter_id": "module-6-lesson-3",
+      "lesson_id": "3",
+      "title": "Presenting Your Project",
+      "file_path": "modules/module-6/module-6-lesson-3.ipynb",
+      "order": 3,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/jupyterlab-local-beginners/modules/module-6/module-6-lesson-3.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/jupyterlab-local-beginners/modules/module-6/module-6-lesson-3.ipynb"
+    }
+  ],
+  "generated_at": "2025-12-05T10:57:31.940372",
+  "metadata": {
+    "version": "2.0.0",
+    "toc_based": true,
+    "module_structure": {
+      "module-1": {
+        "title": "Getting Started with JupyterLab",
+        "lessons": [
+          "modules/module-1/module-1-lesson-1.ipynb",
+          "modules/module-1/module-1-lesson-2.ipynb",
+          "modules/module-1/module-1-lesson-3.ipynb"
+        ]
+      },
+      "module-2": {
+        "title": "Working with JupyterLab Extensions",
+        "lessons": [
+          "modules/module-2/module-2-lesson-1.ipynb",
+          "modules/module-2/module-2-lesson-2.ipynb",
+          "modules/module-2/module-2-lesson-3.ipynb"
+        ]
+      },
+      "module-3": {
+        "title": "Working with Python Kernels",
+        "lessons": [
+          "modules/module-3/module-3-lesson-1.ipynb",
+          "modules/module-3/module-3-lesson-2.ipynb",
+          "modules/module-3/module-3-lesson-3.ipynb"
+        ]
+      },
+      "module-4": {
+        "title": "Organizing Projects in JupyterLab",
+        "lessons": [
+          "modules/module-4/module-4-lesson-1.ipynb",
+          "modules/module-4/module-4-lesson-2.ipynb",
+          "modules/module-4/module-4-lesson-3.ipynb"
+        ]
+      },
+      "module-5": {
+        "title": "Data Analysis and Visualization in JupyterLab",
+        "lessons": [
+          "modules/module-5/module-5-lesson-1.ipynb",
+          "modules/module-5/module-5-lesson-2.ipynb",
+          "modules/module-5/module-5-lesson-3.ipynb"
+        ]
+      },
+      "module-6": {
+        "title": "Capstone Project",
+        "lessons": [
+          "modules/module-6/module-6-lesson-1.ipynb",
+          "modules/module-6/module-6-lesson-2.ipynb",
+          "modules/module-6/module-6-lesson-3.ipynb"
+        ]
+      }
+    }
+  },
+  "available": true,
+  "course_type": "public",
+  "allowed_roles": null
+}
