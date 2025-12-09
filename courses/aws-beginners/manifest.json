@@ -1,0 +1,281 @@
+{
+  "course_id": "aws-beginners",
+  "course_title": "AWS for Beginners",
+  "notebooks": [
+    {
+      "notebook_id": "module-1-lesson-1",
+      "chapter_id": "module-1-lesson-1",
+      "lesson_id": "1",
+      "title": "What is Cloud Computing?",
+      "file_path": "modules/module-1/module-1-lesson-1.ipynb",
+      "order": 1,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/aws-beginners/modules/module-1/module-1-lesson-1.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/aws-beginners/modules/module-1/module-1-lesson-1.ipynb"
+    },
+    {
+      "notebook_id": "module-1-lesson-2",
+      "chapter_id": "module-1-lesson-2",
+      "lesson_id": "2",
+      "title": "Types of Cloud Services",
+      "file_path": "modules/module-1/module-1-lesson-2.ipynb",
+      "order": 2,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/aws-beginners/modules/module-1/module-1-lesson-2.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/aws-beginners/modules/module-1/module-1-lesson-2.ipynb"
+    },
+    {
+      "notebook_id": "module-1-lesson-3",
+      "chapter_id": "module-1-lesson-3",
+      "lesson_id": "3",
+      "title": "Cloud Deployment Models",
+      "file_path": "modules/module-1/module-1-lesson-3.ipynb",
+      "order": 3,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/aws-beginners/modules/module-1/module-1-lesson-3.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/aws-beginners/modules/module-1/module-1-lesson-3.ipynb"
+    },
+    {
+      "notebook_id": "module-2-lesson-1",
+      "chapter_id": "module-2-lesson-1",
+      "lesson_id": "1",
+      "title": "Creating an AWS Account",
+      "file_path": "modules/module-2/module-2-lesson-1.ipynb",
+      "order": 1,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/aws-beginners/modules/module-2/module-2-lesson-1.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/aws-beginners/modules/module-2/module-2-lesson-1.ipynb"
+    },
+    {
+      "notebook_id": "module-2-lesson-2",
+      "chapter_id": "module-2-lesson-2",
+      "lesson_id": "2",
+      "title": "Navigating the AWS Management Console",
+      "file_path": "modules/module-2/module-2-lesson-2.ipynb",
+      "order": 2,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/aws-beginners/modules/module-2/module-2-lesson-2.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/aws-beginners/modules/module-2/module-2-lesson-2.ipynb"
+    },
+    {
+      "notebook_id": "module-2-lesson-3",
+      "chapter_id": "module-2-lesson-3",
+      "lesson_id": "3",
+      "title": "Understanding AWS Regions and Availability Zones",
+      "file_path": "modules/module-2/module-2-lesson-3.ipynb",
+      "order": 3,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/aws-beginners/modules/module-2/module-2-lesson-3.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/aws-beginners/modules/module-2/module-2-lesson-3.ipynb"
+    },
+    {
+      "notebook_id": "module-3-lesson-1",
+      "chapter_id": "module-3-lesson-1",
+      "lesson_id": "1",
+      "title": "Introduction to EC2",
+      "file_path": "modules/module-3/module-3-lesson-1.ipynb",
+      "order": 1,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/aws-beginners/modules/module-3/module-3-lesson-1.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/aws-beginners/modules/module-3/module-3-lesson-1.ipynb"
+    },
+    {
+      "notebook_id": "module-3-lesson-2",
+      "chapter_id": "module-3-lesson-2",
+      "lesson_id": "2",
+      "title": "Working with S3",
+      "file_path": "modules/module-3/module-3-lesson-2.ipynb",
+      "order": 2,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/aws-beginners/modules/module-3/module-3-lesson-2.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/aws-beginners/modules/module-3/module-3-lesson-2.ipynb"
+    },
+    {
+      "notebook_id": "module-3-lesson-3",
+      "chapter_id": "module-3-lesson-3",
+      "lesson_id": "3",
+      "title": "Introduction to AWS Lambda",
+      "file_path": "modules/module-3/module-3-lesson-3.ipynb",
+      "order": 3,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/aws-beginners/modules/module-3/module-3-lesson-3.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/aws-beginners/modules/module-3/module-3-lesson-3.ipynb"
+    },
+    {
+      "notebook_id": "module-4-lesson-1",
+      "chapter_id": "module-4-lesson-1",
+      "lesson_id": "1",
+      "title": "Introduction to IAM",
+      "file_path": "modules/module-4/module-4-lesson-1.ipynb",
+      "order": 1,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/aws-beginners/modules/module-4/module-4-lesson-1.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/aws-beginners/modules/module-4/module-4-lesson-1.ipynb"
+    },
+    {
+      "notebook_id": "module-4-lesson-2",
+      "chapter_id": "module-4-lesson-2",
+      "lesson_id": "2",
+      "title": "Understanding Security Groups",
+      "file_path": "modules/module-4/module-4-lesson-2.ipynb",
+      "order": 2,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/aws-beginners/modules/module-4/module-4-lesson-2.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/aws-beginners/modules/module-4/module-4-lesson-2.ipynb"
+    },
+    {
+      "notebook_id": "module-4-lesson-3",
+      "chapter_id": "module-4-lesson-3",
+      "lesson_id": "3",
+      "title": "Implementing Encryption in AWS",
+      "file_path": "modules/module-4/module-4-lesson-3.ipynb",
+      "order": 3,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/aws-beginners/modules/module-4/module-4-lesson-3.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/aws-beginners/modules/module-4/module-4-lesson-3.ipynb"
+    },
+    {
+      "notebook_id": "module-5-lesson-1",
+      "chapter_id": "module-5-lesson-1",
+      "lesson_id": "1",
+      "title": "Deploying a Web Application",
+      "file_path": "modules/module-5/module-5-lesson-1.ipynb",
+      "order": 1,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/aws-beginners/modules/module-5/module-5-lesson-1.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/aws-beginners/modules/module-5/module-5-lesson-1.ipynb"
+    },
+    {
+      "notebook_id": "module-5-lesson-2",
+      "chapter_id": "module-5-lesson-2",
+      "lesson_id": "2",
+      "title": "Using Elastic Beanstalk",
+      "file_path": "modules/module-5/module-5-lesson-2.ipynb",
+      "order": 2,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/aws-beginners/modules/module-5/module-5-lesson-2.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/aws-beginners/modules/module-5/module-5-lesson-2.ipynb"
+    },
+    {
+      "notebook_id": "module-5-lesson-3",
+      "chapter_id": "module-5-lesson-3",
+      "lesson_id": "3",
+      "title": "Implementing CI/CD with AWS",
+      "file_path": "modules/module-5/module-5-lesson-3.ipynb",
+      "order": 3,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/aws-beginners/modules/module-5/module-5-lesson-3.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/aws-beginners/modules/module-5/module-5-lesson-3.ipynb"
+    },
+    {
+      "notebook_id": "module-6-lesson-1",
+      "chapter_id": "module-6-lesson-1",
+      "lesson_id": "1",
+      "title": "Introduction to AWS CloudWatch",
+      "file_path": "modules/module-6/module-6-lesson-1.ipynb",
+      "order": 1,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/aws-beginners/modules/module-6/module-6-lesson-1.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/aws-beginners/modules/module-6/module-6-lesson-1.ipynb"
+    },
+    {
+      "notebook_id": "module-6-lesson-2",
+      "chapter_id": "module-6-lesson-2",
+      "lesson_id": "2",
+      "title": "Managing AWS Resources with AWS CLI",
+      "file_path": "modules/module-6/module-6-lesson-2.ipynb",
+      "order": 2,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/aws-beginners/modules/module-6/module-6-lesson-2.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/aws-beginners/modules/module-6/module-6-lesson-2.ipynb"
+    },
+    {
+      "notebook_id": "module-6-lesson-3",
+      "chapter_id": "module-6-lesson-3",
+      "lesson_id": "3",
+      "title": "Implementing Cost Management Strategies",
+      "file_path": "modules/module-6/module-6-lesson-3.ipynb",
+      "order": 3,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/aws-beginners/modules/module-6/module-6-lesson-3.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/aws-beginners/modules/module-6/module-6-lesson-3.ipynb"
+    },
+    {
+      "notebook_id": "module-7-lesson-1",
+      "chapter_id": "module-7-lesson-1",
+      "lesson_id": "1",
+      "title": "Capstone Project Overview",
+      "file_path": "modules/module-7/module-7-lesson-1.ipynb",
+      "order": 1,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/aws-beginners/modules/module-7/module-7-lesson-1.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/aws-beginners/modules/module-7/module-7-lesson-1.ipynb"
+    },
+    {
+      "notebook_id": "module-7-lesson-2",
+      "chapter_id": "module-7-lesson-2",
+      "lesson_id": "2",
+      "title": "Building the Application",
+      "file_path": "modules/module-7/module-7-lesson-2.ipynb",
+      "order": 2,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/aws-beginners/modules/module-7/module-7-lesson-2.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/aws-beginners/modules/module-7/module-7-lesson-2.ipynb"
+    },
+    {
+      "notebook_id": "module-7-lesson-3",
+      "chapter_id": "module-7-lesson-3",
+      "lesson_id": "3",
+      "title": "Final Presentation and Review",
+      "file_path": "modules/module-7/module-7-lesson-3.ipynb",
+      "order": 3,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/aws-beginners/modules/module-7/module-7-lesson-3.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/aws-beginners/modules/module-7/module-7-lesson-3.ipynb"
+    }
+  ],
+  "generated_at": "2025-11-30T09:32:38.333591",
+  "metadata": {
+    "version": "2.0.0",
+    "toc_based": true,
+    "module_structure": {
+      "module-1": {
+        "title": "Introduction to Cloud Computing",
+        "lessons": [
+          "modules/module-1/module-1-lesson-1.ipynb",
+          "modules/module-1/module-1-lesson-2.ipynb",
+          "modules/module-1/module-1-lesson-3.ipynb"
+        ]
+      },
+      "module-2": {
+        "title": "Getting Started with AWS",
+        "lessons": [
+          "modules/module-2/module-2-lesson-1.ipynb",
+          "modules/module-2/module-2-lesson-2.ipynb",
+          "modules/module-2/module-2-lesson-3.ipynb"
+        ]
+      },
+      "module-3": {
+        "title": "AWS Core Services",
+        "lessons": [
+          "modules/module-3/module-3-lesson-1.ipynb",
+          "modules/module-3/module-3-lesson-2.ipynb",
+          "modules/module-3/module-3-lesson-3.ipynb"
+        ]
+      },
+      "module-4": {
+        "title": "AWS Security Best Practices",
+        "lessons": [
+          "modules/module-4/module-4-lesson-1.ipynb",
+          "modules/module-4/module-4-lesson-2.ipynb",
+          "modules/module-4/module-4-lesson-3.ipynb"
+        ]
+      },
+      "module-5": {
+        "title": "Deploying Applications on AWS",
+        "lessons": [
+          "modules/module-5/module-5-lesson-1.ipynb",
+          "modules/module-5/module-5-lesson-2.ipynb",
+          "modules/module-5/module-5-lesson-3.ipynb"
+        ]
+      },
+      "module-6": {
+        "title": "Monitoring and Managing AWS Resources",
+        "lessons": [
+          "modules/module-6/module-6-lesson-1.ipynb",
+          "modules/module-6/module-6-lesson-2.ipynb",
+          "modules/module-6/module-6-lesson-3.ipynb"
+        ]
+      },
+      "module-7": {
+        "title": "Capstone Project",
+        "lessons": [
+          "modules/module-7/module-7-lesson-1.ipynb",
+          "modules/module-7/module-7-lesson-2.ipynb",
+          "modules/module-7/module-7-lesson-3.ipynb"
+        ]
+      }
+    }
+  },
+  "course_type": "public",
+  "allowed_roles": null
+}
