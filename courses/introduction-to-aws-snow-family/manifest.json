@@ -1,0 +1,237 @@
+{
+  "course_id": "introduction-to-aws-snow-family",
+  "course_uuid": "e7510485-40a0-45de-a67a-dd4756827a63",
+  "course_title": "Introduction to AWS Snow Family",
+  "notebooks": [
+    {
+      "notebook_id": "module-1-lesson-1",
+      "chapter_id": "module-1-lesson-1",
+      "lesson_id": "1",
+      "title": "Overview of AWS Snowcone",
+      "file_path": "modules/module-1/module-1-lesson-1.ipynb",
+      "order": 1,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/introduction-to-aws-snow-family/modules/module-1/module-1-lesson-1.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/introduction-to-aws-snow-family/modules/module-1/module-1-lesson-1.ipynb"
+    },
+    {
+      "notebook_id": "module-1-lesson-2",
+      "chapter_id": "module-1-lesson-2",
+      "lesson_id": "2",
+      "title": "Understanding AWS Snowball",
+      "file_path": "modules/module-1/module-1-lesson-2.ipynb",
+      "order": 2,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/introduction-to-aws-snow-family/modules/module-1/module-1-lesson-2.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/introduction-to-aws-snow-family/modules/module-1/module-1-lesson-2.ipynb"
+    },
+    {
+      "notebook_id": "module-1-lesson-3",
+      "chapter_id": "module-1-lesson-3",
+      "lesson_id": "3",
+      "title": "Exploring AWS Snowmobile",
+      "file_path": "modules/module-1/module-1-lesson-3.ipynb",
+      "order": 3,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/introduction-to-aws-snow-family/modules/module-1/module-1-lesson-3.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/introduction-to-aws-snow-family/modules/module-1/module-1-lesson-3.ipynb"
+    },
+    {
+      "notebook_id": "module-2-lesson-1",
+      "chapter_id": "module-2-lesson-1",
+      "lesson_id": "1",
+      "title": "Best Practices for Data Migration",
+      "file_path": "modules/module-2/module-2-lesson-1.ipynb",
+      "order": 1,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/introduction-to-aws-snow-family/modules/module-2/module-2-lesson-1.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/introduction-to-aws-snow-family/modules/module-2/module-2-lesson-1.ipynb"
+    },
+    {
+      "notebook_id": "module-2-lesson-2",
+      "chapter_id": "module-2-lesson-2",
+      "lesson_id": "2",
+      "title": "Data Transfer Methods with AWS Snow Family",
+      "file_path": "modules/module-2/module-2-lesson-2.ipynb",
+      "order": 2,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/introduction-to-aws-snow-family/modules/module-2/module-2-lesson-2.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/introduction-to-aws-snow-family/modules/module-2/module-2-lesson-2.ipynb"
+    },
+    {
+      "notebook_id": "module-2-lesson-3",
+      "chapter_id": "module-2-lesson-3",
+      "lesson_id": "3",
+      "title": "Security Considerations in Data Migration",
+      "file_path": "modules/module-2/module-2-lesson-3.ipynb",
+      "order": 3,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/introduction-to-aws-snow-family/modules/module-2/module-2-lesson-3.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/introduction-to-aws-snow-family/modules/module-2/module-2-lesson-3.ipynb"
+    },
+    {
+      "notebook_id": "module-3-lesson-1",
+      "chapter_id": "module-3-lesson-1",
+      "lesson_id": "1",
+      "title": "Integrating with Amazon S3",
+      "file_path": "modules/module-3/module-3-lesson-1.ipynb",
+      "order": 1,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/introduction-to-aws-snow-family/modules/module-3/module-3-lesson-1.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/introduction-to-aws-snow-family/modules/module-3/module-3-lesson-1.ipynb"
+    },
+    {
+      "notebook_id": "module-3-lesson-3",
+      "chapter_id": "module-3-lesson-3",
+      "lesson_id": "3",
+      "title": "Integrating with AWS Glue",
+      "file_path": "modules/module-3/module-3-lesson-3.ipynb",
+      "order": 3,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/introduction-to-aws-snow-family/modules/module-3/module-3-lesson-3.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/introduction-to-aws-snow-family/modules/module-3/module-3-lesson-3.ipynb"
+    },
+    {
+      "notebook_id": "module-4-lesson-1",
+      "chapter_id": "module-4-lesson-1",
+      "lesson_id": "1",
+      "title": "Case Study: Large-Scale Data Migration",
+      "file_path": "modules/module-4/module-4-lesson-1.ipynb",
+      "order": 1,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/introduction-to-aws-snow-family/modules/module-4/module-4-lesson-1.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/introduction-to-aws-snow-family/modules/module-4/module-4-lesson-1.ipynb"
+    },
+    {
+      "notebook_id": "module-4-lesson-2",
+      "chapter_id": "module-4-lesson-2",
+      "lesson_id": "2",
+      "title": "Case Study: Disaster Recovery Solutions",
+      "file_path": "modules/module-4/module-4-lesson-2.ipynb",
+      "order": 2,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/introduction-to-aws-snow-family/modules/module-4/module-4-lesson-2.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/introduction-to-aws-snow-family/modules/module-4/module-4-lesson-2.ipynb"
+    },
+    {
+      "notebook_id": "module-4-lesson-3",
+      "chapter_id": "module-4-lesson-3",
+      "lesson_id": "3",
+      "title": "Case Study: Edge Computing with AWS Snow Family",
+      "file_path": "modules/module-4/module-4-lesson-3.ipynb",
+      "order": 3,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/introduction-to-aws-snow-family/modules/module-4/module-4-lesson-3.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/introduction-to-aws-snow-family/modules/module-4/module-4-lesson-3.ipynb"
+    },
+    {
+      "notebook_id": "module-5-lesson-1",
+      "chapter_id": "module-5-lesson-1",
+      "lesson_id": "1",
+      "title": "Best Practices for Using AWS Snow Family",
+      "file_path": "modules/module-5/module-5-lesson-1.ipynb",
+      "order": 1,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/introduction-to-aws-snow-family/modules/module-5/module-5-lesson-1.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/introduction-to-aws-snow-family/modules/module-5/module-5-lesson-1.ipynb"
+    },
+    {
+      "notebook_id": "module-5-lesson-2",
+      "chapter_id": "module-5-lesson-2",
+      "lesson_id": "2",
+      "title": "Optimization Techniques for Data Transfer",
+      "file_path": "modules/module-5/module-5-lesson-2.ipynb",
+      "order": 2,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/introduction-to-aws-snow-family/modules/module-5/module-5-lesson-2.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/introduction-to-aws-snow-family/modules/module-5/module-5-lesson-2.ipynb"
+    },
+    {
+      "notebook_id": "module-5-lesson-3",
+      "chapter_id": "module-5-lesson-3",
+      "lesson_id": "3",
+      "title": "Evaluating Performance Metrics",
+      "file_path": "modules/module-5/module-5-lesson-3.ipynb",
+      "order": 3,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/introduction-to-aws-snow-family/modules/module-5/module-5-lesson-3.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/introduction-to-aws-snow-family/modules/module-5/module-5-lesson-3.ipynb"
+    },
+    {
+      "notebook_id": "module-6-lesson-1",
+      "chapter_id": "module-6-lesson-1",
+      "lesson_id": "1",
+      "title": "Capstone Project Overview",
+      "file_path": "modules/module-6/module-6-lesson-1.ipynb",
+      "order": 1,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/introduction-to-aws-snow-family/modules/module-6/module-6-lesson-1.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/introduction-to-aws-snow-family/modules/module-6/module-6-lesson-1.ipynb"
+    },
+    {
+      "notebook_id": "module-6-lesson-2",
+      "chapter_id": "module-6-lesson-2",
+      "lesson_id": "2",
+      "title": "Capstone Project Implementation",
+      "file_path": "modules/module-6/module-6-lesson-2.ipynb",
+      "order": 2,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/introduction-to-aws-snow-family/modules/module-6/module-6-lesson-2.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/introduction-to-aws-snow-family/modules/module-6/module-6-lesson-2.ipynb"
+    },
+    {
+      "notebook_id": "module-6-lesson-3",
+      "chapter_id": "module-6-lesson-3",
+      "lesson_id": "3",
+      "title": "Capstone Project Presentation",
+      "file_path": "modules/module-6/module-6-lesson-3.ipynb",
+      "order": 3,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/introduction-to-aws-snow-family/modules/module-6/module-6-lesson-3.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/introduction-to-aws-snow-family/modules/module-6/module-6-lesson-3.ipynb"
+    }
+  ],
+  "generated_at": "2025-12-05T15:21:20.792487",
+  "metadata": {
+    "version": "2.0.0",
+    "toc_based": true,
+    "module_structure": {
+      "module-1": {
+        "title": "Introduction to AWS Snow Family",
+        "lessons": [
+          "modules/module-1/module-1-lesson-1.ipynb",
+          "modules/module-1/module-1-lesson-2.ipynb",
+          "modules/module-1/module-1-lesson-3.ipynb"
+        ]
+      },
+      "module-2": {
+        "title": "Data Transfer and Migration Strategies",
+        "lessons": [
+          "modules/module-2/module-2-lesson-1.ipynb",
+          "modules/module-2/module-2-lesson-2.ipynb",
+          "modules/module-2/module-2-lesson-3.ipynb"
+        ]
+      },
+      "module-3": {
+        "title": "Integrating AWS Snow Family with Other AWS Services",
+        "lessons": [
+          "modules/module-3/module-3-lesson-1.ipynb",
+          "modules/module-3/module-3-lesson-3.ipynb"
+        ]
+      },
+      "module-4": {
+        "title": "Real-World Use Cases of AWS Snow Family",
+        "lessons": [
+          "modules/module-4/module-4-lesson-1.ipynb",
+          "modules/module-4/module-4-lesson-2.ipynb",
+          "modules/module-4/module-4-lesson-3.ipynb"
+        ]
+      },
+      "module-5": {
+        "title": "Best Practices and Optimization Techniques",
+        "lessons": [
+          "modules/module-5/module-5-lesson-1.ipynb",
+          "modules/module-5/module-5-lesson-2.ipynb",
+          "modules/module-5/module-5-lesson-3.ipynb"
+        ]
+      },
+      "module-6": {
+        "title": "Capstone Project",
+        "lessons": [
+          "modules/module-6/module-6-lesson-1.ipynb",
+          "modules/module-6/module-6-lesson-2.ipynb",
+          "modules/module-6/module-6-lesson-3.ipynb"
+        ]
+      }
+    }
+  },
+  "available": true,
+  "course_type": "public",
+  "s3_bucket": "amplify-synapsefusion-ash-coursecontentbuckete1778-4skkhzdohjm1",
+  "s3_prefix": "courses/introduction-to-aws-snow-family",
+  "s3_base_uri": "s3://amplify-synapsefusion-ash-coursecontentbuckete1778-4skkhzdohjm1/courses/introduction-to-aws-snow-family",
+  "allowed_roles": null
+}
