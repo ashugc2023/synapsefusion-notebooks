@@ -1,0 +1,91 @@
+{
+  "course_id": "introduction-to-context-engineering-in-llm-models",
+  "course_title": "introduction to context engineering in llm models ",
+  "notebooks": [
+    {
+      "notebook_id": "module-1-lesson-1",
+      "chapter_id": "module-1-lesson-1",
+      "lesson_id": "1",
+      "title": "What is Context in LLMs?",
+      "file_path": "modules/module-1/module-1-lesson-1.ipynb",
+      "order": 1,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/introduction-to-context-engineering-in-llm-models/modules/module-1/module-1-lesson-1.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/introduction-to-context-engineering-in-llm-models/modules/module-1/module-1-lesson-1.ipynb"
+    },
+    {
+      "notebook_id": "module-1-lesson-2",
+      "chapter_id": "module-1-lesson-2",
+      "lesson_id": "2",
+      "title": "Context Windows Explained",
+      "file_path": "modules/module-1/module-1-lesson-2.ipynb",
+      "order": 2,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/introduction-to-context-engineering-in-llm-models/modules/module-1/module-1-lesson-2.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/introduction-to-context-engineering-in-llm-models/modules/module-1/module-1-lesson-2.ipynb"
+    },
+    {
+      "notebook_id": "module-1-lesson-3",
+      "chapter_id": "module-1-lesson-3",
+      "lesson_id": "3",
+      "title": "Manipulating Context for Better Outputs",
+      "file_path": "modules/module-1/module-1-lesson-3.ipynb",
+      "order": 3,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/introduction-to-context-engineering-in-llm-models/modules/module-1/module-1-lesson-3.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/introduction-to-context-engineering-in-llm-models/modules/module-1/module-1-lesson-3.ipynb"
+    },
+    {
+      "notebook_id": "module-2-lesson-1",
+      "chapter_id": "module-2-lesson-1",
+      "lesson_id": "1",
+      "title": "Case Studies in Context Engineering",
+      "file_path": "modules/module-2/module-2-lesson-1.ipynb",
+      "order": 1,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/introduction-to-context-engineering-in-llm-models/modules/module-2/module-2-lesson-1.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/introduction-to-context-engineering-in-llm-models/modules/module-2/module-2-lesson-1.ipynb"
+    },
+    {
+      "notebook_id": "module-2-lesson-2",
+      "chapter_id": "module-2-lesson-2",
+      "lesson_id": "2",
+      "title": "Evaluating Context Impact on Outputs",
+      "file_path": "modules/module-2/module-2-lesson-2.ipynb",
+      "order": 2,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/introduction-to-context-engineering-in-llm-models/modules/module-2/module-2-lesson-2.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/introduction-to-context-engineering-in-llm-models/modules/module-2/module-2-lesson-2.ipynb"
+    },
+    {
+      "notebook_id": "module-2-lesson-3",
+      "chapter_id": "module-2-lesson-3",
+      "lesson_id": "3",
+      "title": "Advanced Manipulation Techniques",
+      "file_path": "modules/module-2/module-2-lesson-3.ipynb",
+      "order": 3,
+      "google_colab_url": "https://colab.research.google.com/github/ashugc2023/synapsefusion-notebooks/blob/main/courses/introduction-to-context-engineering-in-llm-models/modules/module-2/module-2-lesson-3.ipynb",
+      "download_url": "https://amplify-db3s3611w9kg3-mai-coursecontentbuckete1778-jtjuyc5kr5wa.s3.amazonaws.com/courses/introduction-to-context-engineering-in-llm-models/modules/module-2/module-2-lesson-3.ipynb"
+    }
+  ],
+  "generated_at": "2025-11-30T22:11:43.157682",
+  "metadata": {
+    "version": "2.0.0",
+    "toc_based": true,
+    "module_structure": {
+      "module-1": {
+        "title": "Understanding Context in LLMs",
+        "lessons": [
+          "modules/module-1/module-1-lesson-1.ipynb",
+          "modules/module-1/module-1-lesson-2.ipynb",
+          "modules/module-1/module-1-lesson-3.ipynb"
+        ]
+      },
+      "module-2": {
+        "title": "Advanced Context Engineering Techniques",
+        "lessons": [
+          "modules/module-2/module-2-lesson-1.ipynb",
+          "modules/module-2/module-2-lesson-2.ipynb",
+          "modules/module-2/module-2-lesson-3.ipynb"
+        ]
+      }
+    }
+  },
+  "course_type": "public",
+  "allowed_roles": null
+}
